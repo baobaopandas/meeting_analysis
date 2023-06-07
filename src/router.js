@@ -132,7 +132,7 @@ const router = new Router({
     {
       path: '/color',
       name: 'color',
-      meta: { title: '网络图' },
+      meta: { title: '会情分析图' },
       // component: () => import('cmpt/visitorManage/3dforcegraph.vue')
       component: () => import('cmpt/visitorManage/bbb.vue')
     },

@@ -14,7 +14,7 @@
     </div>
     <div class="tableTitle3"><span class="midText">选择会议分析详情</span></div>
     <div class ="meetingbutton" v-for="(item,index) in appointInfo" :key="index">
-      <el-button @click="downloadwangluo(item.url)">
+      <el-button @click="downloadwangluo(item.theme)">
         {{item.theme}}
       </el-button>
     </div>
@@ -75,13 +75,13 @@ export default {
       }
 
     },
-    downloadwangluo(url){
-      if(url==""){
-        this.falsemeeting = true;
-      } else {
-        this.$router.push('/color');
-      }
-
+    downloadwangluo(theme){
+      this.$router.push({
+        path: '/color',
+        query: {
+          meeting: theme
+        }
+    });
     },
     downloadpdf(){
       this.falsemeeting = true;

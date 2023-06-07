@@ -79,10 +79,13 @@
         mounted() {
             // this.initChart();
             // this.generateChartData(); // 渲染折线图
-            this.generateCharts();
+            // this.generateCharts();
             this.initVideoPlayer(); // 初始化视频播放器
         },
         methods: {
+            getdata(){
+
+            },
             generateCharts() {
                 const scoreChartContainer = this.$refs.scoreChart;
                 const engagementChartContainer = this.$refs.engagementChart;
