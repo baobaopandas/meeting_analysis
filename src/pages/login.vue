@@ -19,7 +19,7 @@
     ></vue-particles>
     <div class="login">
       <div class="projectName">
-        <span>线下参会人员专注度状态检测系统</span>
+        <span>研讨会会情分析系统</span>
       </div>
       <ul class="login-list" @keyup.13="login">
         <li>
@@ -41,6 +41,7 @@
 
 <script>
 import Fetch from "mixins/fetch";
+import axios from "axios";
 
 export default {
   data() {
@@ -62,46 +63,75 @@ export default {
       const userName = document.getElementById("userName").value;
       const password = document.getElementById("password").value;
       if (userName !== "" && password !== "") {
-        this.$_fetch_login(
-          this.$qs.stringify({
-            userid: userName,
-            password: password,
-            username: userName,
-            identity: 0
+        const path = '/api/login';
+        axios.post(path, { userName: userName, password: password })
+          .then(res => {
+            this.st = res.data.mess;
+            console.log(this.st);
+            console.log(res);
+
+            // 把你的登录逻辑放入这里
+            if (this.st === "登录成功") {
+              sessionStorage.setItem(
+                "userInfo",
+                JSON.stringify({
+                  admin: userName
+                })
+              );
+              this.$router.push("/");
+            } else {
+              this.$message({
+                message: this.st,
+                type: "error"
+              });
+            }
           })
-        ).then(res => {
-          if (res.status === 1) {
-            sessionStorage.setItem(
-              "userInfo",
-              JSON.stringify({
-                admin: userName
-              })
-            );
-            this.$router.push("/");
-          } else if (res.status === 0) {
-            this.$message({
-              message: "用户不存在！",
-              type: "error"
-            });
-          } else if (res.status === -1) {
-            this.$message({
-              message: "授权码过期！",
-              type: "error"
-            });
-          } else if (res.status === 2) {
-            this.$message({
-              message: "用户密码错误！",
-              type: "error"
-            });
-          }
-        });
-      } else {
-        this.$message({
-          message: "账号密码不能为空！",
-          type: "warning"
-        });
+          .catch(error => {
+            console.error(error);
+          });
+
+      //   this.$_fetch_login(
+      //     this.$qs.stringify({
+      //       userid: userName,
+      //       password: password,
+      //       username: userName,
+      //       identity: 0
+      //     })
+      //   ).then(res => {
+      //     if (res.status === 1) {
+      //       sessionStorage.setItem(
+      //         "userInfo",
+      //         JSON.stringify({
+      //           admin: userName
+      //         })
+      //       );
+      //       this.$router.push("/");
+      //     } else if (res.status === 0) {
+      //       this.$message({
+      //         message: "用户不存在！",
+      //         type: "error"
+      //       });
+      //     } else if (res.status === -1) {
+      //       this.$message({
+      //         message: "授权码过期！",
+      //         type: "error"
+      //       });
+      //     } else if (res.status === 2) {
+      //       this.$message({
+      //         message: "用户密码错误！",
+      //         type: "error"
+      //       });
+      //     }
+      //   });
+      // } else {
+      //   this.$message({
+      //     message: "账号密码不能为空！",
+      //     type: "warning"
+      //   });
+      // 
       }
     }
+    
   }
 };
 </script>

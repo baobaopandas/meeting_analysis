@@ -10,10 +10,10 @@
       <a href="javascript:;" @click="toggleSide">
         <img src="~images/nav.png" alt="导航logo">
       </a>
-      <h1 class="title">会情分析系统——单用户版</h1>
+      <h1 class="title">会情分析系统——多用户版</h1>
       <el-submenu index="2" class="right">
-        <template slot="title">管理员</template>
-        <el-menu-item index="2-1" @click="$emit('updateAccount');">修改密码</el-menu-item>
+        <template slot="title">{{this.user}}</template>
+        <!-- <el-menu-item index="2-1" @click="$emit('updateAccount');">修改密码</el-menu-item> -->
         <el-menu-item index="2-2" @click="exitLogin">退出登陆</el-menu-item>
       </el-submenu>
     </el-menu>
@@ -26,6 +26,18 @@ import Fetch from 'mixins/fetch';
 export default {
   name: 'vHeader',
   mixins: [Fetch],
+  data() {
+    return {
+      user: null
+    }
+  },
+  mounted() {
+  let userInfo = sessionStorage.getItem("userInfo");
+  if (userInfo) {
+    this.user = JSON.parse(userInfo).admin;
+    console.log(this.user.admin); // 这将打印出 userName 的值
+  }
+},
   methods: {
     // 显示隐藏侧边栏
     toggleSide() {
@@ -33,7 +45,7 @@ export default {
     },
     exitLogin() {
       sessionStorage.removeItem('userInfo');
-      this.$_fetch_exitLogin();
+      // this.$_fetch_exitLogin();
       this.$router.push('/login');
     }
   },

@@ -39,7 +39,7 @@
         <span class = 'newpati'>添加新的参会者</span>
       </router-link>
     </div>
-    <div class="tableTitle1"><span class="midText">上传相关资料</span></div>
+    <!-- <div class="tableTitle1"><span class="midText">上传相关资料</span></div>
     <div>
       <el-form ref="addForm" :model="addForm" label-width="130px" label-position="left">
         <el-form-item label="上传文件">
@@ -54,10 +54,10 @@
                   :show-file-list="true"
                   :before-upload="beforeUpload">
             <el-button slot="trigger"  icon="el-icon-upload2">选取文件</el-button>
-            <!--<el-button  @click="viewFile" icon="el-icon-view">预览</el-button>-->
-          </el-upload>
+            <el-button  @click="viewFile" icon="el-icon-view">预览</el-button>-->
+          <!-- </el-upload>
         </el-form-item>
-      </el-form>
+      </el-form> -->
       <!--<pdf-->
               <!--:src="pdfUrl"-->
               <!--:page="currentPage"-->
@@ -71,7 +71,7 @@
       <!--<el-button type="primary">{{currentPage}} / {{pageCount}}</el-button>-->
       <!--<el-button type="primary" @click="changePdfPage(1)" icon="el-icon-right">下一页</el-button>-->
       <!--<el-button type="primary" @click="downloadFile()" icon="el-icon-download">下载</el-button>-->
-    </div>
+    <!-- </div> -->
     <!--<div>-->
       <!---->
     <!--</div>-->

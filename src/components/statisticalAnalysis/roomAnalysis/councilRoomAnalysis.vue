@@ -13,7 +13,7 @@
 
 <script>
 import timeAnalysis from "./timeAnalysis.vue";
-import capacityAnalysis from "./capacityAnalysis.vue";
+// import capacityAnalysis from "./capacityAnalysis.vue";
 
 export default {
   components: {
