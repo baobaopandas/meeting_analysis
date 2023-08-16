@@ -142,6 +142,13 @@ const router = new Router({
       meta: { title: '网络图' },
       component: () => import('cmpt/visitorManage/3dforcegraph.vue')
       // component: () => import('cmpt/visitorManage/bbb.vue')
+    },
+    {
+      path: '/login',
+      name: 'login',
+      meta: { title: '登录' },
+      component: () => import('./pages/login.vue')
+      // component: () => import('cmpt/visitorManage/bbb.vue')
     }
   ]
 });
