@@ -5,7 +5,7 @@
       <el-menu-item index="1" @click="activeIndex = '1'">参会人员心理抑郁度统计</el-menu-item>
       <el-menu-item index="2" @click="activeIndex = '2'">参会人员情绪统计</el-menu-item>
       <el-menu-item index="3" @click="activeIndex = '3'">参会人员专注度统计</el-menu-item>
-      <el-menu-item index="4" @click="activeIndex = '4'">参会人员表达欲望分析</el-menu-item>
+      <el-menu-item index="4" @click="activeIndex = '4'">会情实时分析</el-menu-item>
       <el-menu-item index="4" class="select">
         <el-select v-model="pati" placeholder="选择查看人物">
           <el-option label="王帅宇" value="王帅宇"></el-option>
