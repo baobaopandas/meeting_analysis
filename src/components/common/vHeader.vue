@@ -35,7 +35,6 @@ export default {
   let userInfo = sessionStorage.getItem("userInfo");
   if (userInfo) {
     this.user = JSON.parse(userInfo).admin;
-    console.log(this.user.admin); // 这将打印出 userName 的值
   }
 },
   methods: {
