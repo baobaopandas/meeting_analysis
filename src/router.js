@@ -77,6 +77,12 @@ const router = new Router({
           name: 'ParticipantInvite',
           meta: { title: '会议新建', requireLogin: true },
           component: () => import('cmpt/visitorManage/patiinvite.vue')
+        },{
+          path: '/aftermeeting',
+          name: 'aftermeeting',
+          meta: { title: '会后纪要分析' },
+          // component: () => import('cmpt/visitorManage/3dforcegraph.vue')
+          component: () => import('cmpt/visitorManage/aftermeetingabs.vue')
         },
         {
           path: '/newpati',
@@ -128,6 +134,12 @@ const router = new Router({
       name: 'testpdf',
       meta: { title: 'pdf测试' },
       component: () => import('./pages/testpdf.vue')
+    },
+    {
+      path: '/testchart',
+      name: 'testchart',
+      meta: { title: 'chart测试' },
+      component: () => import('cmpt/visitorManage/speakDesireAnalysis.vue')
     },
     {
       path: '/color',

@@ -62,29 +62,50 @@
             :data="tableData"
             style="width: 100%"
             border
-            :span-method="handleSpanMethod"
             :row-class-name="tableRowClassName"
+            caption="表达欲望"
           >
-            <el-table-column prop="topic" label="当前主题" width="80">
-            </el-table-column>
+            <!-- <el-table-column prop="topic" label="当前主题" width="80">
+            </el-table-column> -->
             <el-table-column prop="name" label="姓名" width="80">
             </el-table-column>
-            <el-table-column prop="percent" label="说话占比"  width="100">
+            <!-- <el-table-column prop="percent" label="说话占比"  width="100">
               <template slot-scope="scope">{{scope.row.percent?scope.row.percent:'0'}}</template>
-            </el-table-column>
-            <el-table-column prop="engagement" label="参与度" width="100">
+            </el-table-column> -->
+            <el-table-column prop="engagement" label="发言参与度" width="100">
               <template slot-scope="scope">{{scope.row.engagement?scope.row.engagement:'0'}}</template>
             </el-table-column>
-            <el-table-column prop="sentiment" label="情绪" width="100">
+            <el-table-column label="上一次发言" prop="lastspeak" width="100"></el-table-column>
+            <!-- <el-table-column prop="sentiment" label="情绪" width="100">
               <template slot-scope="scope">{{scope.row.sentiment?scope.row.sentiment:'-'}}</template>
-            </el-table-column>
-            <el-table-column prop="interrupt" label="中断失败次数" width="120">
+            </el-table-column> -->
+              <!-- <template slot-scope="scope">{{scope.row.desirein5?scope.row.desirein5:'0'}}</template> -->
+              <el-table-column label="中断失败" prop="desirein3" width="100">
+              <!-- <el-table-column prop="interrupt" label="中断失败" width="100">
               <template slot-scope="scope">{{scope.row.interrupt?scope.row.interrupt:'-'}}</template>
-            </el-table-column>
-            <el-table-column prop="desirein5" label="表达欲望" width="100">
-              <template slot-scope="scope">{{scope.row.desirein5?scope.row.desirein5:'0'}}</template>
-            </el-table-column>
+            </el-table-column> -->
+              </el-table-column>
+              <el-table-column label="赞成" prop="desirein4" width="100">
+            <!-- <el-table-column prop="yyy" label="赞同行为" width="100"></el-table-column>
+            <el-table-column prop="xxx" label="不赞同行为" width="100"></el-table-column> -->
+              </el-table-column>
+              <el-table-column label="不赞成" prop="desirein4" width="100"></el-table-column>
+              <el-table-column prop="desirein5" label="表达欲望指数">
+              </el-table-column>
+              <el-table-column prop="desirein6" label="表达欲望排序">
+              </el-table-column>
           </el-table>
+          <!-- <div>
+    <el-slider v-model="sliderValue" range :min="0" :max="120" :step="1" @change="updateTime"></el-slider>
+    <el-row>
+      <el-col :span="12">
+        <el-time-picker v-model="startTime" :picker-options="pickerOptions" placeholder="开始时间"></el-time-picker>
+      </el-col>.,,
+      <el-col :span="12">
+        <el-time-picker v-model="endTime" :picker-options="pickerOptions" placeholder="结束时间"></el-time-picker>
+      </el-col>
+    </el-row>
+  </div> -->
         </el-col>
       </el-row>
     </div>
@@ -101,8 +122,8 @@ import axios from "axios";
 import "vue-video-player/node_modules/video.js/dist/video-js.css";
 var mytimer2;
 var timer;
-var curwang = 0;
-var curyao = 0;
+var curwang = 2.36;
+var curyao = 1.24;
 var currentTopic = "会议未开始";
 export default {
   components: {
@@ -120,6 +141,14 @@ export default {
   },
   data() {
     return {
+      sliderValue: [0, 120], // 默认滑块范围是0到120
+      startTime: new Date(2000, 0, 1, 0, 0, 0), // 起始时间，默认为 00:00:00
+      endTime: new Date(2000, 0, 1, 2, 0, 0), // 结束时间，默认为 02:00:00
+      pickerOptions: {
+        start: '00:00',
+        step: '00:01',
+        end: '02:00'
+      },
       picture: "状态",
       loading: true,
       ismotion: false,
@@ -138,19 +167,27 @@ export default {
           topic: currentTopic,
           name: "李银胜",
           percent: "50%",
-          engagement: "80",
+          engagement: "40",
           sentiment: "积极",
+          lastspeak: "2分钟前",
           interrupt: 1,
+          desirein3:2,
+          desirein4:3,
           desirein5: curwang,
+          desirein6:1
         },
         {
           topic: currentTopic,
           name: "吴斌",
           percent: "10%",
-          engagement: "85",
+          engagement: "60",
           sentiment: "中性",
+          lastspeak: "5分钟前",
           interrupt: 1,
+          desirein3:1,
+          desirein4:2,
           desirein5: curyao,
+          desirein6:2
         },
         {
           topic: currentTopic,
@@ -176,16 +213,7 @@ export default {
         {
           topic: currentTopic,
           name: "苏永甫",
-        },
-        {
-          topic: currentTopic,
-          name: "统计",
-          percent: "-",
-          engagement: "83",
-          sentiment: "积极",
-          interrupt: 2,
-          desirein5: "一般"
-        },
+        }
       ],
       topicData: [
         {
@@ -254,6 +282,19 @@ export default {
   },
   computed: {},
   methods: {
+     updateTime() {
+      const startMinutes = Math.floor(this.sliderValue[0]);
+      const endMinutes = Math.floor(this.sliderValue[1]);
+
+      const startDate = new Date(2000, 0, 1, 0, 0, 0);
+      startDate.setMinutes(startDate.getMinutes() + startMinutes);
+
+      const endDate = new Date(2000, 0, 1, 0, 0, 0);
+      endDate.setMinutes(endDate.getMinutes() + endMinutes);
+
+      this.startTime = startDate;
+      this.endTime = endDate;
+    },
     handleStart(index,row){
       row.state = 1
       var currentDate = new Date();

@@ -1,0 +1,1878 @@
+[
+ {
+  "segment_idx": "EN2001a.sync.548",
+  "speaker": "C",
+  "start_time": "211.312",
+  "end_time": "220.896",
+  "sentences": [
+   {
+    "filename": "EN2001a.C.words.xml",
+    "start_word": 0,
+    "end_word": 29,
+    "text": "The basic word importance is off-line as well . The combined measure might not be if we want to wait what the user has typed in into the search ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.550",
+  "speaker": "C",
+  "start_time": "707.022",
+  "end_time": "707.663",
+  "sentences": [
+   {
+    "filename": "EN2001a.C.words.xml",
+    "start_word": 30,
+    "end_word": 31,
+    "text": "Yeah ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.552",
+  "speaker": "C",
+  "start_time": "719.101",
+  "end_time": "719.907",
+  "sentences": [
+   {
+    "filename": "EN2001a.C.words.xml",
+    "start_word": 32,
+    "end_word": 32,
+    "text": "[vocalsound]"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.554",
+  "speaker": "C",
+  "start_time": "804.074",
+  "end_time": "804.832",
+  "sentences": [
+   {
+    "filename": "EN2001a.C.words.xml",
+    "start_word": 33,
+    "end_word": 33,
+    "text": "[vocalsound]"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.556",
+  "speaker": "C",
+  "start_time": "811.495",
+  "end_time": "816.501",
+  "sentences": [
+   {
+    "filename": "EN2001a.C.words.xml",
+    "start_word": 34,
+    "end_word": 55,
+    "text": "I'm not quite [disfmarker] so what it [disfmarker] did you want to do it , i you just wanted to assign [disfmarker]"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.558",
+  "speaker": "C",
+  "start_time": "822.88",
+  "end_time": "824.39",
+  "sentences": [
+   {
+    "filename": "EN2001a.C.words.xml",
+    "start_word": 56,
+    "end_word": 61,
+    "text": "Uh I thought about words ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.560",
+  "speaker": "C",
+  "start_time": "833.825",
+  "end_time": "834.623",
+  "sentences": [
+   {
+    "filename": "EN2001a.C.words.xml",
+    "start_word": 62,
+    "end_word": 63,
+    "text": "Mm ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.562",
+  "speaker": "C",
+  "start_time": "855.402",
+  "end_time": "856.333",
+  "sentences": [
+   {
+    "filename": "EN2001a.C.words.xml",
+    "start_word": 64,
+    "end_word": 66,
+    "text": "Mm okay ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.564",
+  "speaker": "C",
+  "start_time": "890.967",
+  "end_time": "898.816",
+  "sentences": [
+   {
+    "filename": "EN2001a.C.words.xml",
+    "start_word": 67,
+    "end_word": 90,
+    "text": "Yeah , but how about those words which don't carry any meaning at all , the um and uhs and something like that ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.566",
+  "speaker": "C",
+  "start_time": "901.28",
+  "end_time": "917.211",
+  "sentences": [
+   {
+    "filename": "EN2001a.C.words.xml",
+    "start_word": 91,
+    "end_word": 131,
+    "text": "Because if we if we average average over over a whole utterance all the words , and there are quite unimportant words in there , but quite important words as well , I think we should just disregard the the [disfmarker]"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.568",
+  "speaker": "C",
+  "start_time": "925.287",
+  "end_time": "926.093",
+  "sentences": [
+   {
+    "filename": "EN2001a.C.words.xml",
+    "start_word": 132,
+    "end_word": 134,
+    "text": "[vocalsound] Okay ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.570",
+  "speaker": "C",
+  "start_time": "930.971",
+  "end_time": "931.378",
+  "sentences": [
+   {
+    "filename": "EN2001a.C.words.xml",
+    "start_word": 135,
+    "end_word": 136,
+    "text": "Alright ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.572",
+  "speaker": "C",
+  "start_time": "933.509",
+  "end_time": "934.34",
+  "sentences": [
+   {
+    "filename": "EN2001a.C.words.xml",
+    "start_word": 137,
+    "end_word": 137,
+    "text": "[vocalsound]"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.574",
+  "speaker": "C",
+  "start_time": "973.567",
+  "end_time": "974.517",
+  "sentences": [
+   {
+    "filename": "EN2001a.C.words.xml",
+    "start_word": 138,
+    "end_word": 138,
+    "text": "[vocalsound]"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.576",
+  "speaker": "C",
+  "start_time": "1558.189",
+  "end_time": "1558.679",
+  "sentences": [
+   {
+    "filename": "EN2001a.C.words.xml",
+    "start_word": 139,
+    "end_word": 139,
+    "text": "[vocalsound]"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.578",
+  "speaker": "C",
+  "start_time": "1603.921",
+  "end_time": "1605.817",
+  "sentences": [
+   {
+    "filename": "EN2001a.C.words.xml",
+    "start_word": 140,
+    "end_word": 142,
+    "text": "Yeah . [vocalsound]"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.580",
+  "speaker": "C",
+  "start_time": "1620.272",
+  "end_time": "1630.96",
+  "sentences": [
+   {
+    "filename": "EN2001a.C.words.xml",
+    "start_word": 143,
+    "end_word": 174,
+    "text": "But there is no I_D_ for an utterance I think . It's just for individual words . So how do we do that then ? We [disfmarker] for utterances as well ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.582",
+  "speaker": "C",
+  "start_time": "1633.824",
+  "end_time": "1636.288",
+  "sentences": [
+   {
+    "filename": "EN2001a.C.words.xml",
+    "start_word": 175,
+    "end_word": 180,
+    "text": "I think it's just for one"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.584",
+  "speaker": "C",
+  "start_time": "1638.736",
+  "end_time": "1640.397",
+  "sentences": [
+   {
+    "filename": "EN2001a.C.words.xml",
+    "start_word": 181,
+    "end_word": 187,
+    "text": "word . So we have to [disfmarker]"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.586",
+  "speaker": "C",
+  "start_time": "1643.248",
+  "end_time": "1643.695",
+  "sentences": [
+   {
+    "filename": "EN2001a.C.words.xml",
+    "start_word": 188,
+    "end_word": 189,
+    "text": "Yeah ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.588",
+  "speaker": "C",
+  "start_time": "1674.675",
+  "end_time": "1680.464",
+  "sentences": [
+   {
+    "filename": "EN2001a.C.words.xml",
+    "start_word": 190,
+    "end_word": 210,
+    "text": "Uh I'm not quite sure , I have only seen that the uh the individual words have got an I_D_ ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.590",
+  "speaker": "C",
+  "start_time": "1683.296",
+  "end_time": "1692.445",
+  "sentences": [
+   {
+    "filename": "EN2001a.C.words.xml",
+    "start_word": 211,
+    "end_word": 236,
+    "text": "Yeah . You always could have a look at the time stamps and then take the ones that uh belong together to form an utterance ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.592",
+  "speaker": "C",
+  "start_time": "1698.192",
+  "end_time": "1701.951",
+  "sentences": [
+   {
+    "filename": "EN2001a.C.words.xml",
+    "start_word": 237,
+    "end_word": 253,
+    "text": "Yeah , if they are already , there's [disfmarker] it's easy but it would be possible ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.594",
+  "speaker": "C",
+  "start_time": "1703.323",
+  "end_time": "1705.262",
+  "sentences": [
+   {
+    "filename": "EN2001a.C.words.xml",
+    "start_word": 254,
+    "end_word": 258,
+    "text": "Uh yeah . Okay ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.596",
+  "speaker": "C",
+  "start_time": "1708.224",
+  "end_time": "1708.881",
+  "sentences": [
+   {
+    "filename": "EN2001a.C.words.xml",
+    "start_word": 259,
+    "end_word": 259,
+    "text": "[vocalsound]"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.598",
+  "speaker": "C",
+  "start_time": "1731.387",
+  "end_time": "1732.169",
+  "sentences": [
+   {
+    "filename": "EN2001a.C.words.xml",
+    "start_word": 260,
+    "end_word": 260,
+    "text": "[vocalsound]"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.600",
+  "speaker": "C",
+  "start_time": "2106.052",
+  "end_time": "2106.825",
+  "sentences": [
+   {
+    "filename": "EN2001a.C.words.xml",
+    "start_word": 261,
+    "end_word": 261,
+    "text": "[vocalsound]"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.602",
+  "speaker": "C",
+  "start_time": "2234.594",
+  "end_time": "2243.105",
+  "sentences": [
+   {
+    "filename": "EN2001a.C.words.xml",
+    "start_word": 262,
+    "end_word": 282,
+    "text": "You s uh you said you are [vocalsound] currently in uh implementing the idea . What exactly are you computing ?"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.604",
+  "speaker": "C",
+  "start_time": "2244.594",
+  "end_time": "2245.317",
+  "sentences": [
+   {
+    "filename": "EN2001a.C.words.xml",
+    "start_word": 283,
+    "end_word": 284,
+    "text": "Okay ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.606",
+  "speaker": "C",
+  "start_time": "2248.336",
+  "end_time": "2248.799",
+  "sentences": [
+   {
+    "filename": "EN2001a.C.words.xml",
+    "start_word": 285,
+    "end_word": 286,
+    "text": "Okay ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.608",
+  "speaker": "C",
+  "start_time": "2251.252",
+  "end_time": "2251.76",
+  "sentences": [
+   {
+    "filename": "EN2001a.C.words.xml",
+    "start_word": 287,
+    "end_word": 288,
+    "text": "Mm-hmm ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.610",
+  "speaker": "C",
+  "start_time": "2393.861",
+  "end_time": "2394.905",
+  "sentences": [
+   {
+    "filename": "EN2001a.C.words.xml",
+    "start_word": 289,
+    "end_word": 289,
+    "text": "[vocalsound]"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.612",
+  "speaker": "C",
+  "start_time": "2429.991",
+  "end_time": "2430.522",
+  "sentences": [
+   {
+    "filename": "EN2001a.C.words.xml",
+    "start_word": 290,
+    "end_word": 291,
+    "text": "Mm-hmm ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.614",
+  "speaker": "C",
+  "start_time": "2621.316",
+  "end_time": "2623.885",
+  "sentences": [
+   {
+    "filename": "EN2001a.C.words.xml",
+    "start_word": 292,
+    "end_word": 292,
+    "text": "[vocalsound]"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.616",
+  "speaker": "C",
+  "start_time": "2627.801",
+  "end_time": "2641.628",
+  "sentences": [
+   {
+    "filename": "EN2001a.C.words.xml",
+    "start_word": 293,
+    "end_word": 329,
+    "text": "Yeah , I w I w [vocalsound] I would need the raw text pretty soon because I have to find out um how I have to put the segments into bins . And then [disfmarker] yeah ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.618",
+  "speaker": "C",
+  "start_time": "2644.299",
+  "end_time": "2646.378",
+  "sentences": [
+   {
+    "filename": "EN2001a.C.words.xml",
+    "start_word": 330,
+    "end_word": 336,
+    "text": "No , [vocalsound] that's not necessary ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.620",
+  "speaker": "C",
+  "start_time": "2654.96",
+  "end_time": "2665.131",
+  "sentences": [
+   {
+    "filename": "EN2001a.C.words.xml",
+    "start_word": 337,
+    "end_word": 364,
+    "text": "Yes , I did . But um I've only just got the notes . I have to still have uh to order everything by the time and [disfmarker]"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.622",
+  "speaker": "C",
+  "start_time": "2667.12",
+  "end_time": "2669.453",
+  "sentences": [
+   {
+    "filename": "EN2001a.C.words.xml",
+    "start_word": 365,
+    "end_word": 374,
+    "text": "Yeah , I think it's quite easy after the [disfmarker]"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.624",
+  "speaker": "C",
+  "start_time": "2671.332",
+  "end_time": "2672.709",
+  "sentences": [
+   {
+    "filename": "EN2001a.C.words.xml",
+    "start_word": 375,
+    "end_word": 378,
+    "text": "Yeah . Yeah ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.626",
+  "speaker": "C",
+  "start_time": "2673.717",
+  "end_time": "2674.409",
+  "sentences": [
+   {
+    "filename": "EN2001a.C.words.xml",
+    "start_word": 379,
+    "end_word": 381,
+    "text": "So uh [disfmarker]"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.628",
+  "speaker": "C",
+  "start_time": "2678.625",
+  "end_time": "2679.074",
+  "sentences": [
+   {
+    "filename": "EN2001a.C.words.xml",
+    "start_word": 382,
+    "end_word": 383,
+    "text": "Mm-hmm ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.630",
+  "speaker": "C",
+  "start_time": "2686.594",
+  "end_time": "2693.953",
+  "sentences": [
+   {
+    "filename": "EN2001a.C.words.xml",
+    "start_word": 384,
+    "end_word": 410,
+    "text": "Yeah , b I uh w that's what I was [disfmarker] uh thought . That you just combine them and then order the time stamps accordingly ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.632",
+  "speaker": "C",
+  "start_time": "2699.888",
+  "end_time": "2708.443",
+  "sentences": [
+   {
+    "filename": "EN2001a.C.words.xml",
+    "start_word": 411,
+    "end_word": 436,
+    "text": "Okay . Um what I found out was [vocalsound] that there are quite a lot of things without without s time stamps in the beginning ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.634",
+  "speaker": "C",
+  "start_time": "2709.948",
+  "end_time": "2715.61",
+  "sentences": [
+   {
+    "filename": "EN2001a.C.words.xml",
+    "start_word": 437,
+    "end_word": 459,
+    "text": "Yeah , and uh X_M_L_ files . Yeah , that's just an I_D_ or something . I don't know . Just numbers ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.636",
+  "speaker": "C",
+  "start_time": "2718.641",
+  "end_time": "2727.488",
+  "sentences": [
+   {
+    "filename": "EN2001a.C.words.xml",
+    "start_word": 460,
+    "end_word": 491,
+    "text": "Yes , but what are the other things that's uh some kind of number ? F maybe the file number or something that is in the beginning . What is that ?"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.638",
+  "speaker": "C",
+  "start_time": "2728.872",
+  "end_time": "2729.695",
+  "sentences": [
+   {
+    "filename": "EN2001a.C.words.xml",
+    "start_word": 492,
+    "end_word": 496,
+    "text": "Do you know [gap] ?"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.640",
+  "speaker": "C",
+  "start_time": "2730.699",
+  "end_time": "2736.328",
+  "sentences": [
+   {
+    "filename": "EN2001a.C.words.xml",
+    "start_word": 497,
+    "end_word": 520,
+    "text": "Um I think there are quite a lot of numbers in the beginning where n there is no time stamp for the numbers ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.642",
+  "speaker": "C",
+  "start_time": "2737.634",
+  "end_time": "2738.025",
+  "sentences": [
+   {
+    "filename": "EN2001a.C.words.xml",
+    "start_word": 521,
+    "end_word": 522,
+    "text": "It's [disfmarker]"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.644",
+  "speaker": "C",
+  "start_time": "2739.856",
+  "end_time": "2745.391",
+  "sentences": [
+   {
+    "filename": "EN2001a.C.words.xml",
+    "start_word": 523,
+    "end_word": 544,
+    "text": "Think they say um quite a lot of numbers and before that , uh um there's this number . Was it [disfmarker]"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.646",
+  "speaker": "C",
+  "start_time": "2747.264",
+  "end_time": "2753.344",
+  "sentences": [
+   {
+    "filename": "EN2001a.C.words.xml",
+    "start_word": 545,
+    "end_word": 565,
+    "text": "Yeah , there i are numbers [vocalsound] in the um the W_ tag , but there are no time stamps ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.648",
+  "speaker": "C",
+  "start_time": "2756.853",
+  "end_time": "2757.519",
+  "sentences": [
+   {
+    "filename": "EN2001a.C.words.xml",
+    "start_word": 566,
+    "end_word": 567,
+    "text": "Yeah ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.650",
+  "speaker": "C",
+  "start_time": "2763.008",
+  "end_time": "2767.88",
+  "sentences": [
+   {
+    "filename": "EN2001a.C.words.xml",
+    "start_word": 568,
+    "end_word": 586,
+    "text": "Yeah , in the beginning as well sometimes , I think . At least I saw some [gap] ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.652",
+  "speaker": "C",
+  "start_time": "2769.292",
+  "end_time": "2769.766",
+  "sentences": [
+   {
+    "filename": "EN2001a.C.words.xml",
+    "start_word": 587,
+    "end_word": 588,
+    "text": "Yeah ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.654",
+  "speaker": "C",
+  "start_time": "2775.264",
+  "end_time": "2775.595",
+  "sentences": [
+   {
+    "filename": "EN2001a.C.words.xml",
+    "start_word": 589,
+    "end_word": 590,
+    "text": "Yeah ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.656",
+  "speaker": "C",
+  "start_time": "2800.261",
+  "end_time": "2801.184",
+  "sentences": [
+   {
+    "filename": "EN2001a.C.words.xml",
+    "start_word": 591,
+    "end_word": 591,
+    "text": "[vocalsound]"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.658",
+  "speaker": "C",
+  "start_time": "2808.336",
+  "end_time": "2810.88",
+  "sentences": [
+   {
+    "filename": "EN2001a.C.words.xml",
+    "start_word": 592,
+    "end_word": 601,
+    "text": "But what it [disfmarker] is it actually that numbers ?"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.660",
+  "speaker": "C",
+  "start_time": "2813.35",
+  "end_time": "2818.939",
+  "sentences": [
+   {
+    "filename": "EN2001a.C.words.xml",
+    "start_word": 602,
+    "end_word": 619,
+    "text": "Okay , so but there are no time stamps annotated to that . It's it's quite strange ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.662",
+  "speaker": "C",
+  "start_time": "2844.416",
+  "end_time": "2858.689",
+  "sentences": [
+   {
+    "filename": "EN2001a.C.words.xml",
+    "start_word": 620,
+    "end_word": 655,
+    "text": "And also um there are different um combinations of letters . B_R_E_ and something like that . Is it everything ordered [disfmarker] are the time stamps global or uh are they local at any point ?"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.664",
+  "speaker": "C",
+  "start_time": "2862.624",
+  "end_time": "2863.066",
+  "sentences": [
+   {
+    "filename": "EN2001a.C.words.xml",
+    "start_word": 656,
+    "end_word": 657,
+    "text": "Okay ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.666",
+  "speaker": "C",
+  "start_time": "2864.813",
+  "end_time": "2866.309",
+  "sentences": [
+   {
+    "filename": "EN2001a.C.words.xml",
+    "start_word": 658,
+    "end_word": 658,
+    "text": "[vocalsound]"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.668",
+  "speaker": "C",
+  "start_time": "2918.208",
+  "end_time": "2924.0",
+  "sentences": [
+   {
+    "filename": "EN2001a.C.words.xml",
+    "start_word": 659,
+    "end_word": 679,
+    "text": "Yeah , it's Rainbow . It's um [disfmarker] I think it's just the dictionary in the first place . But [disfmarker]"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.670",
+  "speaker": "C",
+  "start_time": "2924.992",
+  "end_time": "2925.673",
+  "sentences": [
+   {
+    "filename": "EN2001a.C.words.xml",
+    "start_word": 680,
+    "end_word": 680,
+    "text": "[vocalsound]"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.672",
+  "speaker": "C",
+  "start_time": "2935.805",
+  "end_time": "2943.856",
+  "sentences": [
+   {
+    "filename": "EN2001a.C.words.xml",
+    "start_word": 681,
+    "end_word": 703,
+    "text": "Um no , I have to bin it up and so I will only have counts for each each bin or something ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.674",
+  "speaker": "C",
+  "start_time": "2947.712",
+  "end_time": "2957.648",
+  "sentences": [
+   {
+    "filename": "EN2001a.C.words.xml",
+    "start_word": 704,
+    "end_word": 731,
+    "text": "It's because um Rainbow is a text classification system . And I think [vocalsound] it's not possible [vocalsound] to have just one class . That's the problem ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.676",
+  "speaker": "C",
+  "start_time": "2961.232",
+  "end_time": "2962.662",
+  "sentences": [
+   {
+    "filename": "EN2001a.C.words.xml",
+    "start_word": 732,
+    "end_word": 735,
+    "text": "Maybe we could [disfmarker]"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.678",
+  "speaker": "C",
+  "start_time": "2965.776",
+  "end_time": "2969.408",
+  "sentences": [
+   {
+    "filename": "EN2001a.C.words.xml",
+    "start_word": 736,
+    "end_word": 754,
+    "text": "Yeah sure , you [disfmarker] sure , we could do that , but I don't that makes sense ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.680",
+  "speaker": "C",
+  "start_time": "2978.128",
+  "end_time": "2987.216",
+  "sentences": [
+   {
+    "filename": "EN2001a.C.words.xml",
+    "start_word": 755,
+    "end_word": 777,
+    "text": "[vocalsound] If we need just frequencies , maybe we should just calculate them by using Perl or something . I don't know ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.682",
+  "speaker": "C",
+  "start_time": "2991.36",
+  "end_time": "2996.658",
+  "sentences": [
+   {
+    "filename": "EN2001a.C.words.xml",
+    "start_word": 778,
+    "end_word": 796,
+    "text": "Yeah , it's quite easy to just count and s or sort them by [gap] [disfmarker] um frequency ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.684",
+  "speaker": "C",
+  "start_time": "2998.53",
+  "end_time": "3000.72",
+  "sentences": [
+   {
+    "filename": "EN2001a.C.words.xml",
+    "start_word": 797,
+    "end_word": 802,
+    "text": "Just using a Perl script ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.686",
+  "speaker": "C",
+  "start_time": "3005.472",
+  "end_time": "3006.343",
+  "sentences": [
+   {
+    "filename": "EN2001a.C.words.xml",
+    "start_word": 803,
+    "end_word": 807,
+    "text": "Is it too big ?"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.688",
+  "speaker": "C",
+  "start_time": "3010.5",
+  "end_time": "3011.14",
+  "sentences": [
+   {
+    "filename": "EN2001a.C.words.xml",
+    "start_word": 808,
+    "end_word": 809,
+    "text": "Yeah ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.690",
+  "speaker": "C",
+  "start_time": "3019.536",
+  "end_time": "3020.077",
+  "sentences": [
+   {
+    "filename": "EN2001a.C.words.xml",
+    "start_word": 810,
+    "end_word": 811,
+    "text": "Hmm ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.692",
+  "speaker": "C",
+  "start_time": "3026.096",
+  "end_time": "3030.895",
+  "sentences": [
+   {
+    "filename": "EN2001a.C.words.xml",
+    "start_word": 812,
+    "end_word": 826,
+    "text": "I don't know how you [disfmarker] how many terms you can handle in Perl ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.694",
+  "speaker": "C",
+  "start_time": "3037.556",
+  "end_time": "3038.171",
+  "sentences": [
+   {
+    "filename": "EN2001a.C.words.xml",
+    "start_word": 827,
+    "end_word": 829,
+    "text": "Mm yeah ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.696",
+  "speaker": "C",
+  "start_time": "3493.472",
+  "end_time": "3497.6",
+  "sentences": [
+   {
+    "filename": "EN2001a.C.words.xml",
+    "start_word": 830,
+    "end_word": 849,
+    "text": "Uh [vocalsound] I can get all the raw text , but it has to be ordered still . So [disfmarker]"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.698",
+  "speaker": "C",
+  "start_time": "3502.225",
+  "end_time": "3503.048",
+  "sentences": [
+   {
+    "filename": "EN2001a.C.words.xml",
+    "start_word": 850,
+    "end_word": 854,
+    "text": "No , it isn't ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.700",
+  "speaker": "C",
+  "start_time": "3523.344",
+  "end_time": "3531.12",
+  "sentences": [
+   {
+    "filename": "EN2001a.C.words.xml",
+    "start_word": 855,
+    "end_word": 877,
+    "text": "Um it's in [disfmarker] what is implemented in Rainbow is information gain , and I'm not quite sure how they calculate that ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.702",
+  "speaker": "C",
+  "start_time": "3537.136",
+  "end_time": "3537.66",
+  "sentences": [
+   {
+    "filename": "EN2001a.C.words.xml",
+    "start_word": 878,
+    "end_word": 879,
+    "text": "Yeah ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.704",
+  "speaker": "C",
+  "start_time": "3563.248",
+  "end_time": "3570.8",
+  "sentences": [
+   {
+    "filename": "EN2001a.C.words.xml",
+    "start_word": 880,
+    "end_word": 903,
+    "text": "Uh that's what Rainbow does . I think you j can just get probabilities for a [disfmarker] certain words [disfmarker] for each document ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.706",
+  "speaker": "C",
+  "start_time": "3571.956",
+  "end_time": "3572.629",
+  "sentences": [
+   {
+    "filename": "EN2001a.C.words.xml",
+    "start_word": 904,
+    "end_word": 905,
+    "text": "Certain [disfmarker]"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.708",
+  "speaker": "C",
+  "start_time": "3575.296",
+  "end_time": "3578.992",
+  "sentences": [
+   {
+    "filename": "EN2001a.C.words.xml",
+    "start_word": 906,
+    "end_word": 914,
+    "text": "Um we would have to look at that ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.710",
+  "speaker": "C",
+  "start_time": "3585.479",
+  "end_time": "3586.069",
+  "sentences": [
+   {
+    "filename": "EN2001a.C.words.xml",
+    "start_word": 915,
+    "end_word": 916,
+    "text": "Mm-hmm ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.712",
+  "speaker": "C",
+  "start_time": "3587.636",
+  "end_time": "3588.152",
+  "sentences": [
+   {
+    "filename": "EN2001a.C.words.xml",
+    "start_word": 917,
+    "end_word": 918,
+    "text": "Oh ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.714",
+  "speaker": "C",
+  "start_time": "3741.137",
+  "end_time": "3742.544",
+  "sentences": [
+   {
+    "filename": "EN2001a.C.words.xml",
+    "start_word": 919,
+    "end_word": 919,
+    "text": "[vocalsound]"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.716",
+  "speaker": "C",
+  "start_time": "3783.297",
+  "end_time": "3793.856",
+  "sentences": [
+   {
+    "filename": "EN2001a.C.words.xml",
+    "start_word": 920,
+    "end_word": 947,
+    "text": "Yeah , that's what I thought as well , that you [disfmarker] that probably the the topic segment level is the most um informative for the words ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.718",
+  "speaker": "C",
+  "start_time": "3796.132",
+  "end_time": "3798.469",
+  "sentences": [
+   {
+    "filename": "EN2001a.C.words.xml",
+    "start_word": 948,
+    "end_word": 957,
+    "text": "Yeah , that's the problem . I don't know ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.720",
+  "speaker": "C",
+  "start_time": "4108.675",
+  "end_time": "4109.864",
+  "sentences": [
+   {
+    "filename": "EN2001a.C.words.xml",
+    "start_word": 958,
+    "end_word": 958,
+    "text": "[vocalsound]"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.722",
+  "speaker": "C",
+  "start_time": "4149.347",
+  "end_time": "4150.07",
+  "sentences": [
+   {
+    "filename": "EN2001a.C.words.xml",
+    "start_word": 959,
+    "end_word": 960,
+    "text": "Mm-hmm ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.724",
+  "speaker": "C",
+  "start_time": "4174.796",
+  "end_time": "4175.786",
+  "sentences": [
+   {
+    "filename": "EN2001a.C.words.xml",
+    "start_word": 961,
+    "end_word": 961,
+    "text": "[vocalsound]"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.726",
+  "speaker": "C",
+  "start_time": "4196.528",
+  "end_time": "4197.293",
+  "sentences": [
+   {
+    "filename": "EN2001a.C.words.xml",
+    "start_word": 962,
+    "end_word": 962,
+    "text": "[vocalsound]"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.728",
+  "speaker": "C",
+  "start_time": "4245.888",
+  "end_time": "4247.23",
+  "sentences": [
+   {
+    "filename": "EN2001a.C.words.xml",
+    "start_word": 963,
+    "end_word": 963,
+    "text": "[vocalsound]"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.730",
+  "speaker": "C",
+  "start_time": "4249.219",
+  "end_time": "4250.674",
+  "sentences": [
+   {
+    "filename": "EN2001a.C.words.xml",
+    "start_word": 964,
+    "end_word": 964,
+    "text": "[vocalsound]"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.732",
+  "speaker": "C",
+  "start_time": "4252.195",
+  "end_time": "4255.889",
+  "sentences": [
+   {
+    "filename": "EN2001a.C.words.xml",
+    "start_word": 965,
+    "end_word": 978,
+    "text": "So shall we sit together tomorrow then as well ? Uh [disfmarker] Okay ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.734",
+  "speaker": "C",
+  "start_time": "4265.056",
+  "end_time": "4270.74",
+  "sentences": [
+   {
+    "filename": "EN2001a.C.words.xml",
+    "start_word": 979,
+    "end_word": 998,
+    "text": "Um , yeah , w would it be best ? At the moment it's it's just lines of [disfmarker] [vocalsound]"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.736",
+  "speaker": "C",
+  "start_time": "4272.976",
+  "end_time": "4273.477",
+  "sentences": [
+   {
+    "filename": "EN2001a.C.words.xml",
+    "start_word": 999,
+    "end_word": 1000,
+    "text": "Mm-hmm ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.738",
+  "speaker": "C",
+  "start_time": "4296.021",
+  "end_time": "4296.77",
+  "sentences": [
+   {
+    "filename": "EN2001a.C.words.xml",
+    "start_word": 1001,
+    "end_word": 1002,
+    "text": "Um [disfmarker]"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.740",
+  "speaker": "C",
+  "start_time": "4303.032",
+  "end_time": "4308.454",
+  "sentences": [
+   {
+    "filename": "EN2001a.C.words.xml",
+    "start_word": 1003,
+    "end_word": 1023,
+    "text": "Okay . So um you'd [disfmarker] do you extract the words , the raw text , as well ? Uh [disfmarker]"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.742",
+  "speaker": "C",
+  "start_time": "4312.407",
+  "end_time": "4312.929",
+  "sentences": [
+   {
+    "filename": "EN2001a.C.words.xml",
+    "start_word": 1024,
+    "end_word": 1025,
+    "text": "Okay ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.744",
+  "speaker": "C",
+  "start_time": "4315.13",
+  "end_time": "4315.754",
+  "sentences": [
+   {
+    "filename": "EN2001a.C.words.xml",
+    "start_word": 1026,
+    "end_word": 1027,
+    "text": "Mm-hmm ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.746",
+  "speaker": "C",
+  "start_time": "4317.883",
+  "end_time": "4318.64",
+  "sentences": [
+   {
+    "filename": "EN2001a.C.words.xml",
+    "start_word": 1028,
+    "end_word": 1030,
+    "text": "Print out ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.748",
+  "speaker": "C",
+  "start_time": "4327.975",
+  "end_time": "4328.832",
+  "sentences": [
+   {
+    "filename": "EN2001a.C.words.xml",
+    "start_word": 1031,
+    "end_word": 1031,
+    "text": "[vocalsound]"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.750",
+  "speaker": "C",
+  "start_time": "4336.604",
+  "end_time": "4337.901",
+  "sentences": [
+   {
+    "filename": "EN2001a.C.words.xml",
+    "start_word": 1032,
+    "end_word": 1037,
+    "text": "Okay . Okay , that [disfmarker]"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.752",
+  "speaker": "C",
+  "start_time": "4342.782",
+  "end_time": "4343.272",
+  "sentences": [
+   {
+    "filename": "EN2001a.C.words.xml",
+    "start_word": 1038,
+    "end_word": 1039,
+    "text": "Okay ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.754",
+  "speaker": "C",
+  "start_time": "4344.559",
+  "end_time": "4345.267",
+  "sentences": [
+   {
+    "filename": "EN2001a.C.words.xml",
+    "start_word": 1040,
+    "end_word": 1040,
+    "text": "[vocalsound]"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.756",
+  "speaker": "C",
+  "start_time": "4351.181",
+  "end_time": "4353.885",
+  "sentences": [
+   {
+    "filename": "EN2001a.C.words.xml",
+    "start_word": 1041,
+    "end_word": 1050,
+    "text": "So have we already extracted from all the files ?"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.758",
+  "speaker": "C",
+  "start_time": "4356.016",
+  "end_time": "4356.424",
+  "sentences": [
+   {
+    "filename": "EN2001a.C.words.xml",
+    "start_word": 1051,
+    "end_word": 1052,
+    "text": "Yeah ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.760",
+  "speaker": "C",
+  "start_time": "4358.666",
+  "end_time": "4360.256",
+  "sentences": [
+   {
+    "filename": "EN2001a.C.words.xml",
+    "start_word": 1053,
+    "end_word": 1057,
+    "text": "Did you also order [disfmarker]"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.762",
+  "speaker": "C",
+  "start_time": "4361.488",
+  "end_time": "4361.937",
+  "sentences": [
+   {
+    "filename": "EN2001a.C.words.xml",
+    "start_word": 1058,
+    "end_word": 1059,
+    "text": "Mm-hmm ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.764",
+  "speaker": "C",
+  "start_time": "4369.15",
+  "end_time": "4369.616",
+  "sentences": [
+   {
+    "filename": "EN2001a.C.words.xml",
+    "start_word": 1060,
+    "end_word": 1061,
+    "text": "Hmm ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.766",
+  "speaker": "C",
+  "start_time": "4411.727",
+  "end_time": "4412.234",
+  "sentences": [
+   {
+    "filename": "EN2001a.C.words.xml",
+    "start_word": 1062,
+    "end_word": 1063,
+    "text": "Hmm ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.768",
+  "speaker": "C",
+  "start_time": "4415.547",
+  "end_time": "4419.235",
+  "sentences": [
+   {
+    "filename": "EN2001a.C.words.xml",
+    "start_word": 1064,
+    "end_word": 1065,
+    "text": "[vocalsound] [vocalsound]"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.770",
+  "speaker": "C",
+  "start_time": "4420.691",
+  "end_time": "4421.805",
+  "sentences": [
+   {
+    "filename": "EN2001a.C.words.xml",
+    "start_word": 1066,
+    "end_word": 1066,
+    "text": "[vocalsound]"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.772",
+  "speaker": "C",
+  "start_time": "4435.351",
+  "end_time": "4436.32",
+  "sentences": [
+   {
+    "filename": "EN2001a.C.words.xml",
+    "start_word": 1067,
+    "end_word": 1067,
+    "text": "[vocalsound]"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.774",
+  "speaker": "C",
+  "start_time": "4545.408",
+  "end_time": "4546.067",
+  "sentences": [
+   {
+    "filename": "EN2001a.C.words.xml",
+    "start_word": 1068,
+    "end_word": 1069,
+    "text": "Okay ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.776",
+  "speaker": "C",
+  "start_time": "4672.094",
+  "end_time": "4676.992",
+  "sentences": [
+   {
+    "filename": "EN2001a.C.words.xml",
+    "start_word": 1070,
+    "end_word": 1085,
+    "text": "Uh I don't need the times , I just need the words . But um [disfmarker]"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.778",
+  "speaker": "C",
+  "start_time": "4678.098",
+  "end_time": "4682.656",
+  "sentences": [
+   {
+    "filename": "EN2001a.C.words.xml",
+    "start_word": 1086,
+    "end_word": 1095,
+    "text": "Yeah , in the right order . Yes . [vocalsound]"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.780",
+  "speaker": "C",
+  "start_time": "4694.848",
+  "end_time": "4697.392",
+  "sentences": [
+   {
+    "filename": "EN2001a.C.words.xml",
+    "start_word": 1096,
+    "end_word": 1106,
+    "text": "Yeah , that doesn't matter too much , I think ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.782",
+  "speaker": "C",
+  "start_time": "4719.065",
+  "end_time": "4719.773",
+  "sentences": [
+   {
+    "filename": "EN2001a.C.words.xml",
+    "start_word": 1107,
+    "end_word": 1107,
+    "text": "[vocalsound]"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.784",
+  "speaker": "C",
+  "start_time": "4751.712",
+  "end_time": "4752.469",
+  "sentences": [
+   {
+    "filename": "EN2001a.C.words.xml",
+    "start_word": 1108,
+    "end_word": 1108,
+    "text": "[vocalsound]"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.786",
+  "speaker": "C",
+  "start_time": "4817.273",
+  "end_time": "4817.87",
+  "sentences": [
+   {
+    "filename": "EN2001a.C.words.xml",
+    "start_word": 1109,
+    "end_word": 1109,
+    "text": "[vocalsound]"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.788",
+  "speaker": "C",
+  "start_time": "4825.216",
+  "end_time": "4825.75",
+  "sentences": [
+   {
+    "filename": "EN2001a.C.words.xml",
+    "start_word": 1110,
+    "end_word": 1111,
+    "text": "Hmm ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.790",
+  "speaker": "C",
+  "start_time": "4839.839",
+  "end_time": "4840.338",
+  "sentences": [
+   {
+    "filename": "EN2001a.C.words.xml",
+    "start_word": 1112,
+    "end_word": 1113,
+    "text": "Mm-hmm ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.792",
+  "speaker": "C",
+  "start_time": "4856.286",
+  "end_time": "4863.264",
+  "sentences": [
+   {
+    "filename": "EN2001a.C.words.xml",
+    "start_word": 1114,
+    "end_word": 1129,
+    "text": "How long would it take to make the frequency counts with a Java hash table ?"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.794",
+  "speaker": "C",
+  "start_time": "4868.176",
+  "end_time": "4868.912",
+  "sentences": [
+   {
+    "filename": "EN2001a.C.words.xml",
+    "start_word": 1130,
+    "end_word": 1131,
+    "text": "Yeah ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.796",
+  "speaker": "C",
+  "start_time": "4871.024",
+  "end_time": "4874.384",
+  "sentences": [
+   {
+    "filename": "EN2001a.C.words.xml",
+    "start_word": 1132,
+    "end_word": 1142,
+    "text": "No , how long you would have to program something ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.798",
+  "speaker": "C",
+  "start_time": "4879.741",
+  "end_time": "4880.489",
+  "sentences": [
+   {
+    "filename": "EN2001a.C.words.xml",
+    "start_word": 1143,
+    "end_word": 1144,
+    "text": "Okay ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.800",
+  "speaker": "C",
+  "start_time": "4886.32",
+  "end_time": "4886.813",
+  "sentences": [
+   {
+    "filename": "EN2001a.C.words.xml",
+    "start_word": 1145,
+    "end_word": 1146,
+    "text": "Mm ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.802",
+  "speaker": "C",
+  "start_time": "4890.831",
+  "end_time": "4899.768",
+  "sentences": [
+   {
+    "filename": "EN2001a.C.words.xml",
+    "start_word": 1147,
+    "end_word": 1175,
+    "text": "Because it's quite easy in Perl as well , it's just a line of code for counting all the words and [disfmarker] yeah , it's it's by hashes ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.804",
+  "speaker": "C",
+  "start_time": "4901.599",
+  "end_time": "4902.139",
+  "sentences": [
+   {
+    "filename": "EN2001a.C.words.xml",
+    "start_word": 1176,
+    "end_word": 1177,
+    "text": "Yeah ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.806",
+  "speaker": "C",
+  "start_time": "4905.008",
+  "end_time": "4906.016",
+  "sentences": [
+   {
+    "filename": "EN2001a.C.words.xml",
+    "start_word": 1178,
+    "end_word": 1180,
+    "text": "Yeah . [vocalsound]"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.808",
+  "speaker": "C",
+  "start_time": "4915.068",
+  "end_time": "4915.478",
+  "sentences": [
+   {
+    "filename": "EN2001a.C.words.xml",
+    "start_word": 1181,
+    "end_word": 1182,
+    "text": "'Kay ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.810",
+  "speaker": "C",
+  "start_time": "4938.202",
+  "end_time": "4938.873",
+  "sentences": [
+   {
+    "filename": "EN2001a.C.words.xml",
+    "start_word": 1183,
+    "end_word": 1183,
+    "text": "[vocalsound]"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.812",
+  "speaker": "C",
+  "start_time": "5055.637",
+  "end_time": "5056.585",
+  "sentences": [
+   {
+    "filename": "EN2001a.C.words.xml",
+    "start_word": 1184,
+    "end_word": 1184,
+    "text": "[vocalsound]"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.814",
+  "speaker": "C",
+  "start_time": "5063.72",
+  "end_time": "5064.204",
+  "sentences": [
+   {
+    "filename": "EN2001a.C.words.xml",
+    "start_word": 1185,
+    "end_word": 1185,
+    "text": "[vocalsound]"
+   }
+  ]
+ }
+]

@@ -66,6 +66,7 @@
           </template>
           <el-menu-item index="VisitorAppointmentInfo">会议列表</el-menu-item>
           <el-menu-item index="listoryMeeting">会情回顾</el-menu-item>
+          <el-menu-item index="aftermeeting">会议纪要</el-menu-item>
         </el-submenu>
         <el-menu-item index="Userhelper">
           <i class="el-icon-document"></i>

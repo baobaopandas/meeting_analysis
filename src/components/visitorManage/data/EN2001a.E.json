@@ -1,0 +1,5182 @@
+[
+ {
+  "segment_idx": "EN2001a.sync.1,296",
+  "speaker": "E",
+  "start_time": "3.168",
+  "end_time": "3.968",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 0,
+    "end_word": 1,
+    "text": "'Kay ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,298",
+  "speaker": "E",
+  "start_time": "5.463",
+  "end_time": "6.103",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 2,
+    "end_word": 3,
+    "text": "Gosh ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,300",
+  "speaker": "E",
+  "start_time": "10.454",
+  "end_time": "10.953",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 4,
+    "end_word": 5,
+    "text": "'Kay ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,302",
+  "speaker": "E",
+  "start_time": "16.736",
+  "end_time": "18.146",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 6,
+    "end_word": 14,
+    "text": "Is there much more in it than he d"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,304",
+  "speaker": "E",
+  "start_time": "18.985",
+  "end_time": "20.816",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 15,
+    "end_word": 25,
+    "text": "Is there much more in it than he said yesterday ?"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,306",
+  "speaker": "E",
+  "start_time": "22.928",
+  "end_time": "23.312",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 26,
+    "end_word": 27,
+    "text": "Mm ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,308",
+  "speaker": "E",
+  "start_time": "25.001",
+  "end_time": "27.472",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 28,
+    "end_word": 31,
+    "text": "Hmm . Hmm ?"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,310",
+  "speaker": "E",
+  "start_time": "46.352",
+  "end_time": "85.233",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 32,
+    "end_word": 173,
+    "text": "Yeah , now I'd say if for the prototype if we just like wherever possible p chunk in the stuff that we have um pre-annotated and stuff , and for the stuff that we don't have pre-annotated write like a stupid baseline , then we should probably be able to [disfmarker] basically that means we focus on on the interface first sort of , so that we we take the the ready-made parts and just see how we get them work together in the interface the way we want and and then we have a working prototype . And then we can go back and replace pieces either by our own components or by more sophisticated compo po components of our own . So it's probably feasible . The thing is I'm away this weekend . [vocalsound] So that's for me [disfmarker]"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,312",
+  "speaker": "E",
+  "start_time": "92.885",
+  "end_time": "112.977",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 174,
+    "end_word": 261,
+    "text": "Oh yeah , um yeah . No . But also I might [disfmarker] like the the similarity thing , like my [disfmarker] just my matrix itself for my stuff , I c I I think I can do that fairly quickly because I have the algorithms . Yeah , I think today's meeting is really the one where we where we sort of settle down the data structure and as soon as we have that , uh probably like after today's meeting , we then actually need to"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,314",
+  "speaker": "E",
+  "start_time": "114.576",
+  "end_time": "126.784",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 262,
+    "end_word": 306,
+    "text": "well go back first of all and look at NITE X_M_L_ to see in how far that that which we want is compatible with that which NITE X_M_L_ offers us . And then just sort of everyone [disfmarker] make sure everyone understand the interface ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,316",
+  "speaker": "E",
+  "start_time": "128.992",
+  "end_time": "157.422",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 307,
+    "end_word": 419,
+    "text": "So [vocalsound] I think if today we decide on what data we wanna have now , and and later , maybe even today , we go and look at NITE X_M_L_ or some of us look at NITE X_M_L_ in a bit more detail , just trying to make some sense of that code and see how does the representation work in their system . And then sort of with that knowledge we should be able to then say okay , that type of NITE X_M_L_ data we wanna load into it , and this is how everyone can access it , and then we should be able to go from there ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,318",
+  "speaker": "E",
+  "start_time": "159.725",
+  "end_time": "160.349",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 420,
+    "end_word": 421,
+    "text": "No ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,320",
+  "speaker": "E",
+  "start_time": "161.552",
+  "end_time": "198.046",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 422,
+    "end_word": 553,
+    "text": "I've looked [disfmarker] looked at the documentation and n like seen enough to make me think that we want to use the NITE X_M_L_ framework because um they have a good a event model that synchronizes sort of the data and and every display element . So that takes a lot of work away from us . Sort of that would be a reason for staying within their framework and using their general classes . But beyond that I haven't looked at it at all , which is something we should really do . Who actually like [disfmarker] for this whole discussion I mean , who of us is doing stuff that is happening on-line and who of us is doing stuff that's happening off-line ? Like my data is coming c"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,322",
+  "speaker": "E",
+  "start_time": "210.56",
+  "end_time": "210.882",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 554,
+    "end_word": 555,
+    "text": "Hmm ?"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,324",
+  "speaker": "E",
+  "start_time": "213.136",
+  "end_time": "213.689",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 556,
+    "end_word": 557,
+    "text": "Yeah ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,326",
+  "speaker": "E",
+  "start_time": "218.33",
+  "end_time": "218.954",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 558,
+    "end_word": 559,
+    "text": "Okay ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,328",
+  "speaker": "E",
+  "start_time": "220.946",
+  "end_time": "221.611",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 560,
+    "end_word": 561,
+    "text": "Okay ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,330",
+  "speaker": "E",
+  "start_time": "228.896",
+  "end_time": "229.353",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 562,
+    "end_word": 563,
+    "text": "'Kay ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,332",
+  "speaker": "E",
+  "start_time": "231.608",
+  "end_time": "250.619",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 564,
+    "end_word": 622,
+    "text": "So basically apart from the display module , the i the display itself , we don't have an extremely high degree of interaction between sort of our modules that create the stuff and and the interface , so the interface is mainly while it's running just working on data that's just loaded from a file , I guess ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,334",
+  "speaker": "E",
+  "start_time": "252.215",
+  "end_time": "252.895",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 623,
+    "end_word": 625,
+    "text": "There isn't [disfmarker]"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,336",
+  "speaker": "E",
+  "start_time": "257.617",
+  "end_time": "293.184",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 626,
+    "end_word": 756,
+    "text": "Yeah , I know . Th Yeah , the search is [disfmarker] I guess the search is sort of a strange beast anyway because for the search we're leaving the NITE X_M_L_ framework . Um but that's still sort of [disfmarker] that's good . That means that at least like we don't have the type of situation where somebody has to do like a billion calculations on on data on-line . 'Cause that would make it a lot more [disfmarker] like that would mean that our interface for the data would have to be a lot more careful about how it performs and and everything . And nobody is modifying that data at at on-line time at all it seems . Nobody's making any changes to the actual data on-line ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,338",
+  "speaker": "E",
+  "start_time": "295.632",
+  "end_time": "306.24",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 757,
+    "end_word": 798,
+    "text": "So that's actually making it a lot easier . That basically means our browser really is a viewer mostly , which isn't doing much with the data except for sort of selecting a piece piece of it and and displaying it ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,340",
+  "speaker": "E",
+  "start_time": "313.376",
+  "end_time": "313.69",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 799,
+    "end_word": 800,
+    "text": "Hmm ?"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,342",
+  "speaker": "E",
+  "start_time": "316.096",
+  "end_time": "319.873",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 801,
+    "end_word": 814,
+    "text": "Well some parts relevant for the search , yes . I'd say so ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,344",
+  "speaker": "E",
+  "start_time": "325.808",
+  "end_time": "326.147",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 815,
+    "end_word": 816,
+    "text": "Hmm ?"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,346",
+  "speaker": "E",
+  "start_time": "343.288",
+  "end_time": "347.204",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 817,
+    "end_word": 835,
+    "text": "Yeah , but nobody of us is doing much of searching from the data in the on-line stage ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,348",
+  "speaker": "E",
+  "start_time": "348.8",
+  "end_time": "392.893",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 836,
+    "end_word": 1002,
+    "text": "And for all together , like the display itself , I think we are easier if we [disfmarker] if it's sitting on the X_M_L_ than if it's sitting on the S_Q_L_ stuff , because if it's sitting on the X_M_L_ , we have the the NITE X_M_L_ framework with all its functionality for synchronizing through all the different levels whenever there's a change , whenever something's moving forward and stuff . And we can just more or less look at their code , like how their player moves forward , and how that moving forward is represented in different windows and stuff . So I think in the actual browser itself I don't wanna sit on the S_Q_L_ if we can sit on the X_M_L_ because sitting on the X_M_L_ we have all [disfmarker] we have so much help . And for y for like the p the calculations that we're doing apart from the search , it seems that everyone needs some special representations anyway ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,350",
+  "speaker": "E",
+  "start_time": "400.096",
+  "end_time": "408.332",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 1003,
+    "end_word": 1036,
+    "text": "You mean our results ? Yeah , in in the NITE X_M_L_ X_M_L_ format , so with their time stamps and stuff , so that it's easy to to tie together st things ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,352",
+  "speaker": "E",
+  "start_time": "411.664",
+  "end_time": "442.479",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 1037,
+    "end_word": 1141,
+    "text": "What I'm [disfmarker] like what we have to think about is if we go with this multi-level idea , like this idea that sort of if you start with a whole meeting series as one entity , as one thing that you display , as one whole sort of , that then the individual chunks of the individual meetings , whereas [disfmarker] and then you can click on a meeting , and then sort of the meeting is the whole thing and the chunks are the individual segments , that means sort of we have multiple levels of of representation , which we probably [disfmarker]"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,354",
+  "speaker": "E",
+  "start_time": "443.826",
+  "end_time": "484.793",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 1142,
+    "end_word": 1323,
+    "text": "If we if we do it this way [disfmarker] like we f we have to discuss that if we do it this way , then we should probably find some abstraction model , so that the interface in the sense like deals with it as if it's same so that the interface doesn't really have to worry whether it's a meeting in the whole meeting series or a segment within a meeting , you know what I mean ? And that's probably stuff that we have to sort of like process twice then . Like for example that [disfmarker] like the summary of a meeting within the whole meeting corpus or meeting series y is meeting series a good word for that ? I don't really know what [disfmarker] how to call it . You know what I mean , like not not the whole corpus , but [vocalsound] every meeting that has to do with one topic . Um so in in the meeting se series so that a summary for a meeting within the meeting series , are sort of"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,356",
+  "speaker": "E",
+  "start_time": "486.498",
+  "end_time": "494.792",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 1324,
+    "end_word": 1351,
+    "text": "compiled off-line by a summary module . And that is separate from a summary of a segment within a meeting . 'Cause I don't think we can [disfmarker]"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,358",
+  "speaker": "E",
+  "start_time": "510.907",
+  "end_time": "511.248",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 1352,
+    "end_word": 1352,
+    "text": "[vocalsound]"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,360",
+  "speaker": "E",
+  "start_time": "528.864",
+  "end_time": "531.578",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 1353,
+    "end_word": 1365,
+    "text": "So are we doing that at all levels ? Are we um [disfmarker]"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,362",
+  "speaker": "E",
+  "start_time": "538.656",
+  "end_time": "542.237",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 1366,
+    "end_word": 1375,
+    "text": "And just have different like fine-grainedness levels sort of ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,364",
+  "speaker": "E",
+  "start_time": "548.261",
+  "end_time": "548.82",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 1376,
+    "end_word": 1377,
+    "text": "Mm ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,366",
+  "speaker": "E",
+  "start_time": "551.776",
+  "end_time": "565.699",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 1378,
+    "end_word": 1433,
+    "text": "'Kay . So the only thing that [disfmarker] yeah , so the only thing that would happen basically if I double-click let's say from the whole meeting series on a single meeting , is that the zoom level changes . Like the th the start and the end position changes and the zoom level changes ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,368",
+  "speaker": "E",
+  "start_time": "568.044",
+  "end_time": "574.184",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 1434,
+    "end_word": 1462,
+    "text": "I I thought we couldn't do that . Like I was under the impression that we couldn't do that because we couldn't load the data for all that ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,370",
+  "speaker": "E",
+  "start_time": "576.032",
+  "end_time": "577.264",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 1463,
+    "end_word": 1471,
+    "text": "But I don't know , I mean that [disfmarker]"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,372",
+  "speaker": "E",
+  "start_time": "596.448",
+  "end_time": "599.108",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 1472,
+    "end_word": 1484,
+    "text": "So I'm s not sure if I got it . I was [disfmarker]"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,374",
+  "speaker": "E",
+  "start_time": "605.088",
+  "end_time": "606.921",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 1485,
+    "end_word": 1488,
+    "text": "Mm-hmm . Mm-hmm ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,376",
+  "speaker": "E",
+  "start_time": "613.824",
+  "end_time": "614.268",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 1489,
+    "end_word": 1490,
+    "text": "Mm-hmm ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,378",
+  "speaker": "E",
+  "start_time": "617.856",
+  "end_time": "618.257",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 1491,
+    "end_word": 1492,
+    "text": "Mm-hmm ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,380",
+  "speaker": "E",
+  "start_time": "620.752",
+  "end_time": "621.178",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 1493,
+    "end_word": 1494,
+    "text": "Okay ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,382",
+  "speaker": "E",
+  "start_time": "622.624",
+  "end_time": "623.459",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 1495,
+    "end_word": 1496,
+    "text": "So [disfmarker]"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,384",
+  "speaker": "E",
+  "start_time": "626.62",
+  "end_time": "640.359",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 1497,
+    "end_word": 1554,
+    "text": "Okay . I wa I was just worried about the total memory complexity of it . But I I completely admit , I mean , I just sort of like th took that from some thing that Jonathan once said about not loading everything . But maybe I was just wrong about it . How many utterances w"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,386",
+  "speaker": "E",
+  "start_time": "651.727",
+  "end_time": "660.648",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 1555,
+    "end_word": 1578,
+    "text": "Yeah , and I w yeah . Yeah . Yeah . Yeah . So what we have is we would have a word ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,388",
+  "speaker": "E",
+  "start_time": "662.304",
+  "end_time": "686.548",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 1579,
+    "end_word": 1667,
+    "text": "Like we would have words with some priority levels . And they would basically be [gap] because even the selection [disfmarker] would would the summaries automatically feed from just how prioritized an individual word or how indiv uh prioritized an individual utterance is ? Or i are the summaries sort of refined from it and made by a machine to make sentences and stuff ? Or are they just sort of taking out the words with the highest priority and then the words of the second highest priority ?"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,390",
+  "speaker": "E",
+  "start_time": "688.288",
+  "end_time": "689.987",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 1668,
+    "end_word": 1672,
+    "text": "And the u okay ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,392",
+  "speaker": "E",
+  "start_time": "692.005",
+  "end_time": "696.778",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 1673,
+    "end_word": 1701,
+    "text": "Are we doing it on th the whole thing on the utterance level ? Or are we doing it on word level , like the information density calculation ?"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,394",
+  "speaker": "E",
+  "start_time": "703.872",
+  "end_time": "718.305",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 1702,
+    "end_word": 1775,
+    "text": "We [disfmarker] I think we have start and end times for words actually , but it's [disfmarker] yeah , but it m it might s but it might sound crazy in the player . We should really [disfmarker] maybe we can do that together at some point today that we check out how the player works . But there's maybe some merit in altogether doing it on an utterance level in the end ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,396",
+  "speaker": "E",
+  "start_time": "720.261",
+  "end_time": "720.685",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 1776,
+    "end_word": 1777,
+    "text": "So [disfmarker]"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,398",
+  "speaker": "E",
+  "start_time": "736.63",
+  "end_time": "737.113",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 1778,
+    "end_word": 1779,
+    "text": "Yeah ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,400",
+  "speaker": "E",
+  "start_time": "746.684",
+  "end_time": "764.714",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 1780,
+    "end_word": 1848,
+    "text": "Well but also about the displays , I mean the displays in the in the text body , in the in the latest draft that we had sort of we came up with the idea that it isn't displaying utterance for utterance , but it's also displaying uh a summarised version in [disfmarker] you know , like below the below the graph , the part . Maybe [disfmarker] [vocalsound]"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,402",
+  "speaker": "E",
+  "start_time": "766.464",
+  "end_time": "767.012",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 1849,
+    "end_word": 1851,
+    "text": "Yeah , r"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,404",
+  "speaker": "E",
+  "start_time": "768.543",
+  "end_time": "768.859",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 1852,
+    "end_word": 1853,
+    "text": "Hmm ?"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,406",
+  "speaker": "E",
+  "start_time": "769.911",
+  "end_time": "774.515",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 1854,
+    "end_word": 1870,
+    "text": "Oh yeah , f it's just like there there's like audio skimming and there's displayed skimming ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,408",
+  "speaker": "E",
+  "start_time": "777.04",
+  "end_time": "792.798",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 1871,
+    "end_word": 1928,
+    "text": "Yeah . Ma maybe there's some merit of going altogether for utterance level and not even bother to calculate [disfmarker] I mean if you have to do it internally , then you can do it . But maybe like not even store the importance levels for individual words and just sort of rank utterances as a whole ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,410",
+  "speaker": "E",
+  "start_time": "795.61",
+  "end_time": "795.959",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 1929,
+    "end_word": 1930,
+    "text": "Hmm ?"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,412",
+  "speaker": "E",
+  "start_time": "797.216",
+  "end_time": "797.864",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 1931,
+    "end_word": 1932,
+    "text": "Yeah ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,414",
+  "speaker": "E",
+  "start_time": "799.208",
+  "end_time": "811.183",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 1933,
+    "end_word": 2000,
+    "text": "'Cause it it might be better skimming and less memory required at the same time . And I mean if you if you know how to do it for individual words , then you can just [disfmarker] in the worst case , if you can't find anything else , just sort of make the mean of the words over the utterance . You know what I mean ?"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,416",
+  "speaker": "E",
+  "start_time": "812.723",
+  "end_time": "814.727",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 2001,
+    "end_word": 2004,
+    "text": "W it's it's [disfmarker]"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,418",
+  "speaker": "E",
+  "start_time": "816.773",
+  "end_time": "822.544",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 2005,
+    "end_word": 2032,
+    "text": "Well what's the smallest chunk at the moment you're thinking of of assigning an importance measure to , is it a word or is it an utterance ?"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,420",
+  "speaker": "E",
+  "start_time": "824.586",
+  "end_time": "830.024",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 2033,
+    "end_word": 2047,
+    "text": "So we're thinking of like maybe just storing it on a per utterance level ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,422",
+  "speaker": "E",
+  "start_time": "832.176",
+  "end_time": "856.055",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 2048,
+    "end_word": 2159,
+    "text": "Because it's it's less stuff to store probably for Dave in the in the audio playing . And for in the display it's probably better if you have whole utterances than [disfmarker] I don't know , like [vocalsound] what it's like if you just take single words out of utterances . That probably doesn't make any sense at all , whereas if you just uh show important utterances but the utterance as a whole it makes more sense . So it doesn't actually make a difference for your algorithm , 'cause it just means that if you're working on a word level , then we just mean it over the utterance ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,424",
+  "speaker": "E",
+  "start_time": "865.099",
+  "end_time": "865.973",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 2160,
+    "end_word": 2163,
+    "text": "They are on [disfmarker]"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,426",
+  "speaker": "E",
+  "start_time": "869.328",
+  "end_time": "873.273",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 2164,
+    "end_word": 2188,
+    "text": "Oh so that's good anyway then , yeah . Because that makes it a lot easier than to t put it on utterance level ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,428",
+  "speaker": "E",
+  "start_time": "879.424",
+  "end_time": "891.241",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 2189,
+    "end_word": 2242,
+    "text": "Oh yeah . No but I mean like how how Jasmine does it internally I don't know , but it's probably , yeah , you probably have to work on word levels for importance . But there should be ways of easily going from a word level to an utterance level . Okay ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,430",
+  "speaker": "E",
+  "start_time": "900.894",
+  "end_time": "901.692",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 2243,
+    "end_word": 2245,
+    "text": "Yeah , prob"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,432",
+  "speaker": "E",
+  "start_time": "906.56",
+  "end_time": "906.982",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 2246,
+    "end_word": 2247,
+    "text": "Hmm ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,434",
+  "speaker": "E",
+  "start_time": "931.248",
+  "end_time": "944.543",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 2248,
+    "end_word": 2310,
+    "text": "Well we do a pre-filtering of sort of the whole thing , sort of like [disfmarker] but that , like the problem with that is it's easy to do in the text level . But that would mean it would still play the uh in your audio , unless we sort of also store what pieces we cut out for the audio ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,436",
+  "speaker": "E",
+  "start_time": "948.725",
+  "end_time": "958.115",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 2311,
+    "end_word": 2346,
+    "text": "Yeah . I think before we can like answer that specific question how we c deal with that , it's probably good for us to look at what the audio player is capable of doing ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,438",
+  "speaker": "E",
+  "start_time": "960.304",
+  "end_time": "960.868",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 2347,
+    "end_word": 2348,
+    "text": "Yes ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,440",
+  "speaker": "E",
+  "start_time": "964.448",
+  "end_time": "967.376",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 2349,
+    "end_word": 2362,
+    "text": "So what do you mean by buffering ? Like you think directly feeding [disfmarker]"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,442",
+  "speaker": "E",
+  "start_time": "971.168",
+  "end_time": "976.881",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 2363,
+    "end_word": 2387,
+    "text": "But [disfmarker] yeah , but not but not stored on the hard disk and then loaded in , but loaded in directly from memory ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,444",
+  "speaker": "E",
+  "start_time": "982.579",
+  "end_time": "989.969",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 2388,
+    "end_word": 2415,
+    "text": "But it's probably a stream if it exists in Java , it would be probably some binary stream going in of some type . Okay , yeah ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,446",
+  "speaker": "E",
+  "start_time": "995.717",
+  "end_time": "1016.557",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 2416,
+    "end_word": 2506,
+    "text": "Okay . Okay , so I mean [disfmarker] so that means that there's probably , even if you go on an per utterance level , there's still some merit on within utterances cutting out stuff which clearly isn't relevant at all , and that maybe also for the audio we'd have to do . So let's say we play the whole au phrase , but then in addition to that , we have some information that says minus that part of something . That's okay , that we can do ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,448",
+  "speaker": "E",
+  "start_time": "1032.073",
+  "end_time": "1071.811",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 2507,
+    "end_word": 2678,
+    "text": "Yeah , maybe even [disfmarker] I mean that's sort of [disfmarker] that depends on how how advanced we get . If [disfmarker] maybe if we realise that there's massive differences in in gain or in something , you can probably just make some simple simple normalization , but that really depends on how much time we have and and how much is necessary . Yeah , if [disfmarker] like I d I don't know anything about audio and I have never seen the player . So if you find that the player accepts some n input from memory , and if it's easy to do , then I guess that's that's fairly doable . So but that means in the general structure we're actually quite lucky , so we we have [disfmarker] we load into memory for the whole series of meetings just the utterances and rankings for the utterances and some information probably that says , well , the [disfmarker] I guess that goes with the utterance , who's speaking ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,450",
+  "speaker": "E",
+  "start_time": "1073.513",
+  "end_time": "1075.888",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 2679,
+    "end_word": 2690,
+    "text": "Because then we can also do the display about who's speaking ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,452",
+  "speaker": "E",
+  "start_time": "1080.176",
+  "end_time": "1080.773",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 2691,
+    "end_word": 2692,
+    "text": "Yeah ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,454",
+  "speaker": "E",
+  "start_time": "1083.392",
+  "end_time": "1093.311",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 2693,
+    "end_word": 2728,
+    "text": "But I'm I'm still confused 'cause I thought like that's just what Jonathan said we do c that we can't do , like load a massive document of that size . On the other hand [disfmarker]"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,456",
+  "speaker": "E",
+  "start_time": "1100.122",
+  "end_time": "1107.706",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 2729,
+    "end_word": 2767,
+    "text": "The other hand , I mean it shouldn't be like [disfmarker] should be like fifty mega-byte in RAM or something , it shouldn't be massive , should it ? Actually fifty hundred megabyte is quite big in RAM ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,458",
+  "speaker": "E",
+  "start_time": "1115.968",
+  "end_time": "1118.441",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 2768,
+    "end_word": 2774,
+    "text": "Just thinking , what's the simp so"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,460",
+  "speaker": "E",
+  "start_time": "1120.096",
+  "end_time": "1134.94",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 2775,
+    "end_word": 2829,
+    "text": "We do get an error message with the project if we load everything into the project with all the data they load . So we know that doesn't work . So our hope is essentially that we load less into it . What's this lazy loading thing , somebody explain lazy loading to me ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,462",
+  "speaker": "E",
+  "start_time": "1141.976",
+  "end_time": "1160.252",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 2830,
+    "end_word": 2904,
+    "text": "Ah , okay . So that [disfmarker] is that only by type of file . Like if if if the same thing is in different files , would it then maybe [disfmarker] like , you know , if if utterances are split over three or ten or w hundred different files , is then a chance maybe that it doesn't try to load them all into memory at the same time , but just [disfmarker]"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,464",
+  "speaker": "E",
+  "start_time": "1163.354",
+  "end_time": "1167.369",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 2905,
+    "end_word": 2927,
+    "text": "So why does it fail then in the first place ? Then it shouldn't ever fail , because then it should never [disfmarker]"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,466",
+  "speaker": "E",
+  "start_time": "1169.395",
+  "end_time": "1177.178",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 2928,
+    "end_word": 2957,
+    "text": "Yeah , but [disfmarker] yeah , but um it uh it it failed right when you load it , right , the NITE X_M_L_ kit , so that's interesting ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,468",
+  "speaker": "E",
+  "start_time": "1192.448",
+  "end_time": "1193.001",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 2958,
+    "end_word": 2959,
+    "text": "Hmm ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,470",
+  "speaker": "E",
+  "start_time": "1203.936",
+  "end_time": "1219.954",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 2960,
+    "end_word": 3015,
+    "text": "Let's check that out . Um I'll p I'll probably ask Jonathan about it . So alternatively , if we realise we can't do the whole thing in one go , we can probably just process some sort of meta-data , you know what I mean , like sort of sort of for the whole series"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,472",
+  "speaker": "E",
+  "start_time": "1221.509",
+  "end_time": "1225.824",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 3016,
+    "end_word": 3022,
+    "text": "chunks representing the individual meetings or some"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,474",
+  "speaker": "E",
+  "start_time": "1227.593",
+  "end_time": "1251.568",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 3023,
+    "end_word": 3093,
+    "text": "Like something that represents the whole series in in a v in a structure very similar to the structure in which we represent individual um meetings , but with data sort of always combined from the whole series . so instead of having an single utterance that we display , it would probably be like [disfmarker] that would be representing a whole um topic , a segment in a meeting ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,476",
+  "speaker": "E",
+  "start_time": "1253.28",
+  "end_time": "1255.436",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 3094,
+    "end_word": 3104,
+    "text": "And sort of so that wi using the same data st"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,478",
+  "speaker": "E",
+  "start_time": "1262.368",
+  "end_time": "1263.459",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 3105,
+    "end_word": 3110,
+    "text": "Well , in a sense [disfmarker]"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,480",
+  "speaker": "E",
+  "start_time": "1272.118",
+  "end_time": "1278.072",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 3111,
+    "end_word": 3136,
+    "text": "Uh I'm I'm thinking of in a sense of like creating a virtual a virtual meeting out of the whole meeting series , sort of ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,482",
+  "speaker": "E",
+  "start_time": "1281.696",
+  "end_time": "1322.272",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 3137,
+    "end_word": 3290,
+    "text": "Yeah , sort of like off-line create a virtual meeting , which which basically treats the meeting series as if it was a meeting , and treats the individual meetings within the series as if they were segments , and treats the individual segments within meetings as if they were um utterances . You know , so we just sort of we shift it one level up . And in that way we could probably use the same algorithm and just like make vir like one or two ifs that say okay , if you are on a whole document [disfmarker] uh a whole series level and that was a double-click , then don't just go into that um segment , but load a new file or something like it , but in general use the same algorithm . That would be an alternative if we can't actually load the whole thing and [disfmarker]"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,484",
+  "speaker": "E",
+  "start_time": "1324.56",
+  "end_time": "1336.272",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 3291,
+    "end_word": 3329,
+    "text": "'Cause also like even if we [disfmarker] maybe this whole [disfmarker] like maybe I'm worrying too much about the whole series in one thing display , because actually I mean probably users wouldn't view that one too often ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,486",
+  "speaker": "E",
+  "start_time": "1363.776",
+  "end_time": "1384.179",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 3330,
+    "end_word": 3399,
+    "text": "Yeah , but I'm I'm still worried . Like for example for the display , if you actually [disfmarker] if you want a display uh like for the whole series , the information density levels based on [disfmarker] and and the f and the only granularity you have is individual utterances , that means you have to through every single utterance in a series of seventy hours of meetings ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,488",
+  "speaker": "E",
+  "start_time": "1389.328",
+  "end_time": "1402.121",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 3400,
+    "end_word": 3452,
+    "text": "Yeah . Yeah , and if you make that structurally very similar to the the le like one level down , like the way how we uh store individual utterances and stuff , then maybe we can more or less use the same code and just make a few ifs and stuff ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,490",
+  "speaker": "E",
+  "start_time": "1405.424",
+  "end_time": "1410.0",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 3453,
+    "end_word": 3468,
+    "text": "Yeah , so so but still [disfmarker] so in in general we're having we're having utterances"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,492",
+  "speaker": "E",
+  "start_time": "1411.653",
+  "end_time": "1413.17",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 3469,
+    "end_word": 3474,
+    "text": "and they have a score ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,494",
+  "speaker": "E",
+  "start_time": "1415.392",
+  "end_time": "1426.899",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 3475,
+    "end_word": 3512,
+    "text": "And that's as much as we really need . And of cou and they also have a time a time information of course . Hmm ? And a and a s and a speaker information , yeah ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,496",
+  "speaker": "E",
+  "start_time": "1430.768",
+  "end_time": "1436.497",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 3513,
+    "end_word": 3539,
+    "text": "Yeah , so an information which topic they're in , yeah . And and probably separate to that an information about the different topics like that [disfmarker]"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,498",
+  "speaker": "E",
+  "start_time": "1438.32",
+  "end_time": "1438.726",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 3540,
+    "end_word": 3541,
+    "text": "Yeah ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,500",
+  "speaker": "E",
+  "start_time": "1440.16",
+  "end_time": "1441.131",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 3542,
+    "end_word": 3542,
+    "text": "So"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,502",
+  "speaker": "E",
+  "start_time": "1442.368",
+  "end_time": "1449.099",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 3543,
+    "end_word": 3567,
+    "text": "so the skimming can work on that because the skimming just sort of sorts the utterances and puts as many in as it needs [disfmarker]"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,504",
+  "speaker": "E",
+  "start_time": "1454.208",
+  "end_time": "1462.064",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 3568,
+    "end_word": 3593,
+    "text": "Yeah . Yeah , it'll it'll play them in some order in which they were set because otherwise it's gonna be more entertaining . Um [disfmarker]"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,506",
+  "speaker": "E",
+  "start_time": "1463.456",
+  "end_time": "1491.424",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 3594,
+    "end_word": 3698,
+    "text": "but that that's enough data for the skimming and the the searching , so what the searching does is the searching leaves the whole framework , goes to the S_Q_L_ database and gets [disfmarker] like basically in the end gets just a time marker for where that is , like that utterance that we are concerned with . And then we have to find [disfmarker] I'm sure there's some way in in NITE X_M_L_ to just say set position to that time mark . And then it shifts the whole frame and it alerts every single element of the display and the display updates ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,508",
+  "speaker": "E",
+  "start_time": "1495.81",
+  "end_time": "1502.66",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 3699,
+    "end_word": 3728,
+    "text": "Yeah , yeah . That we can ju yeah , but so so if if somethi so yeah . So if in that tree display somebody clicks on something [disfmarker]"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,510",
+  "speaker": "E",
+  "start_time": "1505.168",
+  "end_time": "1537.95",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 3729,
+    "end_word": 3873,
+    "text": "Yeah , and then you sort of feed the time stamp to [disfmarker] and the NITE X_M_L_ central manager , and that central manager alerts everything that's there , like alerts the skim like the the audio display , alerts the text display , alerts the visual display and says we have a new time frame and then they all sort of do their update routines with respect to the current level of zoom . So how much do they display , and starting position at where the [disfmarker] or maybe the mid-position of it , I don't know , like w if start where the thing was found or if that thing wa was found it's in the middle of the part that we display , that I don't know . But that we can decide about , but a general sort of [disfmarker]"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,512",
+  "speaker": "E",
+  "start_time": "1540.08",
+  "end_time": "1556.646",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 3874,
+    "end_word": 3935,
+    "text": "It's the same thing if like whether you play and it moves forward or whether you jump to a position through search , it's essentially for all the window handling , it's the same event . It's only that the event gets triggered by the search routine which sort of push that into NITE X_M_L_ and says please go there now ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,514",
+  "speaker": "E",
+  "start_time": "1576.99",
+  "end_time": "1580.233",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 3936,
+    "end_word": 3952,
+    "text": "Why do we have to do it in memory ? [gap] [disfmarker] But that stuff's so [disfmarker]"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,516",
+  "speaker": "E",
+  "start_time": "1582.672",
+  "end_time": "1585.122",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 3953,
+    "end_word": 3962,
+    "text": "I mean like the information is coming from off-line ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,518",
+  "speaker": "E",
+  "start_time": "1588.291",
+  "end_time": "1619.529",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 3963,
+    "end_word": 4082,
+    "text": "So we probably we don't even have to change the utterance document , right , because the whole way , like the whole beauty of the NITE X_M_L_ is that it ties together lots of different files . So we can just create an additional X_M_L_ file which for every utterance like [disfmarker] the utterances have I_D_s I presume , some references . So we just [disfmarker] we tie uh p just a very short X_M_L_ file , which [disfmarker] it's the only information it has that has whatever a number for for the um weight , for the information density , and we just tie that to the existing utterances and tie them to the existing speaker changes ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,520",
+  "speaker": "E",
+  "start_time": "1646.711",
+  "end_time": "1665.356",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 4083,
+    "end_word": 4148,
+    "text": "Well otherwise we probably have to go over it and like add some integer that we just increment from top to bottom sort of to every utterance as an as an I_D_ some type . Or un or try to understand how NITE X_M_L_ I_D_s work and maybe there's some special route we have to follow when we use these I_D_s . It's alm hmm ?"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,522",
+  "speaker": "E",
+  "start_time": "1670.462",
+  "end_time": "1673.536",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 4149,
+    "end_word": 4164,
+    "text": "Yeah , the the girl said the utterances themselves are not numbered at the moment ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,524",
+  "speaker": "E",
+  "start_time": "1675.807",
+  "end_time": "1682.935",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 4165,
+    "end_word": 4182,
+    "text": "Okay . Okay . Okay . Yeah . So I guess that would be solvable if not ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,526",
+  "speaker": "E",
+  "start_time": "1687.008",
+  "end_time": "1687.44",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 4183,
+    "end_word": 4184,
+    "text": "Mm-hmm ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,528",
+  "speaker": "E",
+  "start_time": "1693.806",
+  "end_time": "1694.213",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 4185,
+    "end_word": 4186,
+    "text": "Sorry ?"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,530",
+  "speaker": "E",
+  "start_time": "1700.536",
+  "end_time": "1701.201",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 4187,
+    "end_word": 4188,
+    "text": "Okay ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,532",
+  "speaker": "E",
+  "start_time": "1702.69",
+  "end_time": "1703.43",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 4189,
+    "end_word": 4190,
+    "text": "Okay ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,534",
+  "speaker": "E",
+  "start_time": "1706.704",
+  "end_time": "1708.369",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 4191,
+    "end_word": 4198,
+    "text": "Is that a board marker pen actually ?"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,536",
+  "speaker": "E",
+  "start_time": "1711.271",
+  "end_time": "1717.691",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 4199,
+    "end_word": 4226,
+    "text": "Oh . That's just [disfmarker] so like to make a list of all this stuff , or we probably can [disfmarker] somebody can do it on paper ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,538",
+  "speaker": "E",
+  "start_time": "1719.392",
+  "end_time": "1744.572",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 4227,
+    "end_word": 4291,
+    "text": "All these fancy pens . So what [disfmarker] so the stuff we have [disfmarker] we have utterances and speakers and weights for utterances . So for [gap] [disfmarker] for every utterance sort of like the utterance has a speaker and a weight which is coming from outside . Or we just tie it to it . And there is segments , which [disfmarker] hmm ?"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,540",
+  "speaker": "E",
+  "start_time": "1747.327",
+  "end_time": "1755.328",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 4292,
+    "end_word": 4324,
+    "text": "Oh , so [disfmarker] sorry um . Uh topic s topic segments I meant . Like they are they are a super-unit . So so the utterances are tied to topic segments ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,542",
+  "speaker": "E",
+  "start_time": "1761.674",
+  "end_time": "1768.967",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 4325,
+    "end_word": 4350,
+    "text": "And if the time stamps are on a word level , then we b somehow have to extract time stamps for utterances where they start ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,544",
+  "speaker": "E",
+  "start_time": "1774.352",
+  "end_time": "1775.851",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 4351,
+    "end_word": 4355,
+    "text": "W what segments now ?"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,546",
+  "speaker": "E",
+  "start_time": "1781.951",
+  "end_time": "1788.985",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 4356,
+    "end_word": 4377,
+    "text": "Okay . Is the uh [disfmarker] is that the same as utterances that [disfmarker] is that the same as utterances that [disfmarker]"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,548",
+  "speaker": "E",
+  "start_time": "1798.146",
+  "end_time": "1800.075",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 4378,
+    "end_word": 4381,
+    "text": "Mm-hmm . Mm-hmm ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,550",
+  "speaker": "E",
+  "start_time": "1812.45",
+  "end_time": "1819.626",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 4382,
+    "end_word": 4402,
+    "text": "What [disfmarker] so that's [disfmarker] Oh . But that's one [disfmarker] o one segment or is that two segments then ?"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,552",
+  "speaker": "E",
+  "start_time": "1823.619",
+  "end_time": "1824.104",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 4403,
+    "end_word": 4404,
+    "text": "Yeah ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,554",
+  "speaker": "E",
+  "start_time": "1826.976",
+  "end_time": "1840.108",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 4405,
+    "end_word": 4453,
+    "text": "Okay . Okay . So but but generally utterances is that which we just called [disfmarker] uh sorry , segments is that which we just called utterances now . Like it's it's the sa it's sort of like one person's contribution at a time sort of thingy dingy ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,556",
+  "speaker": "E",
+  "start_time": "1841.856",
+  "end_time": "1847.152",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 4454,
+    "end_word": 4476,
+    "text": "Okay , so [disfmarker] yeah , so we have those , and and then we have some f field somewhere else which has"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,558",
+  "speaker": "E",
+  "start_time": "1848.672",
+  "end_time": "1849.824",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 4477,
+    "end_word": 4478,
+    "text": "topics ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,560",
+  "speaker": "E",
+  "start_time": "1851.168",
+  "end_time": "1870.521",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 4479,
+    "end_word": 4556,
+    "text": "Yeah , and and a topic's basically [disfmarker] they are just on the I_D_ , probably with a start time or something , and and the utterances referenced to those topics I guess . So the topics don't contain any redundant thing of like showing the whole topic again , but they just sort of say a number and where they start and where they finish . And the utterances then say which topic they belong to ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,562",
+  "speaker": "E",
+  "start_time": "1884.304",
+  "end_time": "1892.094",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 4557,
+    "end_word": 4593,
+    "text": "Yeah . No . But I was thinking of the topic segmentation now and and f for that there would only be one , right , because it's sort of like it's just a time window ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,564",
+  "speaker": "E",
+  "start_time": "1893.856",
+  "end_time": "1894.314",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 4594,
+    "end_word": 4595,
+    "text": "Yeah ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,566",
+  "speaker": "E",
+  "start_time": "1896.0",
+  "end_time": "1914.576",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 4596,
+    "end_word": 4658,
+    "text": "So if this lazy loading works , then this should definitely fit into [disfmarker] I mean not memory then because it wouldn't all be in memory at the same time . So if we just have those sort of that information like a long list of all the utterances slash segments and like short or smaller lists which give weight to them ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,568",
+  "speaker": "E",
+  "start_time": "1916.128",
+  "end_time": "1931.357",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 4659,
+    "end_word": 4728,
+    "text": "And even though probably if there's a lot of over-head in having two different files , we can probably merge the weights into it off-line . You know what I mean , like if if there's a lot of bureaucracy involved with having two different trees and whether one ties to the other because the one has the weight for the other , then it's probably quicker to just [disfmarker]"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,570",
+  "speaker": "E",
+  "start_time": "1943.888",
+  "end_time": "1949.554",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 4729,
+    "end_word": 4759,
+    "text": "Yeah , I thought that was the whole beauty that like you can just make a new X_M_L_ file and sort of tie that to the other and and it tre"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,572",
+  "speaker": "E",
+  "start_time": "1952.08",
+  "end_time": "1964.736",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 4760,
+    "end_word": 4819,
+    "text": "Oh yeah . So no , I didn't I didn't mean tree . No . No . I meant just like handling two different files internally . Sort of c I was just thinking you know like if if the overhead for having the same amount of data coming from two d files instead of from one file is massive"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,574",
+  "speaker": "E",
+  "start_time": "1966.192",
+  "end_time": "1980.621",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 4820,
+    "end_word": 4866,
+    "text": "then it would probably be for us easy to just like off-line put the the weight into into the file that has the segments , uh yeah , segments slash utterances already . But that we can figure out I mean if it's going horrendously wrong ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,576",
+  "speaker": "E",
+  "start_time": "1986.724",
+  "end_time": "1987.14",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 4867,
+    "end_word": 4868,
+    "text": "Yeah ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,578",
+  "speaker": "E",
+  "start_time": "1990.272",
+  "end_time": "2028.069",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 4869,
+    "end_word": 5023,
+    "text": "Yeah . Yeah , no , we'd we'd be completely using like the whole infrastructure and basically just [disfmarker] I mean the main difference really between our project and theirs really is that we load a different part of the data . But otherwise we're doing it the same way that they are doing it . So we just [disfmarker] we're sort of running different types of queries on it . We [disfmarker] in a sense we [disfmarker] I think we are running queries , it's not just about um what we load and what we don't load , but we're l running queries in the sense that we dynamically select by by weights , don't we ? That we have to check how fast that is , like to say give us all the ones that [disfmarker] whether that works with their query language , whether that's too many results and whether we shou"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,580",
+  "speaker": "E",
+  "start_time": "2030.016",
+  "end_time": "2050.126",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 5024,
+    "end_word": 5110,
+    "text": "You know , if [disfmarker] 'cause if it i let's say [disfmarker] I mean if if their query language is strange and if it would return [vocalsound] b ten million results and it can't handle it , then we can just write our individual components in the way that they know which [disfmarker] what the threshold is . So they still get all the data and just they internally say oh no , this is less than three and I'm not gonna display it or something ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,582",
+  "speaker": "E",
+  "start_time": "2054.109",
+  "end_time": "2054.483",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 5111,
+    "end_word": 5112,
+    "text": "Hmm ?"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,584",
+  "speaker": "E",
+  "start_time": "2057.126",
+  "end_time": "2083.395",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 5113,
+    "end_word": 5216,
+    "text": "Yeah . No . [gap] [disfmarker] I'm just thinking for this whole thing of like a different level , sort of cutting out different different pieces , whether we do that through a query where we say give us everything that's ab above this and this weight , or whether we skip the same infrastructure , but every individual module like the player and the display say [disfmarker] like they still get sort of all the different utterances , uh all the different pieces , but they say oh , this piece I leave out , because it's below the current threshold level ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,586",
+  "speaker": "E",
+  "start_time": "2108.6",
+  "end_time": "2110.505",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 5217,
+    "end_word": 5225,
+    "text": "When do we need the one for the meet"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,588",
+  "speaker": "E",
+  "start_time": "2113.168",
+  "end_time": "2144.633",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 5226,
+    "end_word": 5339,
+    "text": "Okay . Yeah , I guess for the [disfmarker] so when we have the display , will we display the whole series . Then if we have for the individual topic segments within the meetings if we have ready calculated disp um measures , then we don't have to sort of extract that data from the individual utterances . Yeah , and that's also fairly easy to store along with our segments , isn't it . For the segments , are we extracting some type of title for them that we craft with some fancy algorithm or manually or we're just taking the single most highly valued key-word utterance for the segment heading ?"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,590",
+  "speaker": "E",
+  "start_time": "2153.68",
+  "end_time": "2154.105",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 5340,
+    "end_word": 5341,
+    "text": "Hmm ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,592",
+  "speaker": "E",
+  "start_time": "2158.032",
+  "end_time": "2171.987",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 5342,
+    "end_word": 5394,
+    "text": "Hmm . It's probably like [disfmarker] in in the end probably it wouldn't be the best thing if it's just the high most highly ranked phrase or key-word because like for example for an introduction that would most definitely not be anything that has any title anywhere similar to introduction or something ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,594",
+  "speaker": "E",
+  "start_time": "2176.512",
+  "end_time": "2177.192",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 5395,
+    "end_word": 5396,
+    "text": "Yeah ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,596",
+  "speaker": "E",
+  "start_time": "2179.024",
+  "end_time": "2207.978",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 5397,
+    "end_word": 5507,
+    "text": "Also like for this part , maybe if we go over it with named entity in the end , if I mean w if one of the people doing DIL has some named entity code to spare , and just like at least for the [disfmarker] for sort of for finding topics , titles for for segments , just take a named entity which has a really high , what's it called , D_F_I_D_F_ , whatever . 'Cause you'd probably be quite likely if they're talking about a conference or a person , that that would be a named entity which is very highly fr um frequented in that part ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,598",
+  "speaker": "E",
+  "start_time": "2211.605",
+  "end_time": "2236.182",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 5508,
+    "end_word": 5596,
+    "text": "Yeah , he said they're quite sparse . So that basically was don't bother basing too much of your general calculation on it . But like especially if they're sparse , probably individual named entities which describe what a what a segment is about would probably be quite good . Like if there's some name of some conference , they would [disfmarker] could probably say that name of the conference quite often , even though he's right that they make indirect references to it . Anyway [disfmarker] Sorry ?"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,600",
+  "speaker": "E",
+  "start_time": "2259.584",
+  "end_time": "2261.86",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 5597,
+    "end_word": 5608,
+    "text": "So you're doing that on a on a per word level ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,602",
+  "speaker": "E",
+  "start_time": "2263.824",
+  "end_time": "2264.355",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 5609,
+    "end_word": 5610,
+    "text": "Okay ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,604",
+  "speaker": "E",
+  "start_time": "2266.317",
+  "end_time": "2267.016",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 5611,
+    "end_word": 5612,
+    "text": "Okay ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,606",
+  "speaker": "E",
+  "start_time": "2274.4",
+  "end_time": "2277.488",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 5613,
+    "end_word": 5630,
+    "text": "Okay , cool . I was just wondering where you had the corpus from at the moment ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,608",
+  "speaker": "E",
+  "start_time": "2282.32",
+  "end_time": "2305.472",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 5631,
+    "end_word": 5714,
+    "text": "So it it seems that the data structure isn't a big problem and that basically we don't have to have all these massive discussions of how we exactly interact with the data structure because most of our work isn't done with that data structure in memory in the browser , but it's just done off-line and everyone can ha represent it anyway they want as long as they sort of store it in a useful X_M_L_ representation in the end . So like [disfmarker]"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,610",
+  "speaker": "E",
+  "start_time": "2312.39",
+  "end_time": "2326.45",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 5715,
+    "end_word": 5771,
+    "text": "Yeah , that would mean understanding the NITE X_M_L_ X_M_L_ sort of format in a lot more detail . We should [disfmarker] I think we should just have a long session in the computer room together and like now that we know a bit more what we want , take a closer look at NITE X_M_L_ ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,612",
+  "speaker": "E",
+  "start_time": "2332.287",
+  "end_time": "2332.769",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 5772,
+    "end_word": 5773,
+    "text": "Mm-hmm ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,614",
+  "speaker": "E",
+  "start_time": "2344.56",
+  "end_time": "2345.041",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 5774,
+    "end_word": 5775,
+    "text": "Mm-hmm ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,616",
+  "speaker": "E",
+  "start_time": "2355.232",
+  "end_time": "2358.122",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 5776,
+    "end_word": 5789,
+    "text": "Good . Yeah , I haven't looked at this stuff much at all ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,618",
+  "speaker": "E",
+  "start_time": "2362.07",
+  "end_time": "2362.56",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 5790,
+    "end_word": 5791,
+    "text": "Yeah ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,620",
+  "speaker": "E",
+  "start_time": "2365.52",
+  "end_time": "2365.969",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 5792,
+    "end_word": 5793,
+    "text": "Yeah ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,622",
+  "speaker": "E",
+  "start_time": "2371.296",
+  "end_time": "2380.528",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 5794,
+    "end_word": 5813,
+    "text": "Who's who's sort of doing the the the central coordination of of of the browser application now ? Like [disfmarker]"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,624",
+  "speaker": "E",
+  "start_time": "2382.0",
+  "end_time": "2382.338",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 5814,
+    "end_word": 5815,
+    "text": "Hmm ?"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,626",
+  "speaker": "E",
+  "start_time": "2383.533",
+  "end_time": "2389.936",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 5816,
+    "end_word": 5844,
+    "text": "Yeah , or [disfmarker] but also like all these elements like like the loading and , yeah , integration and and like handling the data loading and stuff ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,628",
+  "speaker": "E",
+  "start_time": "2393.96",
+  "end_time": "2402.225",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 5845,
+    "end_word": 5872,
+    "text": "Nah . I'm sort of like I think I'll take over the display , just because I've started with a bit and found it found it doable ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,630",
+  "speaker": "E",
+  "start_time": "2407.328",
+  "end_time": "2420.272",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 5873,
+    "end_word": 5916,
+    "text": "So somebody should sort of be the one person who's [disfmarker] who understands most about what's t centrally going on with with the with the project , like with the with the browser as a whole and where the data comes in and [disfmarker]"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,632",
+  "speaker": "E",
+  "start_time": "2425.344",
+  "end_time": "2426.335",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 5917,
+    "end_word": 5919,
+    "text": "Any volunteers ?"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,634",
+  "speaker": "E",
+  "start_time": "2430.528",
+  "end_time": "2432.172",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 5920,
+    "end_word": 5925,
+    "text": "It's also a complicated one ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,636",
+  "speaker": "E",
+  "start_time": "2433.6",
+  "end_time": "2434.309",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 5926,
+    "end_word": 5927,
+    "text": "Yeah ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,638",
+  "speaker": "E",
+  "start_time": "2436.112",
+  "end_time": "2447.28",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 5928,
+    "end_word": 5975,
+    "text": "I know but [gap] [disfmarker] uh b I guess we can do it like several people together , it's probably just those people have to work together a lot and very closely and just make sure that they're always f understand what the other one is doing ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,640",
+  "speaker": "E",
+  "start_time": "2457.488",
+  "end_time": "2460.497",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 5976,
+    "end_word": 5988,
+    "text": "Yeah , or or ready-made versions of them for that matter and [disfmarker]"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,642",
+  "speaker": "E",
+  "start_time": "2468.56",
+  "end_time": "2504.115",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 5989,
+    "end_word": 6145,
+    "text": "[vocalsound] Yeah , but I think actually like at the moment the integration comes first , I mean it's sort of at the moment the building the browser comes first , and then only comes the creating new sophisticated data chunks , because that's sort of the whole thing about having a prototype system which is more or less working on on chunk data . But it [disfmarker] at least we have the framework in which we can then test everything and and look at everything . 'Cause before we have that , it's gonna be very difficult for anyone to really see how much the work that they're doing is making sense because you just [disfmarker] well I guess you can see something from the data that you have in your individual X_M_L_ s files files that you create , but it would be nice to have some basic system which just displays some stuff ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,644",
+  "speaker": "E",
+  "start_time": "2514.672",
+  "end_time": "2520.592",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 6146,
+    "end_word": 6171,
+    "text": "Or just adapt like their [disfmarker] like just sort of go from their system and and adapt that piece for piece and see how we could"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,646",
+  "speaker": "E",
+  "start_time": "2522.464",
+  "end_time": "2524.832",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 6172,
+    "end_word": 6180,
+    "text": "how we could arran like adapt it to our"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,648",
+  "speaker": "E",
+  "start_time": "2526.064",
+  "end_time": "2526.672",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 6181,
+    "end_word": 6182,
+    "text": "system ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,650",
+  "speaker": "E",
+  "start_time": "2530.768",
+  "end_time": "2536.416",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 6183,
+    "end_word": 6204,
+    "text": "Does anyone want to like just sit with me and like play for three hours with NITE X_M_L_ at some point ?"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,652",
+  "speaker": "E",
+  "start_time": "2540.79",
+  "end_time": "2547.608",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 6205,
+    "end_word": 6231,
+    "text": "Uh I wouldn't like to be 'cause I'd like to go to the gym . I'm theoretically free . But if there's any time t hmm ?"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,654",
+  "speaker": "E",
+  "start_time": "2550.352",
+  "end_time": "2552.36",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 6232,
+    "end_word": 6243,
+    "text": "You have nothing [disfmarker] no [gap] [disfmarker] free time on Wednesday ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,656",
+  "speaker": "E",
+  "start_time": "2558.048",
+  "end_time": "2558.496",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 6244,
+    "end_word": 6245,
+    "text": "Hmm ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,658",
+  "speaker": "E",
+  "start_time": "2559.631",
+  "end_time": "2561.751",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 6246,
+    "end_word": 6257,
+    "text": "[vocalsound] Nine 'til twelve and then nothi you have or you [disfmarker]"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,660",
+  "speaker": "E",
+  "start_time": "2562.864",
+  "end_time": "2563.137",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 6258,
+    "end_word": 6259,
+    "text": "Hmm ?"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,662",
+  "speaker": "E",
+  "start_time": "2565.04",
+  "end_time": "2567.121",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 6260,
+    "end_word": 6269,
+    "text": "Anytime Wednesday afternoon I'd be cool , I think ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,664",
+  "speaker": "E",
+  "start_time": "2573.179",
+  "end_time": "2576.737",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 6270,
+    "end_word": 6285,
+    "text": "Yo , Forrest Hill , whatever one's easier to discuss stuff , I don't know ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,666",
+  "speaker": "E",
+  "start_time": "2578.32",
+  "end_time": "2579.05",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 6286,
+    "end_word": 6289,
+    "text": "I'm not biased ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,668",
+  "speaker": "E",
+  "start_time": "2580.256",
+  "end_time": "2581.888",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 6290,
+    "end_word": 6298,
+    "text": "Okay . What time do you wanna do ?"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,670",
+  "speaker": "E",
+  "start_time": "2590.48",
+  "end_time": "2593.5",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 6299,
+    "end_word": 6313,
+    "text": "Okay , so I'll just meet you in in eighteen a in the afternoon ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,672",
+  "speaker": "E",
+  "start_time": "2608.88",
+  "end_time": "2627.415",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 6314,
+    "end_word": 6376,
+    "text": "I guess at the moment nobody critically depends on like the NITE X_M_L_ stuff working right now , right ? Like at the moment you can all do your stuff and I can do my L_S_A_ stuff . And I can even do the display to a vast degree without actually having their supplying framework working . So it's not that crucial ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,674",
+  "speaker": "E",
+  "start_time": "2639.264",
+  "end_time": "2649.996",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 6377,
+    "end_word": 6432,
+    "text": "Yeah , actually I need the raw text as well . Yeah , but I was I was I was more thinking of the sort of the the whole browser framework as a running programme now . Yeah , I think we all need the raw text in different in different flavours , don't we ?"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,676",
+  "speaker": "E",
+  "start_time": "2710.458",
+  "end_time": "2711.281",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 6433,
+    "end_word": 6433,
+    "text": "[vocalsound]"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,678",
+  "speaker": "E",
+  "start_time": "2745.088",
+  "end_time": "2747.136",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 6434,
+    "end_word": 6440,
+    "text": "But number within the X_M_L_ context ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,680",
+  "speaker": "E",
+  "start_time": "2753.824",
+  "end_time": "2761.072",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 6441,
+    "end_word": 6472,
+    "text": "Are they spoken numbers ? Like do they look like they're utterances [disfmarker] numbers ? There's the number task , isn't there . That's part of the whole thing . Hmm ?"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,682",
+  "speaker": "E",
+  "start_time": "2762.472",
+  "end_time": "2763.153",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 6473,
+    "end_word": 6474,
+    "text": "Okay ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,684",
+  "speaker": "E",
+  "start_time": "2768.448",
+  "end_time": "2789.909",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 6475,
+    "end_word": 6540,
+    "text": "Hmm . Yeah , we have to probably cut that out anyway for our project , I don't know . It's probably gonna screw up a lot of our data otherwise . If [disfmarker] [vocalsound] Not sure if it [disfmarker] what it does to document [disfmarker] [vocalsound] It would probably make the [disfmarker] yeah , if if you have segments for that , probably the [disfmarker]"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,686",
+  "speaker": "E",
+  "start_time": "2794.221",
+  "end_time": "2811.155",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 6541,
+    "end_word": 6598,
+    "text": "Okay . Uh I'm just thinking like it pro it pro probably like the L_S_A_ would perform quite well on it . It would probably find another number task quite easily seeing that it's [disfmarker] [vocalsound] [vocalsound] a constrained vocabulary with a high co-occurrence of the same nine words . So that wou ten word . Hmm ?"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,688",
+  "speaker": "E",
+  "start_time": "2813.136",
+  "end_time": "2813.75",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 6599,
+    "end_word": 6601,
+    "text": "[vocalsound] Yeah ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,690",
+  "speaker": "E",
+  "start_time": "2816.491",
+  "end_time": "2819.918",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 6602,
+    "end_word": 6617,
+    "text": "I think it's also something that they they said the numbers in order , right ?"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,692",
+  "speaker": "E",
+  "start_time": "2823.02",
+  "end_time": "2843.275",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 6618,
+    "end_word": 6692,
+    "text": "Yeah , I think it's [disfmarker] it [disfmarker] the [disfmarker] it sounded like they wanted to check out how well they were doing with overlapping and stuff , because basically it's like they're reading them at different speeds , but you know in which order they are said . Anyway . ICSI has some reasons for doing it . They must have been pissed off saying like numbers at the end of every meeting ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,694",
+  "speaker": "E",
+  "start_time": "2862.593",
+  "end_time": "2890.279",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 6693,
+    "end_word": 6797,
+    "text": "Um Dave , if you would [disfmarker] or actually for [gap] [disfmarker] well , if you're doing I_D_F_s or you [disfmarker] whatever you call your your frequencies , I always mix up the name , uh you need some dictionary for that at some point though , like you need to have some representation of a word as not not that specific occurrence of that word token , but of of of a given word form . Because you're making counts for word forms , right ? Yeah , so we should work together on that , because I need a dictionary as well ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,696",
+  "speaker": "E",
+  "start_time": "2896.8",
+  "end_time": "2897.214",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 6798,
+    "end_word": 6799,
+    "text": "Okay ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,698",
+  "speaker": "E",
+  "start_time": "2900.024",
+  "end_time": "2900.473",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 6800,
+    "end_word": 6801,
+    "text": "'Kay ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,700",
+  "speaker": "E",
+  "start_time": "2904.176",
+  "end_time": "2906.476",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 6802,
+    "end_word": 6811,
+    "text": "Okay . Didn't you say that the o the ord"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,702",
+  "speaker": "E",
+  "start_time": "2909.616",
+  "end_time": "2918.703",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 6812,
+    "end_word": 6849,
+    "text": "Yeah , but for [disfmarker] I'm just wondering for the whole thing . Does somebody wo who was it of you two who said that um there's some programme which spits out a dictionary probably with frequencies ?"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,704",
+  "speaker": "E",
+  "start_time": "2924.4",
+  "end_time": "2937.008",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 6850,
+    "end_word": 6889,
+    "text": "Okay . Is anyone of you [disfmarker] for the for the document frequency over total frequency , you gonna have total frequencies of words then with that , right ? Like over the whole corpus sort of . Or [disfmarker]"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,706",
+  "speaker": "E",
+  "start_time": "2990.582",
+  "end_time": "2990.917",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 6890,
+    "end_word": 6890,
+    "text": "[vocalsound]"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,708",
+  "speaker": "E",
+  "start_time": "2996.992",
+  "end_time": "2998.851",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 6891,
+    "end_word": 6899,
+    "text": "W using which tool are you talking about ?"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,710",
+  "speaker": "E",
+  "start_time": "3000.928",
+  "end_time": "3025.45",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 6900,
+    "end_word": 6991,
+    "text": "Be careful with that . Like my experience with the British National Corpus was that there's far more word types than you ever think because anything that's sort of unusual generally is a new word type . Like any typo or any strange thing where they put two words together . And also any number as a word type of its own . So you can easily end up with hundred thousands of words when you didn't expect them . So generally dictionaries can grow bigger then you think they do ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,712",
+  "speaker": "E",
+  "start_time": "3030.524",
+  "end_time": "3044.807",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 6992,
+    "end_word": 7052,
+    "text": "Well you can probably also [disfmarker] you can probably pre-filter like with regular expressions even just say if it consists of only dig digits , then skip it , or even if it consists any special characters , then skip it because it's probably something with a dot in between , which is usually not something you wanna have and [disfmarker]"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,714",
+  "speaker": "E",
+  "start_time": "3064.413",
+  "end_time": "3065.02",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 7053,
+    "end_word": 7054,
+    "text": "[gap] [disfmarker]"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,716",
+  "speaker": "E",
+  "start_time": "3073.984",
+  "end_time": "3082.56",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 7055,
+    "end_word": 7084,
+    "text": "What I did , for my project I just ignored the hundred most frequent words , because they actually end up all being articles and and everything and stuff ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,718",
+  "speaker": "E",
+  "start_time": "3086.477",
+  "end_time": "3092.132",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 7085,
+    "end_word": 7107,
+    "text": "So we need [disfmarker] like several of us need a dictionary . Am I the only one who needs it with frequencies ?"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,720",
+  "speaker": "E",
+  "start_time": "3094.192",
+  "end_time": "3096.402",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 7108,
+    "end_word": 7120,
+    "text": "Am I the only one who needs it with frequencies ? Or [disfmarker]"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,722",
+  "speaker": "E",
+  "start_time": "3099.567",
+  "end_time": "3116.372",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 7121,
+    "end_word": 7203,
+    "text": "Frequencies . Yeah . Well I guess as soon as we have the raw text , we can probably just start with the Java hash map and like just hash map over it and see how far we get . I mean we can probably [disfmarker] on a machine with a few hundred megabyte RAM you can go quite far . You can write it on beefy . So even if it goes wrong and even if it has a million words be"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,724",
+  "speaker": "E",
+  "start_time": "3127.792",
+  "end_time": "3150.4",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 7204,
+    "end_word": 7291,
+    "text": "Oh yeah , burning it on a [disfmarker] like we should be able to burn the whole corpus , just the X_ [disfmarker] hmm ? Ah I see , I asked support about that two days ago . In the Informatics building there [disfmarker] oh sorry , in in Appleton Tower five the ones closest t two machines closest to the support office . So I presume [disfmarker] oh wait , I have the exact email . I think he's talking about sort of the ones that [disfmarker]"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,726",
+  "speaker": "E",
+  "start_time": "3151.856",
+  "end_time": "3169.886",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 7292,
+    "end_word": 7380,
+    "text": "Yeah , if you if you enter the big room , in the right-hand corner , I think . Um the thing is like you can only burn from the local file-system . So if it's from s well actually I think if it's mounted , you can directly burn from there , but the problem is I have my data on beefy and so I have to get it into the local temp directory and burn it from there . But you can burn it from there ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,728",
+  "speaker": "E",
+  "start_time": "3174.094",
+  "end_time": "3177.68",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 7381,
+    "end_word": 7396,
+    "text": "Uh we looked that up and I for we looked that up and I forgot ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,730",
+  "speaker": "E",
+  "start_time": "3185.628",
+  "end_time": "3191.744",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 7397,
+    "end_word": 7426,
+    "text": "Yeah yeah . No , you you [disfmarker] we should be able to get it at [disfmarker] I don't think it was I don't think it was a gigabyte ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,732",
+  "speaker": "E",
+  "start_time": "3193.594",
+  "end_time": "3194.317",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 7427,
+    "end_word": 7428,
+    "text": "Hmm ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,734",
+  "speaker": "E",
+  "start_time": "3197.408",
+  "end_time": "3212.902",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 7429,
+    "end_word": 7495,
+    "text": "See I would off I would offer you to to get it on this one , and then um like copy it . But you know what I figured out , I'm quicker down-loading over broad-band into my computer than using this hard disk . There's something strange about the way how they access the hard disk , how they mount it , which is unfortunate ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,736",
+  "speaker": "E",
+  "start_time": "3218.624",
+  "end_time": "3220.752",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 7496,
+    "end_word": 7504,
+    "text": "Hmm . What operating system do you have ?"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,738",
+  "speaker": "E",
+  "start_time": "3223.024",
+  "end_time": "3225.058",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 7505,
+    "end_word": 7515,
+    "text": "Okay . Wh what connection do you have at home ?"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,740",
+  "speaker": "E",
+  "start_time": "3226.784",
+  "end_time": "3234.962",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 7516,
+    "end_word": 7553,
+    "text": "Yeah . So if anyone of us gets it , we can then just use an ext hmm ? Yeah , burn it to C_D_ or , yeah , put it on on hard disk , whatever ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,742",
+  "speaker": "E",
+  "start_time": "3236.352",
+  "end_time": "3247.859",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 7554,
+    "end_word": 7600,
+    "text": "Question is if you're not quicker if you [disfmarker] uh because you should get massive compression out of that . Like fifty percent or something with a good algorithm . So if you could compress it and just put it into a temp directory . Like [disfmarker]"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,744",
+  "speaker": "E",
+  "start_time": "3249.815",
+  "end_time": "3261.919",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 7601,
+    "end_word": 7643,
+    "text": "The temp the temps usually have for gigabyte three or two . The temps , yeah . I do like I mean there's not guarantee that anything stays there , but overnight it'll stay . And I think the temps usually have ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,746",
+  "speaker": "E",
+  "start_time": "3266.064",
+  "end_time": "3272.432",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 7644,
+    "end_word": 7666,
+    "text": "Ah yeah , but that would have to be the temp directory off the machine you can S_S_H_ into directory of S_S_H_ ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,748",
+  "speaker": "E",
+  "start_time": "3282.464",
+  "end_time": "3286.081",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 7667,
+    "end_word": 7681,
+    "text": "Yeah , they wou they'd they'd probably hate you for doing it . But [disfmarker]"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,750",
+  "speaker": "E",
+  "start_time": "3289.584",
+  "end_time": "3299.437",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 7682,
+    "end_word": 7713,
+    "text": "They'd probably [disfmarker] they'd like you more if you S_S_H_ uh into another computer , compress it there and then sort of [vocalsound] copy it into the into the gateway machine ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,752",
+  "speaker": "E",
+  "start_time": "3301.472",
+  "end_time": "3307.29",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 7714,
+    "end_word": 7747,
+    "text": "They have [disfmarker] um if you S_S_ [disfmarker] hey , you know , if you if you S_S_H_ and they have this big warning about doing nothing at all in the gateway machine ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,754",
+  "speaker": "E",
+  "start_time": "3310.336",
+  "end_time": "3310.733",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 7748,
+    "end_word": 7749,
+    "text": "Yeah ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,756",
+  "speaker": "E",
+  "start_time": "3315.776",
+  "end_time": "3316.849",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 7750,
+    "end_word": 7754,
+    "text": "To your home machine ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,758",
+  "speaker": "E",
+  "start_time": "3318.468",
+  "end_time": "3337.057",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 7755,
+    "end_word": 7830,
+    "text": "I haven't I haven't figured out how to tunnel through the gateway into another machine yet . It's not it's not easy definitely . That's why I end up sort of copying stuff into the temp directory at the gateway machine . Sorry if this is boring everybody else . This is just details and how to get stuff home from [disfmarker] what [disfmarker] we can probably just look at that together when we're meeting ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,760",
+  "speaker": "E",
+  "start_time": "3361.476",
+  "end_time": "3362.073",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 7831,
+    "end_word": 7833,
+    "text": "I'm sorry ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,762",
+  "speaker": "E",
+  "start_time": "3367.968",
+  "end_time": "3368.459",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 7834,
+    "end_word": 7835,
+    "text": "Mm-hmm ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,764",
+  "speaker": "E",
+  "start_time": "3384.648",
+  "end_time": "3386.319",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 7836,
+    "end_word": 7839,
+    "text": "Well [disfmarker] yeah ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,766",
+  "speaker": "E",
+  "start_time": "3388.832",
+  "end_time": "3399.5",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 7840,
+    "end_word": 7871,
+    "text": "As soon as somebody gives me the raw text of the whole thing , I can probably just implement like a five line Java hash table frequency dictionary builder and see [disfmarker]"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,768",
+  "speaker": "E",
+  "start_time": "3403.707",
+  "end_time": "3406.929",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 7872,
+    "end_word": 7890,
+    "text": "Oh , did you not say frequencies f of words in the whole [disfmarker] sorry , did uh [disfmarker]"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,770",
+  "speaker": "E",
+  "start_time": "3419.845",
+  "end_time": "3421.042",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 7891,
+    "end_word": 7895,
+    "text": "So you'd [disfmarker] you [disfmarker]"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,772",
+  "speaker": "E",
+  "start_time": "3421.795",
+  "end_time": "3422.019",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 7896,
+    "end_word": 7896,
+    "text": "[vocalsound]"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,774",
+  "speaker": "E",
+  "start_time": "3422.58",
+  "end_time": "3424.617",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 7897,
+    "end_word": 7907,
+    "text": "Yeah , you'd have to count it yourself , yeah ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,776",
+  "speaker": "E",
+  "start_time": "3469.072",
+  "end_time": "3493.169",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 7908,
+    "end_word": 7999,
+    "text": "Oh , you don't wanna have different counts for each chunk , but just like sort of for for something from old chunks . Oh yeah , no , that's [disfmarker] yeah , so once I write an ar like w if I write like an algorithm which does a hash um table dictionary with frequency from a raw text , then the raw text can be anything . So how far are we g uh how f how far are you getting raw text out of it do you think ?"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,778",
+  "speaker": "E",
+  "start_time": "3498.384",
+  "end_time": "3517.462",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 8000,
+    "end_word": 8082,
+    "text": "Okay , well that's good , because for the dictionary the order doesn't make a difference , does it ? So yeah , so um I'll get that from you and I'll write the hash table which goes over that and creates a dictionary file . So for the dictionary , is it okay if I do , whatever , word blank frequency or something ? Just p could everybody sort of start from that ? I mean I guess we can [disfmarker]"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,780",
+  "speaker": "E",
+  "start_time": "3537.088",
+  "end_time": "3539.177",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 8083,
+    "end_word": 8091,
+    "text": "Yeah , I I need frequency as well ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,782",
+  "speaker": "E",
+  "start_time": "3552.608",
+  "end_time": "3563.328",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 8092,
+    "end_word": 8132,
+    "text": "Well I think we might have a lot in common what we calculate because I for my latent semantic analysis need like counts of words within a document , uh within a a segment actually , within a topic segment ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,784",
+  "speaker": "E",
+  "start_time": "3572.112",
+  "end_time": "3574.521",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 8133,
+    "end_word": 8141,
+    "text": "Can I convert these probabilities back into frequencies ?"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,786",
+  "speaker": "E",
+  "start_time": "3578.944",
+  "end_time": "3579.616",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 8142,
+    "end_word": 8143,
+    "text": "Okay ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,788",
+  "speaker": "E",
+  "start_time": "3582.32",
+  "end_time": "3594.833",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 8144,
+    "end_word": 8207,
+    "text": "Oh , so that's what f Rainbow does , because that's what L_S_A_ builds on . Like it builds a f a document by frequency matrix . So I could probably get that . Even though but I already have I already have my code to build it up myself . No , don't bother . I have my code already . Um [disfmarker]"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,790",
+  "speaker": "E",
+  "start_time": "3596.537",
+  "end_time": "3602.869",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 8208,
+    "end_word": 8235,
+    "text": "Yeah , so Dave , you said you need the frequency counts actually for [disfmarker] per document , would you say , not for the whole thing ?"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,792",
+  "speaker": "E",
+  "start_time": "3639.504",
+  "end_time": "3658.72",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 8236,
+    "end_word": 8286,
+    "text": "It more and more appears to me that if we if we scrap the notion of the meeting as an individual thing and sort of ju see meetings as as topic segments and have sort of like hierarchical topic segmentation instead , then it's b like a more coherent framework ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,794",
+  "speaker": "E",
+  "start_time": "3698.528",
+  "end_time": "3709.443",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 8287,
+    "end_word": 8316,
+    "text": "Wait , are we are we using this um for the for the for the do for the weighting in the end now , this this measure you're calculating ?"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,796",
+  "speaker": "E",
+  "start_time": "3720.449",
+  "end_time": "3729.562",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 8317,
+    "end_word": 8349,
+    "text": "Because if we're doing [disfmarker] Like I think for for the information density we uh we should calculate it on the lowest level , not on the highest . But like 'cause [disfmarker]"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,798",
+  "speaker": "E",
+  "start_time": "3739.104",
+  "end_time": "3747.152",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 8350,
+    "end_word": 8385,
+    "text": "Yeah , but w it [disfmarker] don't you have to like go sort of like for in a document versus the whole thing ? Isn't that how it works that you c look look at r"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,800",
+  "speaker": "E",
+  "start_time": "3749.648",
+  "end_time": "3764.325",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 8386,
+    "end_word": 8425,
+    "text": "I don't think that's a good idea because isn't it like that we expect th there to change over i b with the different topic segments more ? That they talk about something different in each different topic segment ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,802",
+  "speaker": "E",
+  "start_time": "3771.536",
+  "end_time": "3781.246",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 8426,
+    "end_word": 8461,
+    "text": "'Cause that's what relative term frequency is about , that like in some context they're talking more about a certain word than in general . So that would more be the the topic segments then ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,804",
+  "speaker": "E",
+  "start_time": "3783.376",
+  "end_time": "3784.131",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 8462,
+    "end_word": 8465,
+    "text": "I don't know ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,806",
+  "speaker": "E",
+  "start_time": "3785.392",
+  "end_time": "3785.834",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 8466,
+    "end_word": 8467,
+    "text": "Yeah ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,808",
+  "speaker": "E",
+  "start_time": "3792.208",
+  "end_time": "3794.112",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 8468,
+    "end_word": 8471,
+    "text": "Yeah . Yeah ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,810",
+  "speaker": "E",
+  "start_time": "3803.984",
+  "end_time": "3814.804",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 8472,
+    "end_word": 8507,
+    "text": "So I'm just wondering if there's ways to abandon the whole concept of of meetings and sort of [disfmarker] but just not really treating separate meetings as too much of a separate entity . But [disfmarker]"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,812",
+  "speaker": "E",
+  "start_time": "3826.064",
+  "end_time": "3831.872",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 8508,
+    "end_word": 8528,
+    "text": "But on algorithmic level , whether we actually [disfmarker] whether there's some way to just represent meetings as as topics ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,814",
+  "speaker": "E",
+  "start_time": "3842.208",
+  "end_time": "3842.824",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 8529,
+    "end_word": 8530,
+    "text": "Hmm ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,816",
+  "speaker": "E",
+  "start_time": "3848.224",
+  "end_time": "3851.152",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 8531,
+    "end_word": 8550,
+    "text": "That's not really what I meant . But I think I have to think more about what I meant ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,818",
+  "speaker": "E",
+  "start_time": "3853.376",
+  "end_time": "3855.328",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 8551,
+    "end_word": 8558,
+    "text": "[vocalsound] Um g I'm confused about everything ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,820",
+  "speaker": "E",
+  "start_time": "3869.568",
+  "end_time": "3870.157",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 8559,
+    "end_word": 8560,
+    "text": "Yeah ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,822",
+  "speaker": "E",
+  "start_time": "3872.224",
+  "end_time": "3904.336",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 8561,
+    "end_word": 8669,
+    "text": "[vocalsound] I'm I'm not so concerned about the m a meeting plus something else , I'm more talking about like , yeah , the keeping keeping the same algorithm and the same way of handling it and just saying like just this this topic here i uh it happens to be like a whole meeting and it has sort of sub-topics , so just that sort of topics a hierarchical concept where like a topic [disfmarker] where there can be super-topics and topics , and the super-topics are in the end what the meetings are , but in general at some level super-topics are treated like like topics ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,824",
+  "speaker": "E",
+  "start_time": "3934.048",
+  "end_time": "3934.457",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 8670,
+    "end_word": 8671,
+    "text": "Hmm ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,826",
+  "speaker": "E",
+  "start_time": "3937.488",
+  "end_time": "3940.523",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 8672,
+    "end_word": 8680,
+    "text": "Mm I'm not really sure what I want ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,828",
+  "speaker": "E",
+  "start_time": "3947.296",
+  "end_time": "3949.401",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 8681,
+    "end_word": 8691,
+    "text": "So sorry , could describe that again , the [disfmarker] [vocalsound]"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,830",
+  "speaker": "E",
+  "start_time": "3964.764",
+  "end_time": "3965.297",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 8692,
+    "end_word": 8693,
+    "text": "Mm-hmm ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,832",
+  "speaker": "E",
+  "start_time": "3968.24",
+  "end_time": "3968.658",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 8694,
+    "end_word": 8695,
+    "text": "Mm-hmm ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,834",
+  "speaker": "E",
+  "start_time": "3991.328",
+  "end_time": "3991.753",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 8696,
+    "end_word": 8697,
+    "text": "Mm-hmm ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,836",
+  "speaker": "E",
+  "start_time": "4015.856",
+  "end_time": "4021.12",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 8698,
+    "end_word": 8717,
+    "text": "So that would be the series as a whole . That would be sort of m meetings , yeah ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,838",
+  "speaker": "E",
+  "start_time": "4023.392",
+  "end_time": "4029.657",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 8718,
+    "end_word": 8748,
+    "text": "Yeah . I'm a I'm a I'm a bit brain-damaged at the moment , but I think I'll just sit together with you again and and go through it again ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,840",
+  "speaker": "E",
+  "start_time": "4035.728",
+  "end_time": "4036.134",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 8749,
+    "end_word": 8750,
+    "text": "Hmm ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,842",
+  "speaker": "E",
+  "start_time": "4040.528",
+  "end_time": "4051.261",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 8751,
+    "end_word": 8783,
+    "text": "So so I'll [disfmarker] is th it like [disfmarker] is this and this structurally then always identical ? So that we can that we can treat it with the same algorithm or [disfmarker]"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,844",
+  "speaker": "E",
+  "start_time": "4072.624",
+  "end_time": "4081.709",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 8784,
+    "end_word": 8821,
+    "text": "Yeah , I'm also not sure how we can go from from bottom-up . I have always thought it's like more that [disfmarker] oh , whatever , I'm a [disfmarker] can't think of it at the moment ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,846",
+  "speaker": "E",
+  "start_time": "4086.608",
+  "end_time": "4092.189",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 8822,
+    "end_word": 8836,
+    "text": "Probably this is all [vocalsound] too complicated worrying about that at that moment anyway ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,848",
+  "speaker": "E",
+  "start_time": "4095.031",
+  "end_time": "4096.335",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 8837,
+    "end_word": 8837,
+    "text": "[vocalsound]"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,850",
+  "speaker": "E",
+  "start_time": "4102.928",
+  "end_time": "4114.984",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 8838,
+    "end_word": 8874,
+    "text": "Now have have we have we decided anything , are we doing anything ? S Wednesday we are meeting and looking at their at their implementation in some more detail to actually understand what's going on ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,852",
+  "speaker": "E",
+  "start_time": "4120.372",
+  "end_time": "4126.608",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 8875,
+    "end_word": 8902,
+    "text": "We had two things from their stuff just to make sure that we are like understand it , we understand it enough to to m modify it ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,854",
+  "speaker": "E",
+  "start_time": "4138.528",
+  "end_time": "4144.272",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 8903,
+    "end_word": 8922,
+    "text": "Yep . [vocalsound] How would we do that ? By just making like it w read write for everyone ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,856",
+  "speaker": "E",
+  "start_time": "4146.24",
+  "end_time": "4148.505",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 8923,
+    "end_word": 8932,
+    "text": "'Kay , who has most free space on their [disfmarker]"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,858",
+  "speaker": "E",
+  "start_time": "4151.856",
+  "end_time": "4152.849",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 8933,
+    "end_word": 8936,
+    "text": "[vocalsound] Same here ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,860",
+  "speaker": "E",
+  "start_time": "4163.184",
+  "end_time": "4171.942",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 8937,
+    "end_word": 8968,
+    "text": "Well we [disfmarker] alternatively we can probably just make another directory on the beefy scratch space . I mean that's where I'm having gigabytes and gigabytes of stuff at the moment ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,862",
+  "speaker": "E",
+  "start_time": "4174.272",
+  "end_time": "4175.746",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 8969,
+    "end_word": 8973,
+    "text": "No . [vocalsound] No ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,864",
+  "speaker": "E",
+  "start_time": "4180.416",
+  "end_time": "4180.864",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 8974,
+    "end_word": 8975,
+    "text": "Yeah ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,866",
+  "speaker": "E",
+  "start_time": "4186.061",
+  "end_time": "4193.336",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 8976,
+    "end_word": 9001,
+    "text": "But I think if he sends to the I think if he sends to the port he'd probably be in a better position . Yeah ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,868",
+  "speaker": "E",
+  "start_time": "4201.984",
+  "end_time": "4202.457",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 9002,
+    "end_word": 9003,
+    "text": "Hmm ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,870",
+  "speaker": "E",
+  "start_time": "4212.368",
+  "end_time": "4233.611",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 9004,
+    "end_word": 9094,
+    "text": "I think he said yes to that . I think uh that was like in [disfmarker] when we were still in the seminar room , I asked that once or like ask is it possible to get it off and nobody said like people were discussing about the technical practicalities , but nobody said anything about al being allowed to or not allowed to . I mean , we have access to it here and I guess it probably means that we we can't give it to anybody else . But"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,872",
+  "speaker": "E",
+  "start_time": "4236.016",
+  "end_time": "4245.154",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 9095,
+    "end_word": 9145,
+    "text": "but if they give us access to it here o sitting on a DICE machine , then there shouldn't be a reason why we shouldn't be able to use it on our laptop . I personally don't have too many friends who would be too keen on getting it anyway ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,874",
+  "speaker": "E",
+  "start_time": "4247.168",
+  "end_time": "4252.034",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 9146,
+    "end_word": 9160,
+    "text": "I have that really excited pirate copied thing . [vocalsound] It annotated meeting data ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,876",
+  "speaker": "E",
+  "start_time": "4351.099",
+  "end_time": "4351.465",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 9161,
+    "end_word": 9162,
+    "text": "Huh ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,878",
+  "speaker": "E",
+  "start_time": "4361.657",
+  "end_time": "4364.627",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 9163,
+    "end_word": 9176,
+    "text": "Wait , wait , wait . Um [disfmarker] sorry . Yeah , sorry ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,880",
+  "speaker": "E",
+  "start_time": "4371.815",
+  "end_time": "4381.376",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 9177,
+    "end_word": 9203,
+    "text": "What I just realised , we should really t keep different serieses completely separate for virtually all purposes . Just let's be careful about that , because"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,882",
+  "speaker": "E",
+  "start_time": "4382.774",
+  "end_time": "4392.114",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 9204,
+    "end_word": 9227,
+    "text": "like the the ICSI corpus isn't isn't one meeting series , it's several meeting series with different people meeting for completely different things ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,884",
+  "speaker": "E",
+  "start_time": "4400.021",
+  "end_time": "4401.136",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 9228,
+    "end_word": 9231,
+    "text": "For each meeting ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,886",
+  "speaker": "E",
+  "start_time": "4402.297",
+  "end_time": "4402.633",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 9232,
+    "end_word": 9233,
+    "text": "Alright ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,888",
+  "speaker": "E",
+  "start_time": "4403.254",
+  "end_time": "4411.611",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 9234,
+    "end_word": 9268,
+    "text": "Okay , but like let's just be careful that whatever we sort of we merge together , that like the highest level of merging , it's not the whole ICSI corpus but individual series ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,890",
+  "speaker": "E",
+  "start_time": "4415.968",
+  "end_time": "4434.627",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 9269,
+    "end_word": 9331,
+    "text": "[gap] . I think we might actually [disfmarker] I think [disfmarker] [vocalsound] That's probably be somewhere like well or something like it . Um [vocalsound] I think we might just get away with for the whole project just like looking at only one series and just doing within one series . I mean you can do everything you want in one series ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,892",
+  "speaker": "E",
+  "start_time": "4437.255",
+  "end_time": "4438.304",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 9332,
+    "end_word": 9338,
+    "text": "Oh yeah , let's take that ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,894",
+  "speaker": "E",
+  "start_time": "4442.031",
+  "end_time": "4446.272",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 9339,
+    "end_word": 9361,
+    "text": "Is the is the data always clearly split up by different series ? Uh like is it easy to just pick one [disfmarker]"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,896",
+  "speaker": "E",
+  "start_time": "4451.411",
+  "end_time": "4452.138",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 9362,
+    "end_word": 9363,
+    "text": "Okay ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,898",
+  "speaker": "E",
+  "start_time": "4453.693",
+  "end_time": "4454.366",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 9364,
+    "end_word": 9365,
+    "text": "Okay ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,900",
+  "speaker": "E",
+  "start_time": "4455.963",
+  "end_time": "4456.653",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 9366,
+    "end_word": 9367,
+    "text": "Okay ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,902",
+  "speaker": "E",
+  "start_time": "4461.118",
+  "end_time": "4491.617",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 9368,
+    "end_word": 9485,
+    "text": "Okay . So at at every level everyone has to be careful to really just take [disfmarker] even [gap] [disfmarker] at the highest level , just take stuff from one series and not merge stuff from different series together because they would probably be just majorly messy . Yeah , so so t so like if [disfmarker] even if we make one single text file which has the whole corpus , sort of our corpus , that would still be from one series only . Wou but it [disfmarker] what you're producing at the moment is like individual text files that sort of have the raw text for a whole [disfmarker] a meeting as a whole or [disfmarker]"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,904",
+  "speaker": "E",
+  "start_time": "4497.855",
+  "end_time": "4498.371",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 9486,
+    "end_word": 9487,
+    "text": "Mm-hmm ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,906",
+  "speaker": "E",
+  "start_time": "4512.239",
+  "end_time": "4513.129",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 9488,
+    "end_word": 9489,
+    "text": "Yeah ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,908",
+  "speaker": "E",
+  "start_time": "4526.581",
+  "end_time": "4534.505",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 9490,
+    "end_word": 9515,
+    "text": "'Kay . Um so is is anybody creating an uh a real raw text thing at the moment , like which is just the words ?"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,910",
+  "speaker": "E",
+  "start_time": "4537.456",
+  "end_time": "4539.266",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 9516,
+    "end_word": 9527,
+    "text": "Yeah , tha 'cause that's what I'm gonna need as well ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,912",
+  "speaker": "E",
+  "start_time": "4544.505",
+  "end_time": "4551.382",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 9528,
+    "end_word": 9569,
+    "text": "But i but if there uh b aren't [disfmarker] like so it's it's start and end times just for the file . Like is it just the first and the last line ? Or is it for every single thing in [disfmarker]"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,914",
+  "speaker": "E",
+  "start_time": "4556.56",
+  "end_time": "4558.88",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 9570,
+    "end_word": 9581,
+    "text": "So what do you mean by just not print out that ?"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,916",
+  "speaker": "E",
+  "start_time": "4563.584",
+  "end_time": "4564.214",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 9582,
+    "end_word": 9583,
+    "text": "Okay ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,918",
+  "speaker": "E",
+  "start_time": "4565.568",
+  "end_time": "4588.033",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 9584,
+    "end_word": 9671,
+    "text": "If you're into it , can you make a text file which just like makes just the words ? 'Kay . Do you want it straight flowing , 'cause I would need something that marks the end of uh of uh [disfmarker] is is yours segmented by topics then that like is there any information that you have to the topic , to the automated topic [disfmarker] topic segmentation ? Oh then I need something different later anyway . Okay , but for now , if you c"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,920",
+  "speaker": "E",
+  "start_time": "4591.984",
+  "end_time": "4606.166",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 9672,
+    "end_word": 9729,
+    "text": "Okay . You're gonna put that as an output of yours , the segmentation . Okay , so for now can you create like sort of just uh a dump which is pure text , just pure text so that I can get a dictionary and you can work on that for your topic segmentation . And [disfmarker]"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,922",
+  "speaker": "E",
+  "start_time": "4612.096",
+  "end_time": "4620.536",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 9730,
+    "end_word": 9772,
+    "text": "Or for for the series . But I can but I can also deal with separate files , I mean I can just write the algorithm that it loads all files in a directory or something . But I mean if you [disfmarker]"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,924",
+  "speaker": "E",
+  "start_time": "4622.432",
+  "end_time": "4625.893",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 9773,
+    "end_word": 9791,
+    "text": "But if you can put it in one single mega-file , that would be quite useful for me ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,926",
+  "speaker": "E",
+  "start_time": "4632.24",
+  "end_time": "4637.184",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 9792,
+    "end_word": 9813,
+    "text": "Even though for you , wouldn't it be easier if you had different files because then you sort of know like [disfmarker]"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,928",
+  "speaker": "E",
+  "start_time": "4639.616",
+  "end_time": "4649.924",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 9814,
+    "end_word": 9862,
+    "text": "Yeah . So give m give me different files as long as like it m if you could name them in a way that is easy to enumerate over them , like whatever , one two three four five or something . Or just anything that I can [disfmarker]"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,930",
+  "speaker": "E",
+  "start_time": "4656.627",
+  "end_time": "4663.442",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 9863,
+    "end_word": 9888,
+    "text": "Yeah . Is is it something that's easily enu like to enumerate over ? Is it some just some ordered pattern ? Okay , cool ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,932",
+  "speaker": "E",
+  "start_time": "4667.067",
+  "end_time": "4669.316",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 9889,
+    "end_word": 9894,
+    "text": "Okay , cool . Yeah ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,934",
+  "speaker": "E",
+  "start_time": "4677.28",
+  "end_time": "4678.24",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 9895,
+    "end_word": 9899,
+    "text": "In the right order ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,936",
+  "speaker": "E",
+  "start_time": "4680.322",
+  "end_time": "4684.276",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 9900,
+    "end_word": 9909,
+    "text": "[vocalsound] It's just a wish list . [vocalsound] Orders ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,938",
+  "speaker": "E",
+  "start_time": "4707.888",
+  "end_time": "4714.947",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 9910,
+    "end_word": 9931,
+    "text": "When do you think you'll have um like a primitive segmentation by some ready-made topic segmentation by some ready-made tool ready ?"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,940",
+  "speaker": "E",
+  "start_time": "4719.408",
+  "end_time": "4719.972",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 9932,
+    "end_word": 9933,
+    "text": "Okay ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,942",
+  "speaker": "E",
+  "start_time": "4721.68",
+  "end_time": "4724.794",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 9934,
+    "end_word": 9946,
+    "text": "Okay , cool . 'Cause I'll need that then when it's done ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,944",
+  "speaker": "E",
+  "start_time": "4726.912",
+  "end_time": "4727.409",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 9947,
+    "end_word": 9948,
+    "text": "Okay ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,946",
+  "speaker": "E",
+  "start_time": "4734.336",
+  "end_time": "4734.745",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 9949,
+    "end_word": 9950,
+    "text": "Mm-hmm ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,948",
+  "speaker": "E",
+  "start_time": "4740.592",
+  "end_time": "4742.522",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 9951,
+    "end_word": 9958,
+    "text": "What's what's nine megabyte ? The the [disfmarker]"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,950",
+  "speaker": "E",
+  "start_time": "4747.104",
+  "end_time": "4753.234",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 9959,
+    "end_word": 9971,
+    "text": "That sounds quite reasonable . That's nine nine characters over [disfmarker] okay ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,952",
+  "speaker": "E",
+  "start_time": "4759.221",
+  "end_time": "4766.537",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 9972,
+    "end_word": 9993,
+    "text": "Okay . Okay . That is for [disfmarker] are we are we picking one particular series at the moment ? Or [disfmarker]"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,954",
+  "speaker": "E",
+  "start_time": "4769.728",
+  "end_time": "4770.092",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 9994,
+    "end_word": 9995,
+    "text": "Yes ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,956",
+  "speaker": "E",
+  "start_time": "4773.76",
+  "end_time": "4774.811",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 9996,
+    "end_word": 9997,
+    "text": "Okay ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,958",
+  "speaker": "E",
+  "start_time": "4775.872",
+  "end_time": "4792.375",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 9998,
+    "end_word": 10053,
+    "text": "Yeah . Yeah , I guess we can probably process the data for all different series and then check which series is the best for the presentation . It sounds quite reasonable , nine megabyte . I mean if you think [disfmarker] if it's r roughly a million words and nine characters per word sounds realisti"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,960",
+  "speaker": "E",
+  "start_time": "4795.744",
+  "end_time": "4796.21",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 10054,
+    "end_word": 10055,
+    "text": "Yeah ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,962",
+  "speaker": "E",
+  "start_time": "4798.771",
+  "end_time": "4814.844",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 10056,
+    "end_word": 10109,
+    "text": "Yes , I'm gonna build a dictionary then from that . Like just a list of the words that maybe a list of the words with the frequencies or a list of the words sorted alphabetically or numerically . What what does anyone want ? Does this [disfmarker] there any wishes for dictionaries ?"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,964",
+  "speaker": "E",
+  "start_time": "4826.613",
+  "end_time": "4828.032",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 10110,
+    "end_word": 10115,
+    "text": "So I'll create a dictionary ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,966",
+  "speaker": "E",
+  "start_time": "4838.374",
+  "end_time": "4844.327",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 10116,
+    "end_word": 10141,
+    "text": "Add add the structure , yeah . And then the actual file we can probably like copy from your home directory or something like it ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,968",
+  "speaker": "E",
+  "start_time": "4847.168",
+  "end_time": "4852.916",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 10142,
+    "end_word": 10169,
+    "text": "Yeah yeah , but I'm sa I'm saying for the whole thing in the end . Then like the big thing we probably shouldn't do by email ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,970",
+  "speaker": "E",
+  "start_time": "4855.328",
+  "end_time": "4855.761",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 10170,
+    "end_word": 10171,
+    "text": "Yeah ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,972",
+  "speaker": "E",
+  "start_time": "4863.36",
+  "end_time": "4871.253",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 10172,
+    "end_word": 10208,
+    "text": "Oh , from the time I get the file I can do that in an afternoon , the next [disfmarker] sort of the next morning . Oh , you mean how long processing time it takes ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,974",
+  "speaker": "E",
+  "start_time": "4873.696",
+  "end_time": "4890.154",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 10209,
+    "end_word": 10280,
+    "text": "Ah , it's a it's a bog standard algorithm . I've I've sort of [disfmarker] I've written it for for DIL just in half an hour or something similar . It's just you put them in a hash table and and say well if it exists already in the hash table then you increase the count by one and [disfmarker] I'll probably implement some filter for filtering out numbers or something ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,976",
+  "speaker": "E",
+  "start_time": "4897.232",
+  "end_time": "4898.512",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 10281,
+    "end_word": 10288,
+    "text": "Really ? How do you do that ?"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,978",
+  "speaker": "E",
+  "start_time": "4900.64",
+  "end_time": "4907.017",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 10289,
+    "end_word": 10319,
+    "text": "Okay , well I don't know any Perl . I mean if anyone wants to do a Perl script for that that does it does it nicely , I uh [disfmarker]"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,980",
+  "speaker": "E",
+  "start_time": "4909.247",
+  "end_time": "4922.094",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 10320,
+    "end_word": 10364,
+    "text": "I've no problem with that . I [disfmarker] but I think I have the Java code virtually ready because for DIL I wrote something very similar . Like for DIL I wrote something that counts the the different occurrences of all the tags um [disfmarker]"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,982",
+  "speaker": "E",
+  "start_time": "4927.264",
+  "end_time": "4927.819",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 10365,
+    "end_word": 10366,
+    "text": "Sorry ?"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,984",
+  "speaker": "E",
+  "start_time": "4931.696",
+  "end_time": "4932.754",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 10367,
+    "end_word": 10370,
+    "text": "The hash table ?"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,986",
+  "speaker": "E",
+  "start_time": "4934.976",
+  "end_time": "4937.071",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 10371,
+    "end_word": 10376,
+    "text": "Uh I've never serialized anything ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,988",
+  "speaker": "E",
+  "start_time": "4938.624",
+  "end_time": "4940.562",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 10377,
+    "end_word": 10383,
+    "text": "Wouldn't that be absolutely massive though ?"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,990",
+  "speaker": "E",
+  "start_time": "4944.304",
+  "end_time": "4951.925",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 10384,
+    "end_word": 10413,
+    "text": "And then seriali and then write the serialization to a file . So you want like a se like a file which is the serialization of a hash table ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,992",
+  "speaker": "E",
+  "start_time": "4954.253",
+  "end_time": "4954.646",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 10414,
+    "end_word": 10415,
+    "text": "Okay ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,994",
+  "speaker": "E",
+  "start_time": "4961.616",
+  "end_time": "4972.299",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 10416,
+    "end_word": 10466,
+    "text": "Yeah . I [disfmarker] I'll I'll check if I understand how it works . I mean otherwise I can give you the code for loading a dictionary . Give you my my [disfmarker] it's just [disfmarker] it's it's sort of [disfmarker] it's a line break separated file , you know ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,996",
+  "speaker": "E",
+  "start_time": "4977.024",
+  "end_time": "4977.658",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 10467,
+    "end_word": 10468,
+    "text": "Yeah ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.1,998",
+  "speaker": "E",
+  "start_time": "4982.592",
+  "end_time": "4988.101",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 10469,
+    "end_word": 10495,
+    "text": "Yeah , I'll see if I understand how to serialize . There's a there's a serialise command so that gives me one mega mother of a s"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.2,000",
+  "speaker": "E",
+  "start_time": "4994.688",
+  "end_time": "4998.365",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 10496,
+    "end_word": 10518,
+    "text": "Yeah , but do they automatically write to the file [disfmarker] anyway I'll I'll figure that out . We don't have to [disfmarker]"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.2,002",
+  "speaker": "E",
+  "start_time": "5000.384",
+  "end_time": "5002.336",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 10519,
+    "end_word": 10524,
+    "text": "Yes , is that pretty much"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.2,004",
+  "speaker": "E",
+  "start_time": "5004.656",
+  "end_time": "5005.572",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 10525,
+    "end_word": 10528,
+    "text": "pretty much it ?"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.2,006",
+  "speaker": "E",
+  "start_time": "5008.48",
+  "end_time": "5013.601",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 10529,
+    "end_word": 10541,
+    "text": "So Dave and me look at how NITE X_M_L_ works and we're [disfmarker]"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.2,008",
+  "speaker": "E",
+  "start_time": "5021.872",
+  "end_time": "5022.298",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 10542,
+    "end_word": 10543,
+    "text": "Hmm ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.2,010",
+  "speaker": "E",
+  "start_time": "5025.872",
+  "end_time": "5029.216",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 10544,
+    "end_word": 10555,
+    "text": "I'll build a dictionary as soon as I get the text ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.2,012",
+  "speaker": "E",
+  "start_time": "5031.808",
+  "end_time": "5033.031",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 10556,
+    "end_word": 10561,
+    "text": "And yeah , so that [disfmarker]"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.2,014",
+  "speaker": "E",
+  "start_time": "5035.271",
+  "end_time": "5038.208",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 10562,
+    "end_word": 10572,
+    "text": "When do we have to meet again then with this ?"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.2,016",
+  "speaker": "E",
+  "start_time": "5044.24",
+  "end_time": "5047.406",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 10573,
+    "end_word": 10585,
+    "text": "How are we gonna do a demonstrator next week ? My God ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.2,018",
+  "speaker": "E",
+  "start_time": "5050.756",
+  "end_time": "5060.16",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 10586,
+    "end_word": 10624,
+    "text": "No no , not demonstrate , but like didn't you say that [disfmarker] uh didn't we sort of agree that it would be useful to have a demonstrator of it , like some primitive thing working next week ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.2,020",
+  "speaker": "E",
+  "start_time": "5063.703",
+  "end_time": "5067.071",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 10625,
+    "end_word": 10632,
+    "text": "[vocalsound] That's gotta be very prototype . [vocalsound]"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.2,022",
+  "speaker": "E",
+  "start_time": "5071.808",
+  "end_time": "5072.209",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 10633,
+    "end_word": 10633,
+    "text": "[vocalsound]"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.2,024",
+  "speaker": "E",
+  "start_time": "5074.816",
+  "end_time": "5080.984",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 10634,
+    "end_word": 10645,
+    "text": "Mm-hmm . [vocalsound] Ah well , let's go . Sorry . [vocalsound]"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.2,026",
+  "speaker": "E",
+  "start_time": "5082.996",
+  "end_time": "5084.71",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 10646,
+    "end_word": 10646,
+    "text": "[vocalsound]"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.2,028",
+  "speaker": "E",
+  "start_time": "5084.968",
+  "end_time": "5095.431",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 10647,
+    "end_word": 10681,
+    "text": "I feel like like hanging mid-air and not really like finding a point where you can get your teeth into it and start working properly and [disfmarker] so it's all so fuzzy the whole [disfmarker]"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.2,030",
+  "speaker": "E",
+  "start_time": "5106.902",
+  "end_time": "5115.558",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 10682,
+    "end_word": 10719,
+    "text": "Yeah , but it [disfmarker] at the moment [disfmarker] but at the moment it's also an implementational level . Like with the data structures , I'm just like over these vague ideas of some trees , I'm f"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.2,032",
+  "speaker": "E",
+  "start_time": "5119.482",
+  "end_time": "5126.403",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 10720,
+    "end_word": 10742,
+    "text": "Yeah . [vocalsound] It's just we are half-way through the project time table . That's just what freaks me out . [vocalsound] [vocalsound]"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.2,034",
+  "speaker": "E",
+  "start_time": "5132.104",
+  "end_time": "5132.67",
+  "sentences": [
+   {
+    "filename": "EN2001a.E.words.xml",
+    "start_word": 10743,
+    "end_word": 10744,
+    "text": "Um [disfmarker]"
+   }
+  ]
+ }
+]
