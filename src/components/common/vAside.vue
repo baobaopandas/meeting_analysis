@@ -29,6 +29,7 @@
             <span>当前会议管理</span>
           </template>
           <el-menu-item index="MeetingInfo">当前会议简介</el-menu-item>
+          <el-menu-item index="MeetingProcess"> 当前会议议程</el-menu-item>
           <el-menu-item index="ParticipantState">参会人员状态</el-menu-item>
           <!--<el-menu-item index="AccessRecord">访问记录</el-menu-item>-->
         </el-submenu>

@@ -19,6 +19,18 @@ const router = new Router({
             component: () => import('cmpt/visitorManage/meetinginfocolor.vue')
         },
         {
+          path: '/MeetingProcess',
+          name: 'MeetingProcess',
+          meta: { title: '当前会议进程', requireLogin: true },
+          component: () => import('cmpt/visitorManage/MeetingProcess.vue')
+        },
+        {
+          path: '/newProcess',
+          name: 'newProcess',
+          meta: { title: '添加会议进程', requireLogin: true },
+          component: () => import('cmpt/visitorManage/newProcess.vue')
+        },
+        {
           path: '/ParticipantState',
           name: 'ParticipantState',
           meta: { title: '参会人员信息', requireLogin: true },
