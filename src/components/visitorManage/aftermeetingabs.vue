@@ -132,11 +132,11 @@
           <el-button style="float: right; padding: 3px 0" type="text"
             >操作按钮</el-button
           >
-              <el-checkbox v-model="checked1">发言行为</el-checkbox>
-              <el-checkbox v-model="checked2">赞同行为</el-checkbox>
-              <el-checkbox v-model="checked2">不赞同行为</el-checkbox>
-              <el-checkbox v-model="checked2">中断失败</el-checkbox>
-              <el-checkbox v-model="checked2">抱怨行为</el-checkbox>
+          <!-- <el-checkbox v-model="checked1">发言行为</el-checkbox>
+          <el-checkbox v-model="checked2">赞同行为</el-checkbox>
+          <el-checkbox v-model="checked2">不赞同行为</el-checkbox>
+          <el-checkbox v-model="checked2">中断失败</el-checkbox>
+          <el-checkbox v-model="checked2">抱怨行为</el-checkbox> -->
           <div id="main" style="width: 100%; height: 550px"></div>
         </div>
       </el-card>
@@ -154,25 +154,29 @@
 </template>
 <script>
 import Echarts from "echarts";
-import * as echarts from "echarts"
+import * as echarts from "echarts";
 import dataTempA from "./data/EN2001a.A.json";
 import dataTempB from "./data/EN2001a.B.json";
 import dataTempC from "./data/EN2001a.C.json";
 import dataTempD from "./data/EN2001a.D.json";
 import dataTempE from "./data/EN2001a.E.json";
+import alidata from "./data/alisegments.json";
+let gstart = '0'
+let gend = '100'
 export default {
   components: {},
   data() {
     return {
-      categories: ['A', 'B', 'C', 'D', 'E'],
+      categories: ["A", "B", "C", "D", "E"],
       types: [
-        { name: 'A', color: '#7b9ce1' },
-        { name: 'B', color: '#bd6d6c' },
-        { name: 'C', color: '#75d874' },
-        { name: 'D', color: '#e0bc78' },
-        { name: 'E', color: '#dc77dc' },
+        { name: "A", color: "#7b9ce1" },
+        { name: "B", color: "#bd6d6c" },
+        { name: "C", color: "#75d874" },
+        { name: "D", color: "#e0bc78" },
+        { name: "E", color: "#dc77dc" },
       ],
       datatemp: [dataTempA, dataTempB, dataTempC, dataTempD, dataTempE],
+      aliData: alidata,
       data: [],
       startTime: this.getTodayZeroTime(),
       tableData: [
@@ -258,7 +262,7 @@ export default {
     this.drawparticipant();
     this.drawparticipanintopic();
     this.drawsentimentAnalysis();
-    this.generateMockData()
+    this.generateMockData();
     this.initChart();
     console.log("方法调用");
   },
@@ -273,21 +277,21 @@ export default {
           x: start[0],
           y: start[1] - height / 2,
           width: end[0] - start[0],
-          height: height
+          height: height,
         },
         {
           x: params.coordSys.x,
           y: params.coordSys.y,
           width: params.coordSys.width,
-          height: params.coordSys.height
+          height: params.coordSys.height,
         }
       );
       return (
         rectShape && {
-          type: 'rect',
-          transition: ['shape'],
+          type: "rect",
+          transition: ["shape"],
           shape: rectShape,
-          style: api.style()
+          style: api.style(),
         }
       );
     },
@@ -298,6 +302,7 @@ export default {
       return today.getTime();
     },
     generateOneMockData(datatemp, index) {
+      // ami 数据
       for (let i = 0; i < datatemp.length; i++) {
         let baseTime = this.startTime + Number(datatemp[i].start_time) * 1000;
         let typeItem = this.types[index];
@@ -316,10 +321,49 @@ export default {
         });
       }
     },
-    generateMockData() {
-      for (let i = 0; i < 5; i++) {
-        this.generateOneMockData(this.datatemp[i], i);
+    generateAliData(alidata) {
+      for (let i = 0; i < alidata.length; i++) {
+        let baseTime = this.startTime + alidata[i].stime * 1000;
+        let typeItem = this.types[alidata[i].spkr];
+        let duration = Math.round(alidata[i].etime *1000 - alidata[i].stime * 1000);
+        let text = alidata[i].text;
+        let  type = '';
+
+        // //  中断失败案例
+        // if(alidata[i].text==='那，那也。') 
+        //   {type = '中断失败'
+        //     console.log(baseTime,duration)
+        //   }
+          
+
+        this.data.push({
+          name: typeItem.name + "@" + text,
+          value: [alidata[i].spkr, baseTime, (baseTime += duration), duration],
+          type:type,
+          percentStart: alidata[i].stime/2067.7,
+          percentEnd: alidata[i].etime/2067.7,
+          itemStyle: {
+            normal: {
+              color: typeItem.color,
+            },
+          },
+        });
+        // console.log(baseTime,duration)
+        //  同意、不同意、疑惑 案例
+        this.data.push({
+          name:"王帅宇@今天我想分享一下我最近在发言决策辅助管理工具方面的研究进展以及后续研究思路与计划，首先演示一下系统.....,以上就是我现在的研究内容和进展，大家有没有什么批评和建议。",
+          value:[1,1694968467700, 1694968467700+300000,300000],
+          type: '',
+          itemStyle:this.types[alidata[i].spkr]
+        })
       }
+      console.log(this.data)
+    },
+    generateMockData() {
+      // for (let i = 0; i < 5; i++) {
+      //   this.generateOneMockData(this.datatemp[i], i);
+      // }
+      this.generateAliData(this.aliData)
     },
     drawagendapercent() {
       let myChart = Echarts.init(document.getElementById("drawagendapercent"));
@@ -617,6 +661,22 @@ export default {
       let chartDom = document.getElementById("main");
       let myChart = echarts.init(chartDom);
 
+      const labelOption = {
+        show: true,
+        rotate: 0,
+        formatter: function(params) {
+          // 根据数据中的 type 字段来设置标签值
+          let type = params.data.type;
+          return type;
+        },
+        fontSize: 16,
+        color: '#FF0000',
+        rich: {
+          name: {}
+        }
+      };
+
+
       let option = {
         tooltip: {
           position: "right",
@@ -666,6 +726,8 @@ export default {
             filterMode: "weakFilter",
             showDataShadow: false,
             top: 500,
+            start:gstart,
+            end: gend,
             labelFormatter: "",
           },
           {
@@ -700,10 +762,15 @@ export default {
         yAxis: {
           data: this.categories,
         },
+        legend:{
+          data:['会议转录','疑惑','赞同','不赞同','中断失败']
+        },
         series: [
           {
+            name:'会议转录',
             type: "custom",
             renderItem: this.renderItem,
+            label: labelOption,
             itemStyle: {
               opacity: 0.8,
             },
@@ -713,10 +780,61 @@ export default {
             },
             data: this.data,
           },
+          {
+            name:'中断失败',
+            type: 'scatter',
+            data:[[1694966766500,'C']],
+            symbolSize:50,
+            symbol: 'image://'+require('../../assets/举手发言.png')            
+          },
+          {
+            name:'疑惑',
+            type: 'scatter',
+            data:[[1694968497700,'A']],
+            symbolSize:50,
+            symbol: 'image://'+require('../../assets/confuse.png')            
+          },
+          {
+            name:'赞同',
+            type: 'scatter',
+            data:[[1694968598700,'D']],
+            symbolSize:50,   
+            symbol: 'image://'+require('../../assets/ok.png')        
+          },
+          {
+            name:'不赞同',
+            type: 'scatter',
+            data:[[1694968677700,'C']],
+            symbolSize:50,
+            symbol: 'image://'+require('../../assets/notok.png')  
+          },
         ],
       };
 
       option && myChart.setOption(option);
+      myChart.on('click', function (params) {
+          console.log(params);
+          if(params.componentSubType === 'scatter')
+          {
+            myChart.setOption({
+              dataZoom: [
+          {
+            type: "slider",
+            filterMode: "weakFilter",
+            showDataShadow: false,
+            top: 500,
+            start:'15.42',
+            end: '15.6',
+            labelFormatter: "",
+          },
+          {
+            type: "inside",
+            filterMode: "weakFilter",
+          },
+        ],
+            })
+          }
+      });
     },
   },
 };
