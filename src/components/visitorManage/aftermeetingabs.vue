@@ -329,7 +329,7 @@ export default {
         let text = alidata[i].text;
         let  type = '';
 
-        // //  中断失败案例
+        //  中断失败案例
         // if(alidata[i].text==='那，那也。') 
         //   {type = '中断失败'
         //     console.log(baseTime,duration)
@@ -783,7 +783,7 @@ export default {
           {
             name:'中断失败',
             type: 'scatter',
-            data:[[1694966766500,'C']],
+            data:[[1695139566100,'C']],
             symbolSize:50,
             symbol: 'image://'+require('../../assets/举手发言.png')            
           },

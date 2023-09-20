@@ -1,113 +1,265 @@
 <template>
   <div class="behaviorAnalysis-wrapper">
-    <div class="demo">
-      <video
-        id="videoElement"
-        controls
-        autoplay
-        muted
-        width="100%"
-        height="400px"
-      ></video>
-    </div>
-    <button v-if="!ismotion" @click="startDesire">情感检测开始</button>
-    <button v-if="ismotion" class="orange" @click="stopEmotion">Stop</button>
-    <div class="bottom">
+    <el-card>
       <el-row>
         <el-col :span="12">
-          <div id="drawGuestEmotion" class="drawGuestEmotion"></div>
-          <el-table
-            :data="topicData"
-            style="width: 100%"
-            border
-            :row-class-name="tableRowClassName"
-          >
-            <el-table-column prop="topicName" label="分享主题" width="180">
-            </el-table-column>
-            <el-table-column prop="people" label="主讲人" width="100">
-            </el-table-column>
-            <el-table-column prop="role" label="角色" width="100">
-            </el-table-column>
-            <el-table-column prop="state" label="主题状态" width="100">
-              <template scope="scope">
-                <span>{{ scope.row.state===0?'未开始':(scope.row.state===1?'进行中':'已结束')}}</span>
-              </template>
-            </el-table-column>
-            <el-table-column prop="start_time" label="开始时间" width="100">
-            </el-table-column>
-            <el-table-column prop="end_time" label="结束时间" width="100">
-            </el-table-column>
-            <el-table-column align="center" label="操作">
-              <template slot-scope="scope">
-                <el-button
-                  size="mini"
-                  type="primary"
-                  v-show="scope.row.state===0"
-                  @click="handleStart(scope.$index, scope.row)"
-                  >开始</el-button
-                >
-                <el-button
-                  size="mini"
-                  type="danger"
-                  v-show="scope.row.state===1"
-                  @click="handleEnd(scope.$index, scope.row)"
-                  >结束</el-button>
-                <el-button v-show="scope.row.state===2" type="success" icon="el-icon-check" circle size="mini"></el-button>
-              </template>
-            </el-table-column>
-          </el-table>
+          <div class="demo">
+            <video
+              id="videoElement"
+              controls
+              autoplay
+              muted
+              width="100%"
+              height="400px"
+            ></video>
+          </div>
         </el-col>
         <el-col :span="12">
-          <el-table
-            :data="tableData"
-            style="width: 100%"
-            border
-            :row-class-name="tableRowClassName"
-            caption="表达欲望"
-          >
-            <!-- <el-table-column prop="topic" label="当前主题" width="80">
-            </el-table-column> -->
-            <el-table-column prop="name" label="姓名" width="80">
-            </el-table-column>
-            <!-- <el-table-column prop="percent" label="说话占比"  width="100">
-              <template slot-scope="scope">{{scope.row.percent?scope.row.percent:'0'}}</template>
-            </el-table-column> -->
-            <el-table-column prop="engagement" label="发言参与度" width="100">
-              <template slot-scope="scope">{{scope.row.engagement?scope.row.engagement:'0'}}</template>
-            </el-table-column>
-            <el-table-column label="上一次发言" prop="lastspeak" width="100"></el-table-column>
-            <!-- <el-table-column prop="sentiment" label="情绪" width="100">
-              <template slot-scope="scope">{{scope.row.sentiment?scope.row.sentiment:'-'}}</template>
-            </el-table-column> -->
-              <!-- <template slot-scope="scope">{{scope.row.desirein5?scope.row.desirein5:'0'}}</template> -->
-              <el-table-column label="中断失败" prop="desirein3" width="100">
-              <!-- <el-table-column prop="interrupt" label="中断失败" width="100">
-              <template slot-scope="scope">{{scope.row.interrupt?scope.row.interrupt:'-'}}</template>
-            </el-table-column> -->
+          <div style="margin-left: 5px">
+            <!-- <div id="drawGuestEmotion" class="drawGuestEmotion" style="margin-left:5px;height:400px"></div> -->
+            <el-button @click="resetDateFilter" type="primary">新增</el-button>
+            <!-- <el-card style="height:400px">
+        <speak-chart style="margin-top:-100px"></speak-chart>
+        </el-card> -->
+            <el-table
+              :data="topicData"
+              style="width: 100%; margin-top: 5px"
+              border
+              :row-class-name="tableRowClassName"
+            >
+              <el-table-column prop="topicName" label="议程" width="180">
               </el-table-column>
-              <el-table-column label="赞成" prop="desirein4" width="100">
-            <!-- <el-table-column prop="yyy" label="赞同行为" width="100"></el-table-column>
-            <el-table-column prop="xxx" label="不赞同行为" width="100"></el-table-column> -->
+              <el-table-column prop="people" label="主讲人" width="100">
               </el-table-column>
-              <el-table-column label="不赞成" prop="desirein4" width="100"></el-table-column>
-              <el-table-column prop="desirein5" label="表达欲望指数">
+              <el-table-column prop="role" label="角色" width="100">
               </el-table-column>
-              <el-table-column prop="desirein6" label="表达欲望排序">
+              <el-table-column prop="state" label="主题状态" width="100">
+                <template scope="scope">
+                  <span>{{
+                    scope.row.state === 0
+                      ? "未开始"
+                      : scope.row.state === 1
+                      ? "进行中"
+                      : "已结束"
+                  }}</span>
+                </template>
               </el-table-column>
-          </el-table>
-          <!-- <div>
-    <el-slider v-model="sliderValue" range :min="0" :max="120" :step="1" @change="updateTime"></el-slider>
-    <el-row>
-      <el-col :span="12">
-        <el-time-picker v-model="startTime" :picker-options="pickerOptions" placeholder="开始时间"></el-time-picker>
-      </el-col>.,,
-      <el-col :span="12">
-        <el-time-picker v-model="endTime" :picker-options="pickerOptions" placeholder="结束时间"></el-time-picker>
-      </el-col>
-    </el-row>
-  </div> -->
+              <el-table-column prop="start_time" label="开始时间" width="100">
+              </el-table-column>
+              <el-table-column prop="end_time" label="结束时间" width="100">
+              </el-table-column>
+              <el-table-column align="center" label="操作">
+                <template slot-scope="scope">
+                  <el-button
+                    size="mini"
+                    type="primary"
+                    v-show="scope.row.state === 0"
+                    @click="handleStart(scope.$index, scope.row)"
+                    >开始</el-button
+                  >
+                  <el-button
+                    size="mini"
+                    type="danger"
+                    v-show="scope.row.state === 1"
+                    @click="handleEnd(scope.$index, scope.row)"
+                    >结束</el-button
+                  >
+                  <el-button
+                    v-show="scope.row.state === 2"
+                    type="success"
+                    icon="el-icon-check"
+                    circle
+                    size="mini"
+                  ></el-button>
+                </template>
+              </el-table-column>
+            </el-table>
+          </div>
         </el-col>
       </el-row>
+    </el-card>
+    <!-- <button v-if="!ismotion" @click="startDesire">情感检测开始</button> -->
+    <!-- <button v-if="ismotion" class="orange" @click="stopEmotion">Stop</button> -->
+    <!-- <el-button style="float: right; padding: 3px 0" type="text">切换视图</el-button> -->
+    <div class="bottom">
+      <el-card>
+        <el-row>
+          <el-col :span="12">
+            <el-card class="box-card" style="width: 100%; height: 450px">
+              <speak-chart style="margin-top: -50px"></speak-chart>
+            </el-card>
+          </el-col>
+          <el-col :span="12">
+            <el-card class="box-card" style="width: 100%; height: 450px">
+
+              <el-tabs type="border-card">
+    
+                <el-tab-pane label="实时转录">
+
+                  <p>徐峥(00:20): 好的，到了预定的会议开始时间了，我们正式开始我们的周三讨论班。</p>
+                  <p>徐铮(00:25): 首先还是第一个环节，老师有话说。</p>
+                  <p>李银胜(00:35): 我主要有三点想说...</p>
+                </el-tab-pane>
+                <el-tab-pane label="状态统计">
+                  <el-card>
+                    <div style="margin-bottom:20px">
+                        <el-time-select
+                            style="width:30%;height:5px"
+                  placeholder="起始时间"
+                  :picker-options="{
+                    start: '00:00',
+                    step: '00:01',
+                    end: '01:00'
+                  }">
+                </el-time-select>
+                <el-time-select
+                style="width:30%;margin-left:50px"
+                  placeholder="结束时间"
+                  :picker-options="{
+                    start: '00:00',
+                    step: '00:01',
+                    end: '00:30',
+                    minTime: startTime
+                  }">
+                </el-time-select>
+                <el-button style="float:right;margin-right:50px" type="primary">确定</el-button>
+                    </div>
+
+                  <el-table
+                    :data="tableData"
+                    style="width: 100%:margin-top:10px"
+                    border
+                    :row-class-name="tableRowClassName"
+                    caption="表达欲望"
+                    height="250px"
+                  >
+                    <!-- <el-table-column prop="topic" label="当前主题" width="80">
+            </el-table-column> -->
+                    <el-table-column prop="name" label="姓名" fixed width="80">
+                    </el-table-column>
+                    <!-- <el-table-column prop="percent" label="说话占比"  width="100">
+              <template slot-scope="scope">{{scope.row.percent?scope.row.percent:'0'}}</template>
+            </el-table-column> -->
+                    <el-table-column
+                      prop="engagement"
+                      label="发言参与度"
+                      width="100"
+                    >
+                      <template slot-scope="scope">{{
+                        scope.row.engagement ? scope.row.engagement : "0"
+                      }}</template>
+                    </el-table-column>
+                    <el-table-column
+                      label="上一次发言"
+                      prop="lastspeak"
+                      width="100"
+                    ></el-table-column>
+                    <!-- <el-table-column prop="sentiment" label="情绪" width="100">
+              <template slot-scope="scope">{{scope.row.sentiment?scope.row.sentiment:'-'}}</template>
+            </el-table-column> -->
+                    <!-- <template slot-scope="scope">{{scope.row.desirein5?scope.row.desirein5:'0'}}</template> -->
+                    <el-table-column
+                      label="中断失败"
+                      prop="desirein3"
+                      width="100"
+                    >
+                      <!-- <el-table-column prop="interrupt" label="中断失败" width="100">
+              <template slot-scope="scope">{{scope.row.interrupt?scope.row.interrupt:'-'}}</template>
+            </el-table-column> -->
+                    </el-table-column>
+                    <el-table-column label="赞成" prop="desirein4" width="100">
+                      <!-- <el-table-column prop="yyy" label="赞同行为" width="100"></el-table-column>
+            <el-table-column prop="xxx" label="不赞同行为" width="100"></el-table-column> -->
+                    </el-table-column>
+                    <el-table-column
+                      label="不赞成"
+                      prop="desirein4"
+                      width="80"
+                    ></el-table-column>
+                    <el-table-column
+                      label="疑惑"
+                      prop="desirein4"
+                      width="100"
+                    ></el-table-column>
+                    <!-- <el-table-column prop="desirein5" label="表达欲望指数">
+              </el-table-column>
+              <el-table-column prop="desirein6" label="表达欲望排序">
+              </el-table-column> -->
+                  </el-table>
+                  </el-card>
+                  </el-tab-pane>
+                  <el-tab-pane label="发言参与"
+                  ><el-row>
+                    <el-col :span=16>
+                  <div
+                id="participant"
+                class="participant"
+                style="width: 500px; height: 350px"
+              ></div>
+                    </el-col>
+                    <el-col :span="8">
+                      <el-card>
+                        <div slot="header" class="clearfix" style="margin-left:25%">
+    <span style="font-weight:bold">时间范围选择</span>
+  </div>
+                            <el-time-select
+                            style="width:100%"
+                  placeholder="起始时间"
+                  :picker-options="{
+                    start: '00:00',
+                    step: '00:01',
+                    end: '00:30'
+                  }">
+                </el-time-select>
+                <el-time-select
+                style="width:100%;margin-top:10px"
+                  placeholder="结束时间"
+                  :picker-options="{
+                    start: '00:00',
+                    step: '00:01',
+                    end: '00:30',
+                    minTime: startTime
+                  }">
+                </el-time-select>
+                <el-button style="margin-left:30%;margin-top:10px;padding:10px 20px" type="primary">确定</el-button>
+                      </el-card>
+                    </el-col>
+  </el-row>
+                  </el-tab-pane
+                >
+                
+                <el-tab-pane
+                  >
+                  <span slot="label">
+                    消息中心<el-badge :value="1"></el-badge>
+                  </span>
+                  <el-alert
+    title="类别：中断失败"
+    type="warning"
+    show-icon>
+ 
+                 <template #default>
+                  描述："00:06:06，参与者C尝试发言未成功 
+                  <el-button size="mini"  type="info" style="margin-left:100px">忽略</el-button>                        "
+    <el-button size="mini" @click="reloadChart" type="success">查看详情</el-button>
+    
+    <el-button size="mini"  type="primary">稍后处理</el-button>
+  </template>
+                  </el-alert>
+                  </el-tab-pane
+                >
+                <el-tab-pane label="其他">其他......</el-tab-pane>
+              </el-tabs>
+            </el-card>
+          </el-col>
+        </el-row>
+        <el-row v-show="false">
+          <el-card class="box-card" style="width: 100%; height: 550px">
+            <speak-chart :key="componentkey"></speak-chart>
+          </el-card>
+        </el-row>
+        <el-col :span="9" v-show="false"> </el-col>
+      </el-card>
     </div>
   </div>
 </template>
@@ -120,6 +272,9 @@ import Echarts from "echarts";
 import axios from "axios";
 // import {videoPlayer} from 'vue-video-player'
 import "vue-video-player/node_modules/video.js/dist/video-js.css";
+
+import speakerdesireChart from "../../visitorManage/speakDesireAnalysis.vue";
+
 var mytimer2;
 var timer;
 var curwang = 2.36;
@@ -127,6 +282,7 @@ var curyao = 1.24;
 var currentTopic = "会议未开始";
 export default {
   components: {
+    "speak-chart": speakerdesireChart,
     // videoPlayer
   },
   props: {
@@ -141,13 +297,14 @@ export default {
   },
   data() {
     return {
+      componentkey:0,
       sliderValue: [0, 120], // 默认滑块范围是0到120
       startTime: new Date(2000, 0, 1, 0, 0, 0), // 起始时间，默认为 00:00:00
       endTime: new Date(2000, 0, 1, 2, 0, 0), // 结束时间，默认为 02:00:00
       pickerOptions: {
-        start: '00:00',
-        step: '00:01',
-        end: '02:00'
+        start: "00:00",
+        step: "00:01",
+        end: "02:00",
       },
       picture: "状态",
       loading: true,
@@ -171,10 +328,10 @@ export default {
           sentiment: "积极",
           lastspeak: "2分钟前",
           interrupt: 1,
-          desirein3:2,
-          desirein4:3,
+          desirein3: 2,
+          desirein4: 3,
           desirein5: curwang,
-          desirein6:1
+          desirein6: 1,
         },
         {
           topic: currentTopic,
@@ -184,10 +341,10 @@ export default {
           sentiment: "中性",
           lastspeak: "5分钟前",
           interrupt: 1,
-          desirein3:1,
-          desirein4:2,
+          desirein3: 1,
+          desirein4: 2,
           desirein5: curyao,
-          desirein6:2
+          desirein6: 2,
         },
         {
           topic: currentTopic,
@@ -195,13 +352,16 @@ export default {
         },
         {
           topic: currentTopic,
-          name: "王帅宇",        },
+          name: "王帅宇",
+        },
         {
           topic: currentTopic,
-          name: "王朔",        },
+          name: "王朔",
+        },
         {
           topic: currentTopic,
-          name: "包智超",        },
+          name: "包智超",
+        },
         {
           topic: currentTopic,
           name: "徐峥",
@@ -213,7 +373,7 @@ export default {
         {
           topic: currentTopic,
           name: "苏永甫",
-        }
+        },
       ],
       topicData: [
         {
@@ -262,6 +422,7 @@ export default {
   mixins: [Fetch],
   created: function () {},
   mounted() {
+    this.drawparticipant();
     // 访客行为统计，圆饼图
     // this.drawGuestBehave();
     if (flvjs.isSupported()) {
@@ -282,7 +443,10 @@ export default {
   },
   computed: {},
   methods: {
-     updateTime() {
+    reloadChart(){
+        this.componentkey++
+    },
+    updateTime() {
       const startMinutes = Math.floor(this.sliderValue[0]);
       const endMinutes = Math.floor(this.sliderValue[1]);
 
@@ -295,33 +459,87 @@ export default {
       this.startTime = startDate;
       this.endTime = endDate;
     },
-    handleStart(index,row){
-      row.state = 1
-      var currentDate = new Date();
-      var hour = currentDate.getHours();
-      var minutes = currentDate.getMinutes();
-      var seconds = currentDate.getSeconds()
-      row.start_time = hour + ":" + minutes + ":" + seconds;
-      currentTopic = row.topicName
-      this.tableData[0].topic = currentTopic
-
+    drawparticipant() {
+      console.log("ben方法调用");
+      let myChart = Echarts.init(document.getElementById("participant"));
+      let option = {
+        title: {
+          text: "会议总体发言占比",
+          left: "center",
+        },
+        tooltip: {
+          trigger: "item",
+        },
+        legend: {
+          top: "bottom",
+          left: "center",
+        },
+        series: [
+          {
+            name: "Access From",
+            type: "pie",
+            radius: ["40%", "70%"],
+            avoidLabelOverlap: false,
+            itemStyle: {
+              borderRadius: 10,
+              borderColor: "#fff",
+              borderWidth: 2,
+            },
+            label: {
+              show: false,
+              position: "center",
+            },
+            emphasis: {
+              label: {
+                show: true,
+                fontSize: 40,
+                fontWeight: "bold",
+              },
+            },
+            labelLine: {
+              show: false,
+            },
+            data: [
+              { value: 1048, name: "李银胜" },
+              { value: 580, name: "吴斌" },
+              { value: 300, name: "赵一飞" },
+              { value: 484, name: "姚鑫玉" },
+              { value: 300, name: "王帅宇" },
+              { value: 735, name: "包智超" },
+              { value: 300, name: "王朔" },
+              { value: 300, name: "苏永甫" },
+              { value: 300, name: "谢万超" },
+              { value: 300, name: "徐峥" },
+            ],
+          },
+        ],
+      };
+      myChart.setOption(option);
     },
-    handleEnd(index,row){
-      row.state = 2
+    handleStart(index, row) {
+      row.state = 1;
       var currentDate = new Date();
       var hour = currentDate.getHours();
       var minutes = currentDate.getMinutes();
-      var seconds = currentDate.getSeconds()
+      var seconds = currentDate.getSeconds();
+      row.start_time = hour + ":" + minutes + ":" + seconds;
+      currentTopic = row.topicName;
+      this.tableData[0].topic = currentTopic;
+    },
+    handleEnd(index, row) {
+      row.state = 2;
+      var currentDate = new Date();
+      var hour = currentDate.getHours();
+      var minutes = currentDate.getMinutes();
+      var seconds = currentDate.getSeconds();
       row.end_time = hour + ":" + minutes + ":" + seconds;
-      this.tableData[0].topic = '转场'
-      if(index===this.topicData.length-1)
-        {
-          this.$message({
-          message: '本次会议成功结束',
-          type: 'success'
+      this.tableData[0].topic = "转场";
+      if (index === this.topicData.length - 1) {
+        this.$message({
+          message: "本次会议成功结束",
+          type: "success",
         });
-        }
-
+      }
     },
     handleSpanMethod({ rowIndex, columnIndex }) {
       if (columnIndex === 0) {
@@ -467,7 +685,7 @@ export default {
         //画布背景色设置
         backgroundColor: "#f0caca",
         title: {
-          text: "参会人员"+this.picture+"分析图",
+          text: "参会人员" + this.picture + "分析图",
           x: "center",
           // textStyle: {
           //   //设置主标题字体颜色

@@ -1,6 +1,6 @@
 <template>
   <div class="behaviorAnalysis-wrapper">
-      <div id="main" style="width: 100%; height: 550px;"></div>
+      <div id="main" style="width: 100%; height: 450px;"></div>
   </div>
 </template>
 
@@ -12,6 +12,7 @@ import dataTempB from './data/EN2001a.B.json'
 import dataTempC from './data/EN2001a.C.json'
 import dataTempD from './data/EN2001a.D.json'
 import dataTempE from './data/EN2001a.E.json'
+import alidata from "./data/alisegments.json";
 // import {videoPlayer} from 'vue-video-player'
 import 'vue-video-player/node_modules/video.js/dist/video-js.css'
 export default {
@@ -20,6 +21,7 @@ export default {
       //会议对话情况图表
       data: [],
       categories: ['A', 'B', 'C', 'D', 'E'],
+      aliData: alidata,
       types: [
         { name: 'A', color: '#7b9ce1' },
         { name: 'B', color: '#bd6d6c' },
@@ -72,14 +74,61 @@ export default {
         });
       }
     },
-    generateMockData() {
-      for (let i = 0; i < 5; i++) {
-        this.generateOneMockData(this.datatemp[i], i)
+    generateAliData(alidata) {
+      for (let i = 0; i < alidata.length; i++) {
+        let baseTime = this.startTime + alidata[i].stime * 1000;
+        let typeItem = this.types[alidata[i].spkr];
+        let duration = Math.round(alidata[i].etime *1000 - alidata[i].stime * 1000);
+        let text = alidata[i].text;
+        let  type = '';
+
+        // //  中断失败案例
+        // if(alidata[i].text==='那，那也。') 
+        //   {type = '中断失败'
+        //     console.log(baseTime,duration)
+        //   }
+          
+
+        this.data.push({
+          name: typeItem.name + "@" + text,
+          value: [alidata[i].spkr, baseTime, (baseTime += duration), duration],
+          type:type,
+          percentStart: alidata[i].stime/2067.7,
+          percentEnd: alidata[i].etime/2067.7,
+          itemStyle: {
+            normal: {
+              color: typeItem.color,
+            },
+          },
+        });
+        console.log(baseTime,duration)
+        //  同意、不同意、疑惑 案例
       }
+    },
+    generateMockData() {
+      // for (let i = 0; i < 5; i++) {
+      //   this.generateOneMockData(this.datatemp[i], i)
+      // }
+      this.generateAliData(this.aliData)
     },
     initChart() {
       let chartDom = document.getElementById('main');
       let myChart = echarts.init(chartDom);
+
+      const labelOption = {
+        show: true,
+        rotate: 0,
+        formatter: function(params) {
+          // 根据数据中的 type 字段来设置标签值
+          let type = params.data.type;
+          return type;
+        },
+        fontSize: 16,
+        color: '#FF0000',
+        rich: {
+          name: {}
+        }
+      };
 
       let option = {
         tooltip: {
@@ -98,39 +147,16 @@ export default {
             );
           }
         },
-        title: {
-          text: "会议发言记录",//主标题文本
-          textStyle: {
-            color: '#000000',//'red'，字体颜色
-            fontStyle: 'normal',//'italic'(倾斜) | 'oblique'(倾斜体) ，字体风格
-            fontWeight: 'bolder',//'bold'(粗体) | 'bolder'(粗体) | 'lighter'(正常粗细) ，字体粗细
-            fontFamily: 'sans-serif',//'sans-serif' | 'serif' | 'monospace' | 'Arial' | 'Courier New' 
-            // 'Microsoft YaHei'(微软雅黑) ，文字字体
-            fontSize: 32,//字体大小
-            lineHeight: 32,//字体行高
-          },
-          subtext: "对整场会议对发言进行统计",//副标题文本
-          subtextStyle: {
-            fontStyle: 'normal',//字体风格
-            fontWeight: 'normal',//字体粗细
-            fontFamily: 'sans-serif',//文字字体
-            fontSize: 18,//字体大小
-            lineHeight: 18,//字体行高
-            align: 'center',//'left' | 'right' ，文字水平对齐方式
-            verticalAlign: 'middle',//'top' | 'bottom' ，文字垂直对齐方式
-          },
-          left: 'auto',//'5' | '5%'，title 组件离容器左侧的距离
-          right: 'auto',//'title 组件离容器右侧的距离
-          top: 'auto',//title 组件离容器上侧的距离
-          bottom: 'auto',//title 组件离容器下侧的距离
-        },
         dataZoom: [
           {
             type: 'slider',
             filterMode: 'weakFilter',
             showDataShadow: false,
-            top: 500,
-            labelFormatter: ''
+            start: 17.09,
+            end: 17.60,
+            top: 400,
+            labelFormatter: '',
+            zoomLock: true,
           },
           {
             type: 'inside',
@@ -138,10 +164,10 @@ export default {
           }
         ],
         grid: {
-          top: 80,  // 将 top 设置为 0，使图表顶部与容器顶部对齐
+          top: 100,  // 将 top 设置为 0，使图表顶部与容器顶部对齐
           bottom: 64,  // 将 bottom 设置为 0，使图表底部与容器底部对齐
-          left: 48,  // 将 left 设置为 0，使图表左侧与容器左侧对齐
-          right: 150
+          left: 17,  // 将 left 设置为 0，使图表左侧与容器左侧对齐
+          right: 15
         },
         xAxis: {
           min: this.startTime,
@@ -162,23 +188,81 @@ export default {
         yAxis: {
           data: this.categories
         },
+        legend:{
+          show:true,
+          top:60,
+          data:['会议转录','疑惑','赞同','不赞同','中断失败']
+        },
         series: [
           {
-            type: 'custom',
+            name:'会议转录',
+            type: "custom",
             renderItem: this.renderItem,
+            label: labelOption,
             itemStyle: {
-              opacity: 0.8
+              opacity: 0.8,
             },
             encode: {
               x: [1, 2],
-              y: 0
+              y: 0,
             },
-            data: this.data
-          }
+            data: this.data,
+          },
+          {
+            name:'中断失败',
+            type: 'scatter',
+            data:[[1695139566100,'C']],
+            symbolSize:50,
+            symbol: 'image://'+require('../../assets/举手发言.png')            
+          },
+          {
+            name:'疑惑',
+            type: 'scatter',
+            data:[[1695141310700,'A'],[1695141310000,'B']],
+            symbolSize:50,
+            symbol: 'image://'+require('../../assets/confuse.png')            
+          },
+          {
+            name:'赞同',
+            type: 'scatter',
+            data:[[1695141300000,'D']],
+            symbolSize:50,   
+            symbol: 'image://'+require('../../assets/ok.png')        
+          },
+          {
+            name:'不赞同',
+            type: 'scatter',
+            data:[[1695141305000,'C']],
+            symbolSize:50,
+            symbol: 'image://'+require('../../assets/no.png')  
+          },
         ]
       };
 
       option && myChart.setOption(option);
+      myChart.on('click', function (params) {
+          console.log(params);
+          if(params.componentSubType === 'scatter')
+          {
+            myChart.setOption({
+              dataZoom: [
+          {
+            type: "slider",
+            filterMode: "weakFilter",
+            showDataShadow: false,
+            top: 500,
+            start:'15.42',
+            end: '15.6',
+            labelFormatter: "",
+          },
+          {
+            type: "inside",
+            filterMode: "weakFilter",
+          },
+        ],
+            })
+          }
+      });
     },
     renderItem(params, api) {
       let categoryIndex = api.value(0);
