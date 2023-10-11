@@ -10,7 +10,7 @@ const router = new Router({
       name: 'index',
       meta: { title: '首页', requireLogin: true },
       component: () => import('./pages/index.vue'),
-      redirect: '/MeetingInfo',
+      redirect: '/login',
       children: [
         {
             path: '/MeetingInfo',
@@ -125,8 +125,13 @@ const router = new Router({
           name: 'Userhelper',
           meta: { title: '用户指南', requireLogin: true },
           component: () => import('cmpt/visitorManage/Userhelper.vue')
+        },
+        {
+          path: '/video',
+          name: 'video',
+          meta: { title: '音频测试', requireLogin: true },
+          component: () => import('cmpt/visitorManage/video.vue')
         }
-
       ]
     },
     {

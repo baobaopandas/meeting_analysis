@@ -128,6 +128,7 @@ export default {
     top: 0;
     left: 0;
     height: 60px;
+    z-index: 1000;
   }
   .content-wrapper {
     margin-top: 60px;

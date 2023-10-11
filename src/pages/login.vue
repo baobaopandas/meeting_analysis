@@ -78,7 +78,7 @@ export default {
                   admin: userName
                 })
               );
-              this.$router.push("/");
+              this.$router.push("/MeetingInfo");
             } else {
               this.$message({
                 message: this.st,

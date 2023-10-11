@@ -1,45 +1,78 @@
 <template>
-  <div class="CreateMeeting">
-    <div class="tableTitle"><span class="midText">会议基本信息</span></div>
-    <div class="MeetingInfo">
-      <el-input
-        placeholder="请输入会议主题"
-        v-model="theme"
-        class ="theme"
-      >
-        <template slot="prepend">会议主题</template>
-      </el-input>
-      <el-input
-              placeholder="请输入会议主持人"
-              v-model="host"
-              class ="host"
-      >
-        <template slot="prepend">会议主持人</template>
-      </el-input>
-
-      <el-date-picker
-              v-model="selectDay"
-              type="date"
-              class="date"
-              placeholder="选择会议时间"
-              value-format="yyyy-MM-dd">
-      </el-date-picker>
+  <div>
+    <div class="ti">
+      新建会议
     </div>
-    <div class="tableTitle"><span class="midText">选择参会人员</span></div>
+    <el-card class="box-card">
+      <div class="tableTitle"><span class="midText">请输入完整的邀请内容：</span></div>
+      <el-input type="textarea" :autosize="{ minRows: 10, maxRows: 10 }" placeholder="xxx 邀请您参加腾讯会议
+会议主题：xxx预定的会议
+会议时间：2023/10/08 20:00-20:30 (GMT+08:00) 中国标准时间 - 北京
 
-    <div class="patichoose"  v-for="(item,index) in data_list" :key="index">
-      <p class="text">{{item.name}}</p>
-      <div class="slideTwo">
-        <input type="checkbox" class="check_box tui-checkbox" :id="'id'+item.id" :value="item.name" v-model="checkedNames">
-        <label :for="'id'+item.id" class="title"></label >
+点击链接入会，或添加至会议列表：
+https://meeting.tencent.com/dm/xxxxxxxx
+
+#腾讯会议：xxx-xxx-xxxx
+
+复制该信息，打开手机腾讯会议即可参与" v-model="textarea" @input="stick">
+      </el-input>
+      <div style="margin: 1%;">
+        <el-link type="primary" style=" font-size: larger;" href="https://meeting.tencent.com/user-center/schedule"
+          target="_blank">没有预订会议？ 预约腾讯会议</el-link>
       </div>
-    </div>
-    <div class = 'newpati'>
-      <router-link to="newpati">
-        <span class = 'newpati'>添加新的参会者</span>
-      </router-link>
-    </div>
-    <!-- <div class="tableTitle1"><span class="midText">上传相关资料</span></div>
+      <div class="tableTitle"><span class="midText">会议基本信息</span></div>
+      <el-form ref="form" :model="form" label-width="120px">
+        <el-form-item label="会议主题*">
+          <el-input v-model="form.theme"></el-input>
+        </el-form-item>
+        <el-form-item label="会议主持人*">
+          <el-input v-model="form.host"></el-input>
+        </el-form-item>
+        <el-form-item label="会议时间*">
+          <el-date-picker v-model="form.selectDay" type="date" class="date" placeholder="选择会议时间"
+            value-format="yyyy-MM-dd">
+          </el-date-picker>
+        </el-form-item>
+        <el-form-item label="会议邀请链接*">
+          <el-input v-model="form.link"></el-input>
+        </el-form-item>
+        <el-form-item label="会议号*">
+          <el-input v-model="form.number"></el-input>
+        </el-form-item>
+        <el-form-item>
+          <el-button type="primary" @click="newmeeting">预定会议</el-button>
+          <el-button>取消</el-button>
+        </el-form-item>
+      </el-form>
+      <div class="CreateMeeting">
+        <!-- <div class="tableTitle"><span class="midText">会议基本信息</span></div>
+        <div class="MeetingInfo">
+          <el-input placeholder="请输入会议主题" v-model="theme" class="theme">
+            <template slot="prepend">会议主题</template>
+          </el-input>
+          <el-input placeholder="请输入会议主持人" v-model="host" class="host">
+            <template slot="prepend">会议主持人</template>
+          </el-input>
+
+          <el-date-picker v-model="selectDay" type="date" class="date" placeholder="选择会议时间" value-format="yyyy-MM-dd">
+          </el-date-picker>
+        </div>
+        <div class="tableTitle"><span class="midText">选择参会人员</span></div>
+
+        <div class="patichoose" v-for="(item, index) in data_list" :key="index">
+          <p class="text">{{ item.name }}</p>
+          <div class="slideTwo">
+            <input type="checkbox" class="check_box tui-checkbox" :id="'id' + item.id" :value="item.name"
+              v-model="checkedNames">
+            <label :for="'id' + item.id" class="title"></label>
+          </div>
+        </div>
+        <div class='newpati'>
+          <router-link to="newpati">
+            <span class='newpati'>添加新的参会者</span>
+          </router-link>
+        </div> -->
+        <!-- <div class="tableTitle1"><span class="midText">上传相关资料</span></div>
     <div>
       <el-form ref="addForm" :model="addForm" label-width="130px" label-position="left">
         <el-form-item label="上传文件">
@@ -55,34 +88,40 @@
                   :before-upload="beforeUpload">
             <el-button slot="trigger"  icon="el-icon-upload2">选取文件</el-button>
             <el-button  @click="viewFile" icon="el-icon-view">预览</el-button>-->
-          <!-- </el-upload>
+        <!-- </el-upload>
         </el-form-item>
       </el-form> -->
-      <!--<pdf-->
-              <!--:src="pdfUrl"-->
-              <!--:page="currentPage"-->
-              <!--@num-pages="pageCount=$event"-->
-              <!--@page-loaded="currentPage=$event"-->
-              <!--@loaded="loadPdfHandler">-->
-      <!--</pdf>-->
+        <!--<pdf-->
+        <!--:src="pdfUrl"-->
+        <!--:page="currentPage"-->
+        <!--@num-pages="pageCount=$event"-->
+        <!--@page-loaded="currentPage=$event"-->
+        <!--@loaded="loadPdfHandler">-->
+        <!--</pdf>-->
 
 
-      <!--<el-button type="primary" @click="changePdfPage(0)" icon="el-icon-back">上一页</el-button>-->
-      <!--<el-button type="primary">{{currentPage}} / {{pageCount}}</el-button>-->
-      <!--<el-button type="primary" @click="changePdfPage(1)" icon="el-icon-right">下一页</el-button>-->
-      <!--<el-button type="primary" @click="downloadFile()" icon="el-icon-download">下载</el-button>-->
-    <!-- </div> -->
-    <!--<div>-->
-      <!---->
-    <!--</div>-->
-    <div class = "buttonnew">
-      <el-button @click="newmeeting">
-        新建会议
-      </el-button>
-    </div>
-    <dialog-bar v-model="sendVal" type="confirm" :title=host content="会议创建成功" v-on:cancel="clickCancel()" ></dialog-bar>
-    <dialog-bar v-model="falsemeeting" type="confirm" :title=host content="主持人不得为空，会议创建失败" v-on:cancel="clickCancel()" ></dialog-bar>
-    <dialog-bar v-model="falsemeeting2" type="confirm" :title=host content="未连接到数据库，会议创建失败" v-on:cancel="clickCancel()" ></dialog-bar>
+        <!--<el-button type="primary" @click="changePdfPage(0)" icon="el-icon-back">上一页</el-button>-->
+        <!--<el-button type="primary">{{currentPage}} / {{pageCount}}</el-button>-->
+        <!--<el-button type="primary" @click="changePdfPage(1)" icon="el-icon-right">下一页</el-button>-->
+        <!--<el-button type="primary" @click="downloadFile()" icon="el-icon-download">下载</el-button>-->
+        <!-- </div> -->
+        <!--<div>-->
+        <!---->
+        <!--</div>-->
+        <!-- <div class="buttonnew">
+          <el-button @click="newmeeting">
+            新建会议
+          </el-button>
+        </div> -->
+        <dialog-bar v-model="sendVal" type="confirm" :title=host content="会议创建成功"
+          v-on:cancel="clickCancel()"></dialog-bar>
+        <dialog-bar v-model="falsemeeting" type="confirm" :title=host content="主持人不得为空，会议创建失败"
+          v-on:cancel="clickCancel()"></dialog-bar>
+        <dialog-bar v-model="falsemeeting2" type="confirm" :title=host content="未连接到数据库，会议创建失败"
+          v-on:cancel="clickCancel()"></dialog-bar>
+      </div>
+
+    </el-card>
   </div>
 </template>
 
@@ -102,18 +141,26 @@ export default {
       sendVal: false,
       checkedNames: [],
       theme: "",
-      host:"",
-      selectDay:"",
-      data_list:[{id:1,name:"aaa"},{id:2,name:"bbb"},{id:3,title:"ccc"}],
-      addForm:{
-        file:null,
-        fileName:'',
-        fileData:null
+      host: "",
+      selectDay: "",
+      data_list: [{ id: 1, name: "aaa" }, { id: 2, name: "bbb" }, { id: 3, title: "ccc" }],
+      addForm: {
+        file: null,
+        fileName: '',
+        fileData: null
       },
       currentPage: 0, // pdf文件页码
       pageCount: 0, // pdf文件总页数
       fileType: 'pdf', // 文件类型
       pdfUrl: '', // pdf文件地址
+      form: {
+        theme: '',
+        host: '',
+        selectDay: '',
+        link: '',
+        number: '',
+      },
+      textarea: ''
     };
   },
   mounted() {
@@ -132,10 +179,45 @@ export default {
 
   },
   methods: {
-    getpatiData(){
+    // 分析字符串填充会议信息
+    stick() {
+      console.log(this.textarea)
+      const themeMatch = this.textarea.match(/会议主题：(.*?)\n/);
+      const theme = themeMatch ? themeMatch[1] : '';
+
+      // 使用正则表达式匹配会议主持人
+      const hostMatch = this.textarea.match(/^(.*?)\s+邀请您/);
+      const host = hostMatch ? hostMatch[1] : '';
+
+      // 使用正则表达式匹配会议时间
+      const timeMatch = this.textarea.match(/会议时间：(\d{4}\/\d{2}\/\d{2})/);
+      const time = timeMatch ? timeMatch[1] : '';
+
+      // 使用正则表达式匹配会议邀请链接
+      const linkMatch = this.textarea.match(/https:\/\/meeting\.tencent\.com\/\S+/);
+      const link = linkMatch ? linkMatch[0] : '';
+
+      // 使用正则表达式匹配会议号
+      const numberMatch = this.textarea.match(/#腾讯会议：(\S+)/);
+      const number = numberMatch ? numberMatch[1] : '';
+
+      // 打印提取的信息
+      console.log("会议主题:", theme);
+      console.log("会议主持人:", host);
+      console.log("会议时间:", time);
+      console.log("会议邀请链接:", link);
+      console.log("会议号:", number);
+
+      this.form.theme = theme;
+      this.form.host = host;
+      this.form.selectDay = time;
+      this.form.link = link;
+      this.form.number = number;
+    },
+    getpatiData() {
       // const path = 'http://127.0.0.1:5000/getPati';
-      const path =  '/api/getPati';
-      axios.post(path,{aaa: "hhhhhhh"}).then(res => {
+      const path = '/api/getPati';
+      axios.post(path, { aaa: "hhhhhhh" }).then(res => {
         // var msg = res.data.id;
         // this.new_time_data.push(msg);
         this.data_list = res.data.reslist;
@@ -145,7 +227,7 @@ export default {
         console.error(error);
       });
     },
-    changePdfPage (val) {
+    changePdfPage(val) {
       // console.log(val)
       if (val === 0 && this.currentPage > 1) {
         this.currentPage--
@@ -157,17 +239,17 @@ export default {
       }
     },
     // pdf加载时
-    loadPdfHandler (e) {
+    loadPdfHandler(e) {
       this.currentPage = 1 // 加载的时候先加载第一页
     },
     //初始化pdf路径
-    initPdf(){
+    initPdf() {
       //这里的PDF路径就是上传到后台的路径
       this.downloadFileUrl = 'http://xxx.xxx.xxx.xxx/file.pdf';
       this.pdfUrl = 'http://xxx.xxx.xxx.xxx/file.pdf';
     },
     //上传之前调用方法
-    beforeUpload(file){
+    beforeUpload(file) {
       this.addForm.file = file;
       this.addForm.fileName = file.name;
       // this.fileSize = file.size;
@@ -200,42 +282,40 @@ export default {
     //   );
     // },
     //点击确定按钮上传到后台
-    submitAddForm(){
+    submitAddForm() {
       var formData = new FormData();
       formData.append('file', this.addForm.file);
       this.$commonAjax.postFile('/xxx/xxx', formData,
-              (json)=> {
-                if (json.code == 0) {
-                  this.$message.success("文件上传成功");
-                } else {
-                  this.$message.error("文件上传失败");
-                }
-              },
-              (error)=> {
-                this.$message.error("系统繁忙请稍后再试!");
-              }
+        (json) => {
+          if (json.code == 0) {
+            this.$message.success("文件上传成功");
+          } else {
+            this.$message.error("文件上传失败");
+          }
+        },
+        (error) => {
+          this.$message.error("系统繁忙请稍后再试!");
+        }
       );
     },
-    downloadFile(){
+    downloadFile() {
       window.location.href = "http://xxx.xxx.xxx.xxx/downloadFile?token=xxx&path=" + this.downloadFileUrl;
       this.$message.success('下载成功！');
     },
-    clickCancel(){
+    clickCancel() {
       console.log('点击了取消');
     },
-    clickDanger(){
+    clickDanger() {
       console.log('这里是danger回调')
     },
-    clickConfirm(){
+    clickConfirm() {
       console.log('点击了confirm');
     },
-    newmeeting(){
-      console.log(this.host)
-      console.log(this.checkedNames)
-      if(this.host == ""){
+    newmeeting() {
+      if (this.form.host == "") {
         console.log("创建会议失败")
         this.falsemeeting = true;
-      }else {
+      } else {
         // var formData = new FormData();
         // formData.append('file', this.addForm.file);
         // this.$commonAjax.postFile('/xxx/xxx', formData,
@@ -252,8 +332,18 @@ export default {
         // );
         console.log("新建会议");
         // 设置对应python的接口，这里使用的是localhost:5000
+        sessionStorage.setItem(
+          "meetingInfo",
+          JSON.stringify({
+            theme: this.form.theme,
+            hoster: this.form.host,
+            selectDay: this.form.selectDay,
+            link: this.form.link,
+            number: this.form.number
+          })
+        );
         const path = '/api/newmeeting';
-        axios.post(path, {theme: this.theme, hoster: this.host, selectDay: this.selectDay,pati:this.checkedNames}).then(res => {
+        axios.post(path, { theme: this.form.theme, hoster: this.form.host, selectDay: this.form.selectDay, link: this.form.link, number: this.form.number }).then(res => {
           console.log(res);
           this.sendVal = true;
         }).catch(error => {
@@ -317,165 +407,206 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-  .newpati{
-    margin-top: 35px;
-    color:blue;
-  }
-  .buttonnew{
-    margin-top: 175px;
-    clear:both;
-  }
-  .patichoose{
-    float: left;
-    /*background: lawngreen;*/
-    width: 150px;
-    height: 50px;
-    .text{
-      font-size: 20px;
-      text-align: center;
-    }
-  }
-  .slideTwo {
-    width: 80px;
-    height: 30px;
-    background: #333;
-    margin: 20px auto;
-    position: relative;
-    -moz-border-radius: 50px;
-    -webkit-border-radius: 50px;
-    border-radius: 50px;
-    -moz-box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.5), 0px 1px 0px rgba(255, 255, 255, 0.2);
-    -webkit-box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.5), 0px 1px 0px rgba(255, 255, 255, 0.2);
-    box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.5), 0px 1px 0px rgba(255, 255, 255, 0.2);
-  }
-  .slideTwo:after {
-    content: '';
-    position: absolute;
-    top: 14px;
-    left: 14px;
-    height: 2px;
-    width: 52px;
-    background: #111;
-    -moz-border-radius: 50px;
-    -webkit-border-radius: 50px;
-    border-radius: 50px;
-    -moz-box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.5), 0px 1px 0px rgba(255, 255, 255, 0.2);
-    -webkit-box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.5), 0px 1px 0px rgba(255, 255, 255, 0.2);
-    box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.5), 0px 1px 0px rgba(255, 255, 255, 0.2);
-  }
-  .slideTwo label {
-    display: block;
-    width: 22px;
-    height: 22px;
-    cursor: pointer;
-    position: absolute;
-    top: 4px;
-    z-index: 1;
-    left: 4px;
-    background: #fcfff4;
-    -moz-border-radius: 50px;
-    -webkit-border-radius: 50px;
-    border-radius: 50px;
-    -moz-transition: all 0.4s ease;
-    -o-transition: all 0.4s ease;
-    -webkit-transition: all 0.4s ease;
-    transition: all 0.4s ease;
-    -moz-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.3);
-    -webkit-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.3);
-    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.3);
-    background: -moz-linear-gradient(top, #fcfff4 0%, #dfe5d7 40%, #b3bead 100%);
-    background: -webkit-linear-gradient(top, #fcfff4 0%, #dfe5d7 40%, #b3bead 100%);
-    background: linear-gradient(to bottom, #fcfff4 0%, #dfe5d7 40%, #b3bead 100%);
-  }
-  .slideTwo label:after {
-    content: '';
-    width: 10px;
-    height: 10px;
-    position: absolute;
-    top: 6px;
-    left: 6px;
-    background: #333;
-    -moz-border-radius: 50px;
-    -webkit-border-radius: 50px;
-    border-radius: 50px;
-    -moz-box-shadow: inset 0px 1px 1px black, 0px 1px 0px rgba(255, 255, 255, 0.9);
-    -webkit-box-shadow: inset 0px 1px 1px black, 0px 1px 0px rgba(255, 255, 255, 0.9);
-    box-shadow: inset 0px 1px 1px black, 0px 1px 0px rgba(255, 255, 255, 0.9);
-  }
-  .slideTwo input[type=checkbox] {
-    visibility: hidden;
-  }
-  .slideTwo input[type=checkbox]:checked + label {
-    left: 54px;
-  }
-  .slideTwo input[type=checkbox]:checked + label:after {
-    background: #00bf00;
-  }
-  .tableTitle {
-    position: relative;
-    margin: 0 auto;
-    margin-top: 15px;
-    margin-bottom: 15px;
+.el-input {
+  margin-left: 3%;
+  width: 50%;
+}
 
-    width: 100%;
-    height: 3px;
-    background-color: #d4d4d4;
+.ti {
+  margin-left: 1%;
+  margin-top: 1%;
+  color: #1a1a1a;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 34px;
+  margin-bottom: 4px;
+}
+
+.box-card {
+  margin-left: 1%;
+  margin-right: 3%;
+  margin-top: 1%;
+  padding-right: 30%;
+  border-radius: 8px;
+}
+
+.newpati {
+  margin-top: 35px;
+  color: blue;
+}
+
+.buttonnew {
+  margin-top: 175px;
+  clear: both;
+}
+
+.patichoose {
+  float: left;
+  /*background: lawngreen;*/
+  width: 150px;
+  height: 50px;
+
+  .text {
+    font-size: 20px;
     text-align: center;
-    font-size: 16px;
-    color: rgba(101, 101, 101, 1);
   }
-  .tableTitle1 {
-    position: relative;
-    margin: 0 auto;
-    margin-top: 95px;
-    margin-bottom: 15px;
+}
 
-    width: 100%;
-    height: 3px;
-    background-color: #d4d4d4;
-    text-align: center;
-    font-size: 16px;
-    color: rgba(101, 101, 101, 1);
-  }
-  .midText {
-    position: absolute;
-    left: 50%;
-    background-color: #ffffff;
-    padding: 0 15px;
-    transform: translateX(-50%) translateY(-50%);
-  }
-
-.CreateMeeting{
+.slideTwo {
+  width: 80px;
+  height: 30px;
+  background: #333;
+  margin: 20px auto;
   position: relative;
-  .MeetingInfo{
-    .theme{
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  -moz-box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.5), 0px 1px 0px rgba(255, 255, 255, 0.2);
+  -webkit-box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.5), 0px 1px 0px rgba(255, 255, 255, 0.2);
+  box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.5), 0px 1px 0px rgba(255, 255, 255, 0.2);
+}
+
+.slideTwo:after {
+  content: '';
+  position: absolute;
+  top: 14px;
+  left: 14px;
+  height: 2px;
+  width: 52px;
+  background: #111;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  -moz-box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.5), 0px 1px 0px rgba(255, 255, 255, 0.2);
+  -webkit-box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.5), 0px 1px 0px rgba(255, 255, 255, 0.2);
+  box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.5), 0px 1px 0px rgba(255, 255, 255, 0.2);
+}
+
+.slideTwo label {
+  display: block;
+  width: 22px;
+  height: 22px;
+  cursor: pointer;
+  position: absolute;
+  top: 4px;
+  z-index: 1;
+  left: 4px;
+  background: #fcfff4;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  -moz-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+  -moz-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.3);
+  background: -moz-linear-gradient(top, #fcfff4 0%, #dfe5d7 40%, #b3bead 100%);
+  background: -webkit-linear-gradient(top, #fcfff4 0%, #dfe5d7 40%, #b3bead 100%);
+  background: linear-gradient(to bottom, #fcfff4 0%, #dfe5d7 40%, #b3bead 100%);
+}
+
+.slideTwo label:after {
+  content: '';
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  top: 6px;
+  left: 6px;
+  background: #333;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  -moz-box-shadow: inset 0px 1px 1px black, 0px 1px 0px rgba(255, 255, 255, 0.9);
+  -webkit-box-shadow: inset 0px 1px 1px black, 0px 1px 0px rgba(255, 255, 255, 0.9);
+  box-shadow: inset 0px 1px 1px black, 0px 1px 0px rgba(255, 255, 255, 0.9);
+}
+
+.slideTwo input[type=checkbox] {
+  visibility: hidden;
+}
+
+.slideTwo input[type=checkbox]:checked+label {
+  left: 54px;
+}
+
+.slideTwo input[type=checkbox]:checked+label:after {
+  background: #00bf00;
+}
+
+.tableTitle {
+  position: relative;
+  margin: 0 auto;
+  margin-top: 15px;
+  margin-bottom: 15px;
+
+  width: 100%;
+  height: 3px;
+  background-color: #d4d4d4;
+  text-align: center;
+  font-size: 16px;
+  color: rgba(101, 101, 101, 1);
+}
+
+.tableTitle1 {
+  position: relative;
+  margin: 0 auto;
+  margin-top: 95px;
+  margin-bottom: 15px;
+
+  width: 100%;
+  height: 3px;
+  background-color: #d4d4d4;
+  text-align: center;
+  font-size: 16px;
+  color: rgba(101, 101, 101, 1);
+}
+
+.midText {
+  position: absolute;
+  left: 50%;
+  background-color: #ffffff;
+  padding: 0 15px;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.CreateMeeting {
+  position: relative;
+
+  .MeetingInfo {
+    .theme {
       margin-top: 20px;
       width: 600px;
     }
-    .host{
+
+    .host {
       margin-left: 10px;
       margin-top: 5px;
       width: 600px;
     }
-    .date{
+
+    .date {
       margin-top: 5px;
       width: 600px;
     }
   }
-  .MeetingPati{
 
-  }
+  .MeetingPati {}
 }
+
 .visitorInfo-wrapper {
   .info-search {
     .search-item {
       margin-top: 5px;
       width: 300px;
+
       &.visitorCredit {
         margin-left: 5px;
       }
     }
   }
+
   .appoint-result-wrapper {
     .port-btn {
       border-top: 1px solid #ccc;
@@ -483,13 +614,16 @@ export default {
       margin-bottom: 10px;
       text-align: right;
     }
+
     .appoint-result {
       text-align: center;
+
       .pagination {
         margin-top: 20px;
       }
     }
   }
+
   .label {
     display: inline-block;
     width: 80px;
@@ -503,6 +637,7 @@ export default {
     background: #f5f7fa;
     color: #909399;
   }
+
   .info-result-wrapper {
     .port-btn {
       border-top: 1px solid #ccc;
@@ -510,8 +645,10 @@ export default {
       margin-bottom: 10px;
       text-align: right;
     }
+
     .info-result {
       text-align: center;
+
       .pagination {
         margin-top: 20px;
       }
