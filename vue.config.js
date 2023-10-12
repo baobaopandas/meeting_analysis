@@ -9,8 +9,8 @@ module.exports = {
       '/api': {
         // target: 'http://127.0.0.1:3000/api/', //接口域名
         // target: 'http://8.142.25.8:5000', //接口域名
-        target: 'http://127.0.0.1:5000', //接口域名
-        // target: 'http://124.222.217.145:8081',
+        // target: 'http://127.0.0.1:5000', //接口域名
+        target: 'http://124.222.217.145:8081',
         changeOrigin: true,             //是否跨域
         ws: true,                       //是否代理 websockets
         secure: false,                   //是否https接口
