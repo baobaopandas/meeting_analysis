@@ -1,0 +1,1892 @@
+[
+ {
+  "segment_idx": "EN2001a.sync.277",
+  "speaker": "B",
+  "start_time": "78.696",
+  "end_time": "79.168",
+  "sentences": [
+   {
+    "filename": "EN2001a.B.words.xml",
+    "start_word": 0,
+    "end_word": 1,
+    "text": "Yeah ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.279",
+  "speaker": "B",
+  "start_time": "84.208",
+  "end_time": "94.825",
+  "sentences": [
+   {
+    "filename": "EN2001a.B.words.xml",
+    "start_word": 2,
+    "end_word": 29,
+    "text": "Yeah , I mean if we just want to have um some data for the user face , could even be random data . Uh mm mm [disfmarker]"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.281",
+  "speaker": "B",
+  "start_time": "103.984",
+  "end_time": "104.692",
+  "sentences": [
+   {
+    "filename": "EN2001a.B.words.xml",
+    "start_word": 30,
+    "end_word": 33,
+    "text": "Yeah , I'm [disfmarker]"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.283",
+  "speaker": "B",
+  "start_time": "252.964",
+  "end_time": "253.654",
+  "sentences": [
+   {
+    "filename": "EN2001a.B.words.xml",
+    "start_word": 34,
+    "end_word": 35,
+    "text": "Hmm ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.285",
+  "speaker": "B",
+  "start_time": "406.304",
+  "end_time": "406.946",
+  "sentences": [
+   {
+    "filename": "EN2001a.B.words.xml",
+    "start_word": 36,
+    "end_word": 37,
+    "text": "Yes ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.287",
+  "speaker": "B",
+  "start_time": "461.248",
+  "end_time": "461.724",
+  "sentences": [
+   {
+    "filename": "EN2001a.B.words.xml",
+    "start_word": 38,
+    "end_word": 40,
+    "text": "Hmm yes ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.289",
+  "speaker": "B",
+  "start_time": "474.744",
+  "end_time": "475.218",
+  "sentences": [
+   {
+    "filename": "EN2001a.B.words.xml",
+    "start_word": 41,
+    "end_word": 42,
+    "text": "Hmm ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.291",
+  "speaker": "B",
+  "start_time": "494.304",
+  "end_time": "496.64",
+  "sentences": [
+   {
+    "filename": "EN2001a.B.words.xml",
+    "start_word": 43,
+    "end_word": 48,
+    "text": "[vocalsound] I'm not so sure ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.293",
+  "speaker": "B",
+  "start_time": "511.504",
+  "end_time": "528.608",
+  "sentences": [
+   {
+    "filename": "EN2001a.B.words.xml",
+    "start_word": 49,
+    "end_word": 91,
+    "text": "I I thought we would just have like um one big summary um with all the uh different importance levels um displayed on it . And depending on what our um zoom level is , we just display a part of it ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.295",
+  "speaker": "B",
+  "start_time": "531.76",
+  "end_time": "538.756",
+  "sentences": [
+   {
+    "filename": "EN2001a.B.words.xml",
+    "start_word": 92,
+    "end_word": 113,
+    "text": "And we would have one very big thing off-line . And from that we would just select what we are displaying ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.297",
+  "speaker": "B",
+  "start_time": "542.016",
+  "end_time": "554.21",
+  "sentences": [
+   {
+    "filename": "EN2001a.B.words.xml",
+    "start_word": 114,
+    "end_word": 145,
+    "text": "Yes . So for example you would um give a high value to those um sequences you want to display in the meeting series summary . And you just cut off ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.299",
+  "speaker": "B",
+  "start_time": "566.048",
+  "end_time": "569.101",
+  "sentences": [
+   {
+    "filename": "EN2001a.B.words.xml",
+    "start_word": 146,
+    "end_word": 158,
+    "text": "That was what I sh I thought , yeah . I thought ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.301",
+  "speaker": "B",
+  "start_time": "639.565",
+  "end_time": "657.248",
+  "sentences": [
+   {
+    "filename": "EN2001a.B.words.xml",
+    "start_word": 159,
+    "end_word": 210,
+    "text": "But I think the m difference might be that we want [disfmarker] just want to have um the words . And that's not so much what he meant with not possibly loading everything was that you m um load all the uh annotation stuff , all the sound files , all [disfmarker]"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.303",
+  "speaker": "B",
+  "start_time": "692.167",
+  "end_time": "693.856",
+  "sentences": [
+   {
+    "filename": "EN2001a.B.words.xml",
+    "start_word": 211,
+    "end_word": 213,
+    "text": "In [disfmarker] [vocalsound]"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.305",
+  "speaker": "B",
+  "start_time": "715.531",
+  "end_time": "733.581",
+  "sentences": [
+   {
+    "filename": "EN2001a.B.words.xml",
+    "start_word": 214,
+    "end_word": 262,
+    "text": "Um [disfmarker] I r I [disfmarker] I'm getting quite lost um at the moment because um w what's um our difference between the um se um [vocalsound] uh the importance measure and the skimming ? I mean , do we do both or is it the same thing ?"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.307",
+  "speaker": "B",
+  "start_time": "737.216",
+  "end_time": "737.7",
+  "sentences": [
+   {
+    "filename": "EN2001a.B.words.xml",
+    "start_word": 263,
+    "end_word": 264,
+    "text": "Okay ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.309",
+  "speaker": "B",
+  "start_time": "738.976",
+  "end_time": "745.38",
+  "sentences": [
+   {
+    "filename": "EN2001a.B.words.xml",
+    "start_word": 265,
+    "end_word": 286,
+    "text": "So [disfmarker] but when when we talk about summaries you talk about this [disfmarker] uh abo about skimming and not about [disfmarker]"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.311",
+  "speaker": "B",
+  "start_time": "762.416",
+  "end_time": "762.896",
+  "sentences": [
+   {
+    "filename": "EN2001a.B.words.xml",
+    "start_word": 287,
+    "end_word": 288,
+    "text": "Yeah ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.313",
+  "speaker": "B",
+  "start_time": "766.711",
+  "end_time": "770.345",
+  "sentences": [
+   {
+    "filename": "EN2001a.B.words.xml",
+    "start_word": 289,
+    "end_word": 301,
+    "text": "Yeah right , isn't that the skimming ? Isn't that the skimming ?"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.315",
+  "speaker": "B",
+  "start_time": "774.199",
+  "end_time": "775.996",
+  "sentences": [
+   {
+    "filename": "EN2001a.B.words.xml",
+    "start_word": 302,
+    "end_word": 310,
+    "text": "Yeah , but it use the same data ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.317",
+  "speaker": "B",
+  "start_time": "840.563",
+  "end_time": "841.056",
+  "sentences": [
+   {
+    "filename": "EN2001a.B.words.xml",
+    "start_word": 311,
+    "end_word": 311,
+    "text": "[vocalsound]"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.319",
+  "speaker": "B",
+  "start_time": "842.08",
+  "end_time": "842.892",
+  "sentences": [
+   {
+    "filename": "EN2001a.B.words.xml",
+    "start_word": 312,
+    "end_word": 313,
+    "text": "Yeah ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.321",
+  "speaker": "B",
+  "start_time": "843.997",
+  "end_time": "844.945",
+  "sentences": [
+   {
+    "filename": "EN2001a.B.words.xml",
+    "start_word": 314,
+    "end_word": 314,
+    "text": "A"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.323",
+  "speaker": "B",
+  "start_time": "855.143",
+  "end_time": "870.832",
+  "sentences": [
+   {
+    "filename": "EN2001a.B.words.xml",
+    "start_word": 315,
+    "end_word": 357,
+    "text": "And , yeah , I think we also thought about combining that measure with um the measures I get from um s uh hot-spots and so on . So that would also be on utterance level , I think . I think ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.325",
+  "speaker": "B",
+  "start_time": "1073.296",
+  "end_time": "1074.096",
+  "sentences": [
+   {
+    "filename": "EN2001a.B.words.xml",
+    "start_word": 358,
+    "end_word": 361,
+    "text": "Yes , sure ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.327",
+  "speaker": "B",
+  "start_time": "1131.056",
+  "end_time": "1131.52",
+  "sentences": [
+   {
+    "filename": "EN2001a.B.words.xml",
+    "start_word": 362,
+    "end_word": 363,
+    "text": "Yes ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.329",
+  "speaker": "B",
+  "start_time": "1175.36",
+  "end_time": "1176.433",
+  "sentences": [
+   {
+    "filename": "EN2001a.B.words.xml",
+    "start_word": 364,
+    "end_word": 367,
+    "text": "Yes , right ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.331",
+  "speaker": "B",
+  "start_time": "1180.768",
+  "end_time": "1201.792",
+  "sentences": [
+   {
+    "filename": "EN2001a.B.words.xml",
+    "start_word": 368,
+    "end_word": 425,
+    "text": "Oops , it does . So I define baseline and what it loads ? For example it loads all the utterances and so on , but it doesn't load um the discourse acts and for example not the [disfmarker] and what's [disfmarker] what else [gap] there ? Not the summaries . It only loads those on demand ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.333",
+  "speaker": "B",
+  "start_time": "1254.72",
+  "end_time": "1273.136",
+  "sentences": [
+   {
+    "filename": "EN2001a.B.words.xml",
+    "start_word": 426,
+    "end_word": 463,
+    "text": "Y you mean that you um basically split up th the big thing into um different summaries . For example that you have a very um top-level um summary and a separate file for for each level ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.335",
+  "speaker": "B",
+  "start_time": "1302.528",
+  "end_time": "1302.97",
+  "sentences": [
+   {
+    "filename": "EN2001a.B.words.xml",
+    "start_word": 464,
+    "end_word": 465,
+    "text": "Mm-hmm ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.337",
+  "speaker": "B",
+  "start_time": "1604.161",
+  "end_time": "1604.832",
+  "sentences": [
+   {
+    "filename": "EN2001a.B.words.xml",
+    "start_word": 466,
+    "end_word": 467,
+    "text": "Yes ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.339",
+  "speaker": "B",
+  "start_time": "1627.44",
+  "end_time": "1629.344",
+  "sentences": [
+   {
+    "filename": "EN2001a.B.words.xml",
+    "start_word": 468,
+    "end_word": 476,
+    "text": "N Uh no no , it's f for [disfmarker]"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.341",
+  "speaker": "B",
+  "start_time": "1632.544",
+  "end_time": "1634.944",
+  "sentences": [
+   {
+    "filename": "EN2001a.B.words.xml",
+    "start_word": 477,
+    "end_word": 486,
+    "text": "No , you're right . Yeah . It's for [disfmarker]"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.343",
+  "speaker": "B",
+  "start_time": "1674.48",
+  "end_time": "1675.155",
+  "sentences": [
+   {
+    "filename": "EN2001a.B.words.xml",
+    "start_word": 487,
+    "end_word": 488,
+    "text": "Um [disfmarker]"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.345",
+  "speaker": "B",
+  "start_time": "1693.776",
+  "end_time": "1704.603",
+  "sentences": [
+   {
+    "filename": "EN2001a.B.words.xml",
+    "start_word": 489,
+    "end_word": 523,
+    "text": "No , I I think we would just take the segments that are already [disfmarker] that were [disfmarker] [disfmarker] Yeah , there's um this segments file . Um you know , the X_M_L_ segments ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.347",
+  "speaker": "B",
+  "start_time": "1707.44",
+  "end_time": "1707.774",
+  "sentences": [
+   {
+    "filename": "EN2001a.B.words.xml",
+    "start_word": 524,
+    "end_word": 525,
+    "text": "Oh ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.349",
+  "speaker": "B",
+  "start_time": "1711.216",
+  "end_time": "1712.224",
+  "sentences": [
+   {
+    "filename": "EN2001a.B.words.xml",
+    "start_word": 526,
+    "end_word": 530,
+    "text": "That I don't know ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.351",
+  "speaker": "B",
+  "start_time": "1748.104",
+  "end_time": "1749.296",
+  "sentences": [
+   {
+    "filename": "EN2001a.B.words.xml",
+    "start_word": 531,
+    "end_word": 535,
+    "text": "Yeah , that's um [disfmarker]"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.353",
+  "speaker": "B",
+  "start_time": "1751.264",
+  "end_time": "1751.73",
+  "sentences": [
+   {
+    "filename": "EN2001a.B.words.xml",
+    "start_word": 536,
+    "end_word": 537,
+    "text": "Mm-hmm ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.355",
+  "speaker": "B",
+  "start_time": "1768.112",
+  "end_time": "1781.312",
+  "sentences": [
+   {
+    "filename": "EN2001a.B.words.xml",
+    "start_word": 538,
+    "end_word": 572,
+    "text": "There there are time stamps um for , well , segments um and for th um segments is for example when when you look at the data , what is displayed in one line ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.357",
+  "speaker": "B",
+  "start_time": "1783.776",
+  "end_time": "1787.04",
+  "sentences": [
+   {
+    "filename": "EN2001a.B.words.xml",
+    "start_word": 573,
+    "end_word": 585,
+    "text": "What [disfmarker] when when you look at it in the [disfmarker] hmm ?"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.359",
+  "speaker": "B",
+  "start_time": "1789.614",
+  "end_time": "1791.377",
+  "sentences": [
+   {
+    "filename": "EN2001a.B.words.xml",
+    "start_word": 586,
+    "end_word": 592,
+    "text": "[vocalsound] I think so . Isn't [disfmarker]"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.361",
+  "speaker": "B",
+  "start_time": "1792.571",
+  "end_time": "1816.426",
+  "sentences": [
+   {
+    "filename": "EN2001a.B.words.xml",
+    "start_word": 593,
+    "end_word": 650,
+    "text": "Um for ex um I I compared it with what I did for the pause um duration extraction . Um and basically it's uh words that are uttered in a sequence without pauses . But sometimes um however there are um short pauses in it and they're indicated by square brackets pause or something in the data ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.363",
+  "speaker": "B",
+  "start_time": "1820.497",
+  "end_time": "1826.704",
+  "sentences": [
+   {
+    "filename": "EN2001a.B.words.xml",
+    "start_word": 651,
+    "end_word": 666,
+    "text": "Um someti uh but uh the annotators decided what was one segment and what wasn't ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.365",
+  "speaker": "B",
+  "start_time": "1835.936",
+  "end_time": "1837.318",
+  "sentences": [
+   {
+    "filename": "EN2001a.B.words.xml",
+    "start_word": 667,
+    "end_word": 670,
+    "text": "I think so ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.367",
+  "speaker": "B",
+  "start_time": "1870.576",
+  "end_time": "1883.954",
+  "sentences": [
+   {
+    "filename": "EN2001a.B.words.xml",
+    "start_word": 671,
+    "end_word": 700,
+    "text": "Yeah , but um I think for some annotations um an uttera ca utterance can have several um types . For example for the dialogue acts and so on ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.369",
+  "speaker": "B",
+  "start_time": "1886.525",
+  "end_time": "1888.612",
+  "sentences": [
+   {
+    "filename": "EN2001a.B.words.xml",
+    "start_word": 701,
+    "end_word": 709,
+    "text": "Okay . Yeah , that should be for [disfmarker]"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.371",
+  "speaker": "B",
+  "start_time": "1891.136",
+  "end_time": "1893.2",
+  "sentences": [
+   {
+    "filename": "EN2001a.B.words.xml",
+    "start_word": 710,
+    "end_word": 716,
+    "text": "Yeah . Should be , yeah ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.373",
+  "speaker": "B",
+  "start_time": "2427.04",
+  "end_time": "2427.931",
+  "sentences": [
+   {
+    "filename": "EN2001a.B.words.xml",
+    "start_word": 717,
+    "end_word": 717,
+    "text": "[vocalsound]"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.375",
+  "speaker": "B",
+  "start_time": "2710.631",
+  "end_time": "2712.361",
+  "sentences": [
+   {
+    "filename": "EN2001a.B.words.xml",
+    "start_word": 718,
+    "end_word": 722,
+    "text": "Yes , but that's [disfmarker]"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.377",
+  "speaker": "B",
+  "start_time": "2714.32",
+  "end_time": "2717.712",
+  "sentences": [
+   {
+    "filename": "EN2001a.B.words.xml",
+    "start_word": 723,
+    "end_word": 734,
+    "text": "Yeah , everything that's a word has a sti time stamp ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.379",
+  "speaker": "B",
+  "start_time": "2759.424",
+  "end_time": "2763.568",
+  "sentences": [
+   {
+    "filename": "EN2001a.B.words.xml",
+    "start_word": 735,
+    "end_word": 750,
+    "text": "That's at the end . That's at the end , I think , her time ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.381",
+  "speaker": "B",
+  "start_time": "2766.944",
+  "end_time": "2767.952",
+  "sentences": [
+   {
+    "filename": "EN2001a.B.words.xml",
+    "start_word": 751,
+    "end_word": 754,
+    "text": "Yeah , maybe ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.383",
+  "speaker": "B",
+  "start_time": "2769.216",
+  "end_time": "2770.544",
+  "sentences": [
+   {
+    "filename": "EN2001a.B.words.xml",
+    "start_word": 755,
+    "end_word": 762,
+    "text": "Didn't have a look at our meetings ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.385",
+  "speaker": "B",
+  "start_time": "2776.472",
+  "end_time": "2785.952",
+  "sentences": [
+   {
+    "filename": "EN2001a.B.words.xml",
+    "start_word": 763,
+    "end_word": 787,
+    "text": "Uh I I think it wouldn't as it occurs [disfmarker] I mean it would be [disfmarker] it occurs in every meeting . So [disfmarker] [vocalsound]"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.387",
+  "speaker": "B",
+  "start_time": "2789.108",
+  "end_time": "2797.755",
+  "sentences": [
+   {
+    "filename": "EN2001a.B.words.xml",
+    "start_word": 788,
+    "end_word": 813,
+    "text": "And I think it even has uh its own annotation , like digits or something . So that should be really easy to cut out ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.389",
+  "speaker": "B",
+  "start_time": "2802.288",
+  "end_time": "2806.848",
+  "sentences": [
+   {
+    "filename": "EN2001a.B.words.xml",
+    "start_word": 814,
+    "end_word": 821,
+    "text": "[vocalsound] Yeah . [vocalsound] I'm sure . [vocalsound]"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.391",
+  "speaker": "B",
+  "start_time": "2810.928",
+  "end_time": "2812.992",
+  "sentences": [
+   {
+    "filename": "EN2001a.B.words.xml",
+    "start_word": 822,
+    "end_word": 832,
+    "text": "Ah it's just to test the system , I think ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.393",
+  "speaker": "B",
+  "start_time": "2814.064",
+  "end_time": "2814.448",
+  "sentences": [
+   {
+    "filename": "EN2001a.B.words.xml",
+    "start_word": 833,
+    "end_word": 834,
+    "text": "So [disfmarker]"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.395",
+  "speaker": "B",
+  "start_time": "2820.992",
+  "end_time": "2823.76",
+  "sentences": [
+   {
+    "filename": "EN2001a.B.words.xml",
+    "start_word": 835,
+    "end_word": 842,
+    "text": "Mm they have to read numbers from [disfmarker]"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.397",
+  "speaker": "B",
+  "start_time": "2834.352",
+  "end_time": "2837.28",
+  "sentences": [
+   {
+    "filename": "EN2001a.B.words.xml",
+    "start_word": 843,
+    "end_word": 854,
+    "text": "Uh I didn't have a look at that . So [disfmarker] [vocalsound]"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.399",
+  "speaker": "B",
+  "start_time": "2859.759",
+  "end_time": "2860.358",
+  "sentences": [
+   {
+    "filename": "EN2001a.B.words.xml",
+    "start_word": 855,
+    "end_word": 856,
+    "text": "They [disfmarker]"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.401",
+  "speaker": "B",
+  "start_time": "3154.32",
+  "end_time": "3154.736",
+  "sentences": [
+   {
+    "filename": "EN2001a.B.words.xml",
+    "start_word": 857,
+    "end_word": 858,
+    "text": "Mm-hmm ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.403",
+  "speaker": "B",
+  "start_time": "3334.252",
+  "end_time": "3335.929",
+  "sentences": [
+   {
+    "filename": "EN2001a.B.words.xml",
+    "start_word": 859,
+    "end_word": 862,
+    "text": "Uh th yeah ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.405",
+  "speaker": "B",
+  "start_time": "3336.301",
+  "end_time": "3336.562",
+  "sentences": [
+   {
+    "filename": "EN2001a.B.words.xml",
+    "start_word": 863,
+    "end_word": 863,
+    "text": "[vocalsound]"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.407",
+  "speaker": "B",
+  "start_time": "3337.888",
+  "end_time": "3390.029",
+  "sentences": [
+   {
+    "filename": "EN2001a.B.words.xml",
+    "start_word": 864,
+    "end_word": 977,
+    "text": "'Kay . Um I just um wondered , so who's uh then doing um the frequencies on on the words , because I'm [disfmarker] I think I will also um [disfmarker] I could also make use of it um for the agreement and disagreement thing . Because I um [disfmarker] I [disfmarker] in my outline I talked about um using the um discourse acts first , and um then in the chunks of text I found looking for word patterns and so on . So um I would for example need the um most freq um frequent words . So if you cut off all that , I'd won't be use [disfmarker] or [disfmarker]"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.409",
+  "speaker": "B",
+  "start_time": "3398.912",
+  "end_time": "3402.352",
+  "sentences": [
+   {
+    "filename": "EN2001a.B.words.xml",
+    "start_word": 978,
+    "end_word": 994,
+    "text": "Yeah , I I [disfmarker] but I need it for my chunks then . I would [disfmarker]"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.411",
+  "speaker": "B",
+  "start_time": "3403.488",
+  "end_time": "3403.922",
+  "sentences": [
+   {
+    "filename": "EN2001a.B.words.xml",
+    "start_word": 995,
+    "end_word": 997,
+    "text": "You know ?"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.413",
+  "speaker": "B",
+  "start_time": "3406.576",
+  "end_time": "3424.256",
+  "sentences": [
+   {
+    "filename": "EN2001a.B.words.xml",
+    "start_word": 998,
+    "end_word": 1047,
+    "text": "Yeah , but I'd [disfmarker] uh I would like to look at the frequency of words in my [disfmarker] um in the regions of text I found out to be interesting . So I wouldn't need it . It it would have to be re-calculated only for my segments ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.415",
+  "speaker": "B",
+  "start_time": "3428.832",
+  "end_time": "3429.233",
+  "sentences": [
+   {
+    "filename": "EN2001a.B.words.xml",
+    "start_word": 1048,
+    "end_word": 1049,
+    "text": "Huh ?"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.417",
+  "speaker": "B",
+  "start_time": "3430.768",
+  "end_time": "3446.006",
+  "sentences": [
+   {
+    "filename": "EN2001a.B.words.xml",
+    "start_word": 1050,
+    "end_word": 1086,
+    "text": "Uh [vocalsound] uh [disfmarker] mm . I think it would be , you know , l as as big at [disfmarker] as the hot-spot annotation things . That's quite small , yeah , that's some utterances ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.419",
+  "speaker": "B",
+  "start_time": "3459.76",
+  "end_time": "3469.072",
+  "sentences": [
+   {
+    "filename": "EN2001a.B.words.xml",
+    "start_word": 1087,
+    "end_word": 1114,
+    "text": "Yes . Yeah , yeah . So I would probably just concatenate all my um text chunks and then let's say m I will run over it ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.421",
+  "speaker": "B",
+  "start_time": "3475.104",
+  "end_time": "3475.584",
+  "sentences": [
+   {
+    "filename": "EN2001a.B.words.xml",
+    "start_word": 1115,
+    "end_word": 1116,
+    "text": "Yes ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.423",
+  "speaker": "B",
+  "start_time": "3823.312",
+  "end_time": "3825.664",
+  "sentences": [
+   {
+    "filename": "EN2001a.B.words.xml",
+    "start_word": 1117,
+    "end_word": 1120,
+    "text": "Yes , definitely ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.425",
+  "speaker": "B",
+  "start_time": "4192.624",
+  "end_time": "4193.324",
+  "sentences": [
+   {
+    "filename": "EN2001a.B.words.xml",
+    "start_word": 1121,
+    "end_word": 1121,
+    "text": "[vocalsound]"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.427",
+  "speaker": "B",
+  "start_time": "4246.176",
+  "end_time": "4247.776",
+  "sentences": [
+   {
+    "filename": "EN2001a.B.words.xml",
+    "start_word": 1122,
+    "end_word": 1126,
+    "text": "[vocalsound] Yeah , right ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.429",
+  "speaker": "B",
+  "start_time": "4249.349",
+  "end_time": "4250.576",
+  "sentences": [
+   {
+    "filename": "EN2001a.B.words.xml",
+    "start_word": 1127,
+    "end_word": 1128,
+    "text": "[vocalsound] Ye"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.431",
+  "speaker": "B",
+  "start_time": "4252.059",
+  "end_time": "4252.512",
+  "sentences": [
+   {
+    "filename": "EN2001a.B.words.xml",
+    "start_word": 1129,
+    "end_word": 1129,
+    "text": "M"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.433",
+  "speaker": "B",
+  "start_time": "4256.256",
+  "end_time": "4264.368",
+  "sentences": [
+   {
+    "filename": "EN2001a.B.words.xml",
+    "start_word": 1130,
+    "end_word": 1149,
+    "text": "Um Jasmine , uh um what is um the text you're extracting uh looking like then at the end ?"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.435",
+  "speaker": "B",
+  "start_time": "4268.064",
+  "end_time": "4292.622",
+  "sentences": [
+   {
+    "filename": "EN2001a.B.words.xml",
+    "start_word": 1150,
+    "end_word": 1210,
+    "text": "Because um [disfmarker] I I think it's actually very similar to what I did for my um speaker um uh extraction and I think I would ch perhaps have to change two lines of codes to get you um for each meeting a file that says fr from um this millisecond to this millisecond there was this sequence of words ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.437",
+  "speaker": "B",
+  "start_time": "4294.112",
+  "end_time": "4294.656",
+  "sentences": [
+   {
+    "filename": "EN2001a.B.words.xml",
+    "start_word": 1211,
+    "end_word": 1214,
+    "text": "And so on ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.439",
+  "speaker": "B",
+  "start_time": "4296.124",
+  "end_time": "4301.456",
+  "sentences": [
+   {
+    "filename": "EN2001a.B.words.xml",
+    "start_word": 1215,
+    "end_word": 1232,
+    "text": "So that's just changing two lines of code . And it would give you that . So [disfmarker]"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.441",
+  "speaker": "B",
+  "start_time": "4307.216",
+  "end_time": "4326.928",
+  "sentences": [
+   {
+    "filename": "EN2001a.B.words.xml",
+    "start_word": 1233,
+    "end_word": 1274,
+    "text": "Um yeah . So far I extracted um the dura durations . But it's from the words file . So I could just um contatenate [disfmarker] concatenate um the words instead of the durations , and it should [disfmarker] I mean [disfmarker]"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.443",
+  "speaker": "B",
+  "start_time": "4329.312",
+  "end_time": "4330.401",
+  "sentences": [
+   {
+    "filename": "EN2001a.B.words.xml",
+    "start_word": 1275,
+    "end_word": 1277,
+    "text": "Should be very"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.445",
+  "speaker": "B",
+  "start_time": "4331.488",
+  "end_time": "4332.176",
+  "sentences": [
+   {
+    "filename": "EN2001a.B.words.xml",
+    "start_word": 1278,
+    "end_word": 1279,
+    "text": "straight-forward ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.447",
+  "speaker": "B",
+  "start_time": "4334.025",
+  "end_time": "4341.134",
+  "sentences": [
+   {
+    "filename": "EN2001a.B.words.xml",
+    "start_word": 1280,
+    "end_word": 1310,
+    "text": "[vocalsound] I can try to do it and send it to you . Pe and you have a look at it , will it make sense for what you want ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.449",
+  "speaker": "B",
+  "start_time": "4354.512",
+  "end_time": "4358.88",
+  "sentences": [
+   {
+    "filename": "EN2001a.B.words.xml",
+    "start_word": 1311,
+    "end_word": 1330,
+    "text": "Yeah , uh p I mean it [disfmarker] I just let it run over all the files . So [disfmarker]"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.451",
+  "speaker": "B",
+  "start_time": "4361.04",
+  "end_time": "4363.104",
+  "sentences": [
+   {
+    "filename": "EN2001a.B.words.xml",
+    "start_word": 1331,
+    "end_word": 1336,
+    "text": "Yes . I just ordered ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.453",
+  "speaker": "B",
+  "start_time": "4365.823",
+  "end_time": "4370.32",
+  "sentences": [
+   {
+    "filename": "EN2001a.B.words.xml",
+    "start_word": 1337,
+    "end_word": 1349,
+    "text": "Uh I ordered according to the um starting times of the utterances ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.455",
+  "speaker": "B",
+  "start_time": "4381.968",
+  "end_time": "4383.488",
+  "sentences": [
+   {
+    "filename": "EN2001a.B.words.xml",
+    "start_word": 1350,
+    "end_word": 1355,
+    "text": "What do you mean by diffe"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.457",
+  "speaker": "B",
+  "start_time": "4392.368",
+  "end_time": "4398.282",
+  "sentences": [
+   {
+    "filename": "EN2001a.B.words.xml",
+    "start_word": 1356,
+    "end_word": 1377,
+    "text": "Yeah , I mean t I I have one [disfmarker] what I give you would be one file for each meeting ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.459",
+  "speaker": "B",
+  "start_time": "4401.552",
+  "end_time": "4404.448",
+  "sentences": [
+   {
+    "filename": "EN2001a.B.words.xml",
+    "start_word": 1378,
+    "end_word": 1391,
+    "text": "Yeah , not for each meeting series . I didn't do that yet ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.461",
+  "speaker": "B",
+  "start_time": "4411.002",
+  "end_time": "4412.54",
+  "sentences": [
+   {
+    "filename": "EN2001a.B.words.xml",
+    "start_word": 1392,
+    "end_word": 1399,
+    "text": "[vocalsound] Yeah , one group , yeah ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.463",
+  "speaker": "B",
+  "start_time": "4414.944",
+  "end_time": "4422.571",
+  "sentences": [
+   {
+    "filename": "EN2001a.B.words.xml",
+    "start_word": 1400,
+    "end_word": 1400,
+    "text": "[vocalsound]"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.465",
+  "speaker": "B",
+  "start_time": "4425.886",
+  "end_time": "4426.221",
+  "sentences": [
+   {
+    "filename": "EN2001a.B.words.xml",
+    "start_word": 1401,
+    "end_word": 1401,
+    "text": "[vocalsound]"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.467",
+  "speaker": "B",
+  "start_time": "4434.032",
+  "end_time": "4439.888",
+  "sentences": [
+   {
+    "filename": "EN2001a.B.words.xml",
+    "start_word": 1402,
+    "end_word": 1416,
+    "text": "Yeah , I mean there's one series that has just one meeting . [vocalsound] [vocalsound]"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.469",
+  "speaker": "B",
+  "start_time": "4444.864",
+  "end_time": "4461.96",
+  "sentences": [
+   {
+    "filename": "EN2001a.B.words.xml",
+    "start_word": 1417,
+    "end_word": 1470,
+    "text": "Yes . Um the [disfmarker] you you [disfmarker] the data is of the form you have um three identification letter . So B_E_D_ or B_B_D_ or something , and that's always the same group . And then after that there's um a number like O_O_ one , O_O_ two . So , it's a"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.471",
+  "speaker": "B",
+  "start_time": "4470.135",
+  "end_time": "4475.448",
+  "sentences": [
+   {
+    "filename": "EN2001a.B.words.xml",
+    "start_word": 1471,
+    "end_word": 1484,
+    "text": "Yeah , but that's that's really quite easy to see because they're named ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.473",
+  "speaker": "B",
+  "start_time": "4478.178",
+  "end_time": "4478.513",
+  "sentences": [
+   {
+    "filename": "EN2001a.B.words.xml",
+    "start_word": 1485,
+    "end_word": 1485,
+    "text": "[vocalsound]"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.475",
+  "speaker": "B",
+  "start_time": "4492.048",
+  "end_time": "4525.312",
+  "sentences": [
+   {
+    "filename": "EN2001a.B.words.xml",
+    "start_word": 1486,
+    "end_word": 1573,
+    "text": "Yes . But I I mean as um the start [disfmarker] uh start times um start for each meeting at zero , you could just probably just um add the um final second time to the next meeting and so on and just put it all together . But then we would have to change um the information about who [disfmarker] on which channel it was set , um to [disfmarker] by which person it was set . And that is actually stored in another X_M_L_ document ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.477",
+  "speaker": "B",
+  "start_time": "4538.176",
+  "end_time": "4545.736",
+  "sentences": [
+   {
+    "filename": "EN2001a.B.words.xml",
+    "start_word": 1574,
+    "end_word": 1591,
+    "text": "Yeah , I w would then just not print out the um start and end times . [vocalsound]"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.479",
+  "speaker": "B",
+  "start_time": "4550.688",
+  "end_time": "4552.48",
+  "sentences": [
+   {
+    "filename": "EN2001a.B.words.xml",
+    "start_word": 1592,
+    "end_word": 1599,
+    "text": "No , it's for every single word ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.481",
+  "speaker": "B",
+  "start_time": "4553.808",
+  "end_time": "4557.408",
+  "sentences": [
+   {
+    "filename": "EN2001a.B.words.xml",
+    "start_word": 1600,
+    "end_word": 1614,
+    "text": "Or for every single utterance . Yeah , that depends on what you want ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.483",
+  "speaker": "B",
+  "start_time": "4559.584",
+  "end_time": "4565.264",
+  "sentences": [
+   {
+    "filename": "EN2001a.B.words.xml",
+    "start_word": 1615,
+    "end_word": 1638,
+    "text": "Yeah , but I do it with Perl , it's just string manipulation . So I would [disfmarker] I mean I would just [disfmarker]"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.485",
+  "speaker": "B",
+  "start_time": "4569.104",
+  "end_time": "4570.352",
+  "sentences": [
+   {
+    "filename": "EN2001a.B.words.xml",
+    "start_word": 1639,
+    "end_word": 1642,
+    "text": "[vocalsound] Sure . [vocalsound]"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.487",
+  "speaker": "B",
+  "start_time": "4582.4",
+  "end_time": "4584.58",
+  "sentences": [
+   {
+    "filename": "EN2001a.B.words.xml",
+    "start_word": 1643,
+    "end_word": 1651,
+    "text": "No , I didn't do a sea no ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.489",
+  "speaker": "B",
+  "start_time": "4606.272",
+  "end_time": "4612.161",
+  "sentences": [
+   {
+    "filename": "EN2001a.B.words.xml",
+    "start_word": 1652,
+    "end_word": 1667,
+    "text": "And you would want that all in one file for all the corpus ? Or [disfmarker]"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.491",
+  "speaker": "B",
+  "start_time": "4613.99",
+  "end_time": "4615.173",
+  "sentences": [
+   {
+    "filename": "EN2001a.B.words.xml",
+    "start_word": 1668,
+    "end_word": 1671,
+    "text": "For the series ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.493",
+  "speaker": "B",
+  "start_time": "4620.144",
+  "end_time": "4623.281",
+  "sentences": [
+   {
+    "filename": "EN2001a.B.words.xml",
+    "start_word": 1672,
+    "end_word": 1684,
+    "text": "Yeah , I can directly put it into [disfmarker] uh just like [disfmarker]"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.495",
+  "speaker": "B",
+  "start_time": "4626.176",
+  "end_time": "4631.792",
+  "sentences": [
+   {
+    "filename": "EN2001a.B.words.xml",
+    "start_word": 1685,
+    "end_word": 1693,
+    "text": "So uh only words um per meeting series ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.497",
+  "speaker": "B",
+  "start_time": "4643.728",
+  "end_time": "4644.16",
+  "sentences": [
+   {
+    "filename": "EN2001a.B.words.xml",
+    "start_word": 1694,
+    "end_word": 1695,
+    "text": "Uh-huh ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.499",
+  "speaker": "B",
+  "start_time": "4647.776",
+  "end_time": "4649.008",
+  "sentences": [
+   {
+    "filename": "EN2001a.B.words.xml",
+    "start_word": 1696,
+    "end_word": 1697,
+    "text": "Yes ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.501",
+  "speaker": "B",
+  "start_time": "4650.144",
+  "end_time": "4656.66",
+  "sentences": [
+   {
+    "filename": "EN2001a.B.words.xml",
+    "start_word": 1698,
+    "end_word": 1719,
+    "text": "Yeah , they will just [disfmarker] I will just take [disfmarker] I would uh take over the names they have anyway ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.503",
+  "speaker": "B",
+  "start_time": "4660.768",
+  "end_time": "4661.616",
+  "sentences": [
+   {
+    "filename": "EN2001a.B.words.xml",
+    "start_word": 1720,
+    "end_word": 1723,
+    "text": "Yeah , yeah ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.505",
+  "speaker": "B",
+  "start_time": "4662.704",
+  "end_time": "4667.524",
+  "sentences": [
+   {
+    "filename": "EN2001a.B.words.xml",
+    "start_word": 1724,
+    "end_word": 1737,
+    "text": "Yeah , one series has the um same three starting letters . So [disfmarker]"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.507",
+  "speaker": "B",
+  "start_time": "4669.088",
+  "end_time": "4672.56",
+  "sentences": [
+   {
+    "filename": "EN2001a.B.words.xml",
+    "start_word": 1738,
+    "end_word": 1748,
+    "text": "So only words and words and times . And you [disfmarker]"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.509",
+  "speaker": "B",
+  "start_time": "4677.904",
+  "end_time": "4683.168",
+  "sentences": [
+   {
+    "filename": "EN2001a.B.words.xml",
+    "start_word": 1749,
+    "end_word": 1763,
+    "text": "Yeah , you want it ordered . Okay . [vocalsound] Okay , anybody [disfmarker] [vocalsound]"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.511",
+  "speaker": "B",
+  "start_time": "4685.219",
+  "end_time": "4687.008",
+  "sentences": [
+   {
+    "filename": "EN2001a.B.words.xml",
+    "start_word": 1764,
+    "end_word": 1769,
+    "text": "Um ord base dot times ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.513",
+  "speaker": "B",
+  "start_time": "4688.08",
+  "end_time": "4689.472",
+  "sentences": [
+   {
+    "filename": "EN2001a.B.words.xml",
+    "start_word": 1770,
+    "end_word": 1776,
+    "text": "Yeah , and do you want [disfmarker]"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.515",
+  "speaker": "B",
+  "start_time": "4690.96",
+  "end_time": "4694.732",
+  "sentences": [
+   {
+    "filename": "EN2001a.B.words.xml",
+    "start_word": 1777,
+    "end_word": 1787,
+    "text": "Yeah , sometimes they're contained in one another . So [disfmarker]"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.517",
+  "speaker": "B",
+  "start_time": "4696.4",
+  "end_time": "4699.136",
+  "sentences": [
+   {
+    "filename": "EN2001a.B.words.xml",
+    "start_word": 1788,
+    "end_word": 1794,
+    "text": "Just after th mm-hmm . 'Kay ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.519",
+  "speaker": "B",
+  "start_time": "4700.32",
+  "end_time": "4702.667",
+  "sentences": [
+   {
+    "filename": "EN2001a.B.words.xml",
+    "start_word": 1795,
+    "end_word": 1799,
+    "text": "Ordered . Only words ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.521",
+  "speaker": "B",
+  "start_time": "4727.2",
+  "end_time": "4739.92",
+  "sentences": [
+   {
+    "filename": "EN2001a.B.words.xml",
+    "start_word": 1800,
+    "end_word": 1842,
+    "text": "Um and I think um for all the corpus , it's just from I know from other times , it's um nine megami byte to have [disfmarker] I mean should be [disfmarker] should be similar to have the words . Should be ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.523",
+  "speaker": "B",
+  "start_time": "4742.144",
+  "end_time": "4745.968",
+  "sentences": [
+   {
+    "filename": "EN2001a.B.words.xml",
+    "start_word": 1843,
+    "end_word": 1854,
+    "text": "Na um all the words together um for all the meetings ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.525",
+  "speaker": "B",
+  "start_time": "4749.232",
+  "end_time": "4761.199",
+  "sentences": [
+   {
+    "filename": "EN2001a.B.words.xml",
+    "start_word": 1855,
+    "end_word": 1893,
+    "text": "That's what I'm guessing that's , you know , um what I [disfmarker] because nine mega-byte is what I got for [disfmarker] when I said for every um utterance , this is [disfmarker] goes from there to there and"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.527",
+  "speaker": "B",
+  "start_time": "4762.864",
+  "end_time": "4764.8",
+  "sentences": [
+   {
+    "filename": "EN2001a.B.words.xml",
+    "start_word": 1894,
+    "end_word": 1898,
+    "text": "takes takes [gap] seconds ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.529",
+  "speaker": "B",
+  "start_time": "4767.776",
+  "end_time": "4773.68",
+  "sentences": [
+   {
+    "filename": "EN2001a.B.words.xml",
+    "start_word": 1899,
+    "end_word": 1917,
+    "text": "Oh . Yeah , I mean I'm it doing it for all of it . Doesn't matter . [vocalsound]"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.531",
+  "speaker": "B",
+  "start_time": "4790.528",
+  "end_time": "4795.344",
+  "sentences": [
+   {
+    "filename": "EN2001a.B.words.xml",
+    "start_word": 1918,
+    "end_word": 1937,
+    "text": "Yeah , I mean I hope it will be the same for the words . It's just what I [disfmarker]"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.533",
+  "speaker": "B",
+  "start_time": "4809.387",
+  "end_time": "4809.76",
+  "sentences": [
+   {
+    "filename": "EN2001a.B.words.xml",
+    "start_word": 1938,
+    "end_word": 1939,
+    "text": "I [disfmarker]"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.535",
+  "speaker": "B",
+  "start_time": "4824.768",
+  "end_time": "4839.408",
+  "sentences": [
+   {
+    "filename": "EN2001a.B.words.xml",
+    "start_word": 1940,
+    "end_word": 1978,
+    "text": "Mm-hmm . Mm . So so um I will probably send um just one file of the first meeting um to all those who need it so that you can have a look whether that's what you want ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.537",
+  "speaker": "B",
+  "start_time": "4844.4",
+  "end_time": "4847.345",
+  "sentences": [
+   {
+    "filename": "EN2001a.B.words.xml",
+    "start_word": 1979,
+    "end_word": 1995,
+    "text": "Yeah , I mean if it's just for one meeting , it's really not too big ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.539",
+  "speaker": "B",
+  "start_time": "4849.488",
+  "end_time": "4849.955",
+  "sentences": [
+   {
+    "filename": "EN2001a.B.words.xml",
+    "start_word": 1996,
+    "end_word": 1997,
+    "text": "Yeah ."
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.541",
+  "speaker": "B",
+  "start_time": "4904.579",
+  "end_time": "4905.213",
+  "sentences": [
+   {
+    "filename": "EN2001a.B.words.xml",
+    "start_word": 1998,
+    "end_word": 1998,
+    "text": "[vocalsound]"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.543",
+  "speaker": "B",
+  "start_time": "5049.504",
+  "end_time": "5050.986",
+  "sentences": [
+   {
+    "filename": "EN2001a.B.words.xml",
+    "start_word": 1999,
+    "end_word": 2005,
+    "text": "What do we have to demonstrate ?"
+   }
+  ]
+ },
+ {
+  "segment_idx": "EN2001a.sync.545",
+  "speaker": "B",
+  "start_time": "5079.865",
+  "end_time": "5080.35",
+  "sentences": [
+   {
+    "filename": "EN2001a.B.words.xml",
+    "start_word": 2006,
+    "end_word": 2006,
+    "text": "[vocalsound]"
+   }
+  ]
+ }
+]
