@@ -11,6 +11,8 @@
           <div style="margin-left: 5px">
             <!-- <div id="drawGuestEmotion" class="drawGuestEmotion" style="margin-left:5px;height:400px"></div> -->
             <el-button @click="dialogVisible = true" type="primary">新增议程</el-button>
+            <!-- <el-button @click="testsocket" type="primary">测试</el-button> -->
+
             <!-- <el-card style="height:400px">
         <speak-chart style="margin-top:-100px"></speak-chart>
         </el-card> -->
@@ -251,7 +253,7 @@ import Echarts from "echarts";
 import axios from "axios";
 // import {videoPlayer} from 'vue-video-player'
 import "vue-video-player/node_modules/video.js/dist/video-js.css";
-
+import io from 'socket.io-client';
 import speakerdesireChart from "../../visitorManage/speakDesireAnalysis.vue";
 
 var mytimer2;
@@ -276,6 +278,7 @@ export default {
   },
   data() {
     return {
+      socket: null,
       meeting: [],
       curmeeting: "",
       meetingtime: "",
@@ -402,48 +405,6 @@ export default {
           name: "苏永甫",
         },
       ],
-      // topicData: [
-      //   {
-      //     topicName: "开场白",
-      //     people: "苏永甫",
-      //     role: "学生/主持人",
-      //     state: 0, // 0，未开始，1，进行中，2，已结束
-      //     start_time: 0,
-      //     end_time: 0,
-      //   },
-      //   {
-      //     topicName: "外出调研分享",
-      //     people: "李银胜",
-      //     role: "教师/组织者",
-      //     state: 0, // 0，未开始，1，进行中，2，已结束
-      //     start_time: 0,
-      //     end_time: 0,
-      //   },
-      //   {
-      //     topicName: "供应链金融欺诈检测研究",
-      //     people: "吴斌",
-      //     role: "博士/参与者",
-      //     state: 0, // 0，未开始，1，进行中，2，已结束
-      //     start_time: 0,
-      //     end_time: 0,
-      //   },
-      //   {
-      //     topicName: "供应链施策仿真",
-      //     people: "王朔",
-      //     role: "硕士/参与者",
-      //     state: 0, // 0，未开始，1，进行中，2，已结束
-      //     start_time: 0,
-      //     end_time: 0,
-      //   },
-      //   {
-      //     topicName: "会议结束语",
-      //     people: "苏永甫",
-      //     role: "学生/主持人",
-      //     state: 0, // 0，未开始，1，进行中，2，已结束
-      //     start_time: 0,
-      //     end_time: 0,
-      //   },
-      // ],
     };
   },
   mixins: [Fetch],
@@ -455,6 +416,7 @@ export default {
       .catch(error => {
         console.error(error);
       });
+    this.socket = io('http://localhost:8081');
   },
   mounted() {
     this.drawparticipant();
@@ -478,7 +440,9 @@ export default {
   },
   computed: {},
   methods: {
-
+    testsocket(){
+      this.socket.emit('admin_clicked');
+    },
     checkboxchange() {
 
     },
@@ -654,6 +618,7 @@ export default {
         }).catch(error => {
           console.log("结束时间设置失败")
         });
+      this.socket.emit('admin_clicked',row);
     },
     handleSpanMethod({ rowIndex, columnIndex }) {
       if (columnIndex === 0) {

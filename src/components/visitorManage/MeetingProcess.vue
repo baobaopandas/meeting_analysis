@@ -15,6 +15,7 @@
         <el-button type="primary" @click="addProcess">增加本人议程</el-button>
         <el-button type="primary" @click="dialogVisible = true">增加其他议程</el-button>
         <el-button type="primary" @click="dialogQuestion = true">设置会议问卷</el-button>
+        <!-- <el-button type="primary" @click="hoster">主持人会情分析界面</el-button> -->
 
       </el-card>
 
@@ -235,6 +236,7 @@
 </template>
 
 <script>
+import io from 'socket.io-client';
 import axios from 'axios';
 import dialogBar from '@/components/common/dialog.vue'
 export default {
@@ -243,6 +245,7 @@ export default {
   },
   data() {
     return {
+      socket: null,
       meeting: [],
       curmeeting: "",
       meetingtime: "",
@@ -259,10 +262,10 @@ export default {
       timer: null,
       falsemeeting2: false,
       sendVal: false,
-      answerForm:{
-        meeting_id:'',
-        paticipater_id:'',
-        process_id:'',
+      answerForm: {
+        meeting_id: '',
+        paticipater_id: '',
+        process_id: '',
       },
       addform: {
         meeting_id: '',
@@ -329,14 +332,35 @@ export default {
       .catch(error => {
         console.error(error);
       });
+    this.socket = io('http://localhost:8081');
+    this.connectSocket()
   },
   mounted() {
     this.timer = setInterval(this.getMeetingProcessData, 5 * 1000); // 5s
   },
   beforeDestroy() {
     clearInterval(this.timer);
+    // if (this.socket) {
+    //   this.socket.off('show_popup'); // 取消特定事件的监听
+    //   // 或者如果您想要完全断开连接
+    //   // this.socket.disconnect();
+    // }
+    this.socket.disconnect();
   },
   methods: {
+    connectSocket() {
+      this.socket.on('show_popup', (data) => {
+        // alert(data.message);
+        this.$message({
+          // 提示删除成功
+          type: 'success',
+          message: data.message
+        });
+        console.log(data.process_id)
+        this.answerForm.process_id = data.process_id
+        this.dialogRate = true
+      });
+    },
     scoring(row) {
       this.dialogRate = true;
       this.answerForm.process_id = row.id
@@ -345,7 +369,7 @@ export default {
     confirm() {
       console.log(this.questionData)
       const path = '/api/addAnswer';
-      return axios.post(path, { answerInfo: this.answerForm, answerData:this.questionData })
+      return axios.post(path, { answerInfo: this.answerForm, answerData: this.questionData })
         .then(res => {
           this.$message({
             type: 'success',
@@ -577,6 +601,9 @@ export default {
     },
     addProcess() {
       this.$router.push({ name: 'newProcess' });
+    },
+    hoster() {
+      this.$router.push({ name: 'testchart' });
     }
   }
 };
