@@ -416,7 +416,7 @@ export default {
       .catch(error => {
         console.error(error);
       });
-    this.socket = io('http://localhost:8081');
+    this.socket = io('http://124.222.217.145:8081');
   },
   mounted() {
     this.drawparticipant();
