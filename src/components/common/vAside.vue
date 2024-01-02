@@ -50,7 +50,7 @@
             <span>新建会议</span>
           </template>
           <el-menu-item index="ParticipantInvite">新建会议</el-menu-item>
-          <el-menu-item index="email">邮件邀请</el-menu-item>
+          <el-menu-item index="newpati">邮件邀请</el-menu-item>
         </el-submenu>
         <!--<el-submenu index="5">-->
         <!--<template slot="title">-->
