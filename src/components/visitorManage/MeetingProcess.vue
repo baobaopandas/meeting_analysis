@@ -12,7 +12,7 @@
           <el-descriptions-item label="会议号">{{ meeting.number }}</el-descriptions-item>
           <el-descriptions-item label="会议链接"><a :href="meeting.link">{{ meeting.link }}</a></el-descriptions-item>
         </el-descriptions>
-        <el-button type="primary" @click="addProcess">增加本人议程</el-button>
+        <el-button type="primary" @click="addProcess">管理议程</el-button>
         <el-button type="primary" @click="dialogVisible = true">增加其他议程</el-button>
         <el-button type="primary" @click="dialogQuestion = true">设置会议问卷</el-button>
         <!-- <el-button type="primary" @click="hoster">主持人会情分析界面</el-button> -->

@@ -131,7 +131,7 @@ export default {
   },
   methods: {
     handleClick(){
-
+      this.$router.push("/aftermeeting");
     },
     downloadpdf() {
       this.$router.push('/download');

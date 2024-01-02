@@ -7,6 +7,8 @@
       <el-card class="invi-card">
         <div class="card-ti">
           人员列表
+          <el-button type="primary" @click="dialogPati = true" style="float: right;">新建人员</el-button>
+
         </div>
         <el-table :data="partiData" style="width: 100%" :default-sort="{ prop: 'date', order: 'descending' }">
 
@@ -20,7 +22,7 @@
           </el-table-column>
           <el-table-column prop="remark" label="备注" sortable align="center" width="100px">
           </el-table-column>
-          <el-table-column fixed="right" label="操作" align="center">
+          <el-table-column fixed="right" label="冻结状态/修改/删除" align="center">
             <template slot-scope="scope">
               <el-button @click="handleClick(scope.row)" type="text" size="small">修改信息</el-button>
             </template>
@@ -29,48 +31,41 @@
 
       </el-card>
 
-      <el-row :gutter="20">
+      <el-dialog title="新建人员" :visible.sync="dialogPati">
+        <el-card class="invi-card">
 
-        <el-col :span="12">
-          <el-card class="invi-card">
-            <!-- your content here -->
-            <div class="card-ti">
-              新建人员
-            </div>
-            <el-form ref="form" :model="form" label-width="120px">
-              <el-form-item label="姓名*">
-                <el-input v-model="form.name"></el-input>
-              </el-form-item>
-              <el-form-item label="密码*">
-                <el-input v-model="form.pd" show-password></el-input>
-              </el-form-item>
-              <el-form-item label="角色*">
-                <el-select v-model="form.role" placeholder="请选择">
-                  <el-option v-for="item in options" :key="item.value" :label="item.label" :value="item.value">
-                  </el-option>
-                </el-select>
-              </el-form-item>
-              <el-form-item label="邮箱*">
-                <el-input v-model="form.email"></el-input>
-              </el-form-item>
-              <el-form-item label="备注">
-                <el-input v-model="form.remark"></el-input>
-              </el-form-item>
-              <el-form-item>
-                <el-button type="primary" @click="newpati">确认创建</el-button>
-                <el-button @click="cancleCreate">清除</el-button>
-              </el-form-item>
-            </el-form>
-          </el-card>
-        </el-col>
-
-      </el-row>
+          <el-form ref="form" :model="form" label-width="120px">
+            <el-form-item label="姓名*">
+              <el-input v-model="form.name"></el-input>
+            </el-form-item>
+            <el-form-item label="密码*">
+              <el-input v-model="form.pd" show-password></el-input>
+            </el-form-item>
+            <el-form-item label="角色*">
+              <el-select v-model="form.role" placeholder="请选择">
+                <el-option v-for="item in options" :key="item.value" :label="item.label" :value="item.value">
+                </el-option>
+              </el-select>
+            </el-form-item>
+            <el-form-item label="邮箱*">
+              <el-input v-model="form.email"></el-input>
+            </el-form-item>
+            <el-form-item label="备注">
+              <el-input v-model="form.remark"></el-input>
+            </el-form-item>
+            <el-form-item>
+              <el-button type="primary" @click="newpati">确认创建</el-button>
+              <el-button @click="cancleCreate">清除</el-button>
+            </el-form-item>
+          </el-form>
+        </el-card>
+      </el-dialog>
 
 
 
     </el-card>
     <dialog-bar v-model="sendVal" type="confirm" content="信息修改成功"></dialog-bar>
-    <dialog-bar v-model="falsemeeting" type="confirm" content="信息修改失败" ></dialog-bar>
+    <dialog-bar v-model="falsemeeting" type="confirm" content="信息修改失败"></dialog-bar>
 
     <el-dialog title="修改用户信息" :visible.sync="dialogVisible" width="30%">
       <el-form ref="tempform" :model="tempform" label-width="100px" style="margin-right: 20px;">
@@ -88,6 +83,10 @@
             <el-option v-for="item in options" :key="item.value" :label="item.label" :value="item.value">
             </el-option>
           </el-select>
+        </el-form-item>
+        <el-form-item>
+          <el-switch v-model="tempform.ispermanent" active-text="激活状态" inactive-text="冻结状态">
+          </el-switch>
         </el-form-item>
         <el-form-item label="邮箱*">
           <el-input v-model="tempform.email"></el-input>
@@ -112,6 +111,7 @@ export default {
   },
   data() {
     return {
+      dialogPati : false,
       falsemeeting: false,
       sendVal: false,
       tempform: {
@@ -203,6 +203,7 @@ export default {
       this.tempform.ispermanent = row.ispermanent
       this.tempform.remark = row.remark
       this.tempform.id = row.ID
+      console.log(row)
       this.dialogVisible = true
     },
     updatePati() {

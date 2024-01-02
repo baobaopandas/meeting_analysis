@@ -10,21 +10,15 @@
             <i class="el-icon-view"></i>
             <span>当前会议</span>
           </template>
-          <el-menu-item index="MyState"> 本人状态</el-menu-item>
+          <!-- <el-menu-item index="MyState"> 本人状态</el-menu-item> -->
           <!-- <el-menu-item index="MeetingInfo">当前会议简介</el-menu-item> -->
           <el-menu-item index="MeetingProcess"> 会议议程</el-menu-item>
           <el-menu-item index="newProcess"> 添加议程</el-menu-item>
           <el-menu-item index="ParticipantState">人员状态</el-menu-item>
+          <el-menu-item index="aftermeeting">会议纪要</el-menu-item>
           <!--<el-menu-item index="AccessRecord">访问记录</el-menu-item>-->
         </el-submenu>
-        <el-submenu index="2">
-          <template slot="title">
-            <i class="el-icon-view"></i>
-            <span>新建会议</span>
-          </template>
-          <el-menu-item index="ParticipantInvite">新建会议</el-menu-item>
-          <el-menu-item index="newpati">邮件邀请</el-menu-item>
-        </el-submenu>
+
 
 
 
@@ -38,17 +32,26 @@
         <!--<el-menu-item index="usedRecord">使用记录</el-menu-item>-->
         <!--</el-submenu>-->
 
-        <el-submenu index="3">
+        <el-submenu index="2">
           <template slot="title">
             <i class="el-icon-picture"></i>
             <span>会情分析</span>
           </template>
+          <el-menu-item index="MyState"> 本人状态</el-menu-item>
           <el-menu-item index="currenttv">会议实时视频</el-menu-item>
           <el-menu-item index="councilRoomAnalysis">整体会情分析</el-menu-item>
           <el-menu-item index="visitorActionAnalysis">参会人员聚焦</el-menu-item>
           <el-menu-item index="blockchaincertificate">上链存证设置</el-menu-item>
         </el-submenu>
 
+        <el-submenu index="3">
+          <template slot="title">
+            <i class="el-icon-view"></i>
+            <span>新建会议</span>
+          </template>
+          <el-menu-item index="ParticipantInvite">新建会议</el-menu-item>
+          <el-menu-item index="email">邮件邀请</el-menu-item>
+        </el-submenu>
         <!--<el-submenu index="5">-->
         <!--<template slot="title">-->
         <!--<i class="el-icon-view"></i>-->
@@ -63,8 +66,8 @@
             <span>历史会议</span>
           </template>
           <el-menu-item index="VisitorAppointmentInfo">会议列表</el-menu-item>
-          <el-menu-item index="listoryMeeting">会情回顾</el-menu-item>
-          <el-menu-item index="aftermeeting">会议纪要</el-menu-item>
+          <el-menu-item index="listoryMeeting">异常记录</el-menu-item>
+          <!-- <el-menu-item index="aftermeeting">会议纪要</el-menu-item> -->
         </el-submenu>
         
         <el-menu-item index="PersonManage">
