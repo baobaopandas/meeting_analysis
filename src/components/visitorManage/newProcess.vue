@@ -117,8 +117,8 @@ export default {
         completion: '',
         checkbox: [],
         id: 'default',
-        start_time:'',
-        end_time:''
+        start_time:null,
+        end_time:null
       }
     };
   },
