@@ -116,7 +116,9 @@ export default {
         nextweekplan: '',
         completion: '',
         checkbox: [],
-        id: 'default'
+        id: 'default',
+        start_time:'',
+        end_time:''
       }
     };
   },
